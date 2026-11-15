@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "CR_FREEZE-01",
+    "pool": "CR_FREEZE",
+    "lesson_id": "L02",
+    "type": "single_choice",
+    "critical": true,
+    "stem_vi": "Feeder được yêu cầu chuyển gấp 2 hộp sang công đoạn kế tiếp trong thời gian khóa. Làm gì?",
+    "options": [
+      {
+        "id": "CR_FREEZE-01-O1",
+        "text_vi": "Chuyển rồi ghi sổ sau"
+      },
+      {
+        "id": "CR_FREEZE-01-O2",
+        "text_vi": "Chuyển vật lý nhưng không chuyển hệ thống"
+      },
+      {
+        "id": "CR_FREEZE-01-O3",
+        "text_vi": "Chỉ chuyển nếu ít hơn 5 hộp"
+      },
+      {
+        "id": "CR_FREEZE-01-O4",
+        "text_vi": "Giữ tại chỗ, không chuyển và báo GL/WCM"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.1; 6.2; 6.3; 8"
+      }
+    ]
+  },
+  {
+    "id": "CR_FREEZE-02",
+    "pool": "CR_FREEZE",
+    "lesson_id": "L02",
+    "type": "single_choice",
+    "critical": true,
+    "stem_vi": "Phát hiện PCB ở khu vực chưa đúng công đoạn khi đang kiểm kê. Xử lý nào đúng?",
+    "options": [
+      {
+        "id": "CR_FREEZE-02-O1",
+        "text_vi": "Đếm theo trạng thái và vị trí hiện có, báo; xử lý chuyển sau kiểm kê theo quy trình"
+      },
+      {
+        "id": "CR_FREEZE-02-O2",
+        "text_vi": "Chuyển sang khu đúng trước khi đếm"
+      },
+      {
+        "id": "CR_FREEZE-02-O3",
+        "text_vi": "Bỏ khỏi danh sách vì không thuộc khu mình"
+      },
+      {
+        "id": "CR_FREEZE-02-O4",
+        "text_vi": "Ghi theo vị trí dự kiến sau sản xuất"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.1; 6.2; 6.3; 8"
+      }
+    ]
+  },
+  {
+    "id": "CR_FREEZE-03",
+    "pool": "CR_FREEZE",
+    "lesson_id": "L02",
+    "type": "single_choice",
+    "critical": true,
+    "stem_vi": "Trong thời gian khóa, người đếm thấy lệch và muốn tạo phiếu chuyển để cân đối. Bạn chọn gì?",
+    "options": [
+      {
+        "id": "CR_FREEZE-03-O1",
+        "text_vi": "Chuyển một phần sang kho khác để hết lệch"
+      },
+      {
+        "id": "CR_FREEZE-03-O2",
+        "text_vi": "Giữ hiện trạng, ghi lệch và báo người có thẩm quyền"
+      },
+      {
+        "id": "CR_FREEZE-03-O3",
+        "text_vi": "Cho tạo phiếu vì không chuyển hàng thật"
+      },
+      {
+        "id": "CR_FREEZE-03-O4",
+        "text_vi": "Tạo phiếu lùi về ngày trước khóa"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.1; 6.2; 6.3; 8"
+      }
+    ]
+  },
+  {
+    "id": "CR_INDEPENDENCE-01",
+    "pool": "CR_INDEPENDENCE",
+    "lesson_id": "L01",
+    "type": "single_choice",
+    "critical": true,
+    "stem_vi": "A đã đếm hộp X. Ai được kiểm bước B cho chính hộp đó?",
+    "options": [
+      {
+        "id": "CR_INDEPENDENCE-01-O1",
+        "text_vi": "A, nếu GL đứng nhìn"
+      },
+      {
+        "id": "CR_INDEPENDENCE-01-O2",
+        "text_vi": "A, nếu đổi tài khoản"
+      },
+      {
+        "id": "CR_INDEPENDENCE-01-O3",
+        "text_vi": "Một người khác A được phân công kiểm độc lập"
+      },
+      {
+        "id": "CR_INDEPENDENCE-01-O4",
+        "text_vi": "Chính A, nếu kiểm lần hai"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "4; 6.2; 6.3"
+      }
+    ]
+  },
+  {
+    "id": "CR_INDEPENDENCE-02",
+    "pool": "CR_INDEPENDENCE",
+    "lesson_id": "L01",
+    "type": "single_choice",
+    "critical": true,
+    "stem_vi": "Thiếu người, GL đề nghị A tự dán tem 1 cho các hộp vừa đếm. Nên làm gì?",
+    "options": [
+      {
+        "id": "CR_INDEPENDENCE-02-O1",
+        "text_vi": "Cho phép nếu A là leader lâu năm"
+      },
+      {
+        "id": "CR_INDEPENDENCE-02-O2",
+        "text_vi": "Cho phép khi số lượng dưới 10"
+      },
+      {
+        "id": "CR_INDEPENDENCE-02-O3",
+        "text_vi": "Dán tem rồi nhờ người khác ký cuối ca"
+      },
+      {
+        "id": "CR_INDEPENDENCE-02-O4",
+        "text_vi": "Bố trí B khác A; chờ kiểm đúng rồi mới dán"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "4; 6.2; 6.3"
+      }
+    ]
+  },
+  {
+    "id": "CR_INDEPENDENCE-03",
+    "pool": "CR_INDEPENDENCE",
+    "lesson_id": "L01",
+    "type": "single_choice",
+    "critical": true,
+    "stem_vi": "A và B đã làm xong một pallet. Người nào phù hợp làm C cho pallet đó?",
+    "options": [
+      {
+        "id": "CR_INDEPENDENCE-03-O1",
+        "text_vi": "Người thứ ba khác A và B, đã được giao vai"
+      },
+      {
+        "id": "CR_INDEPENDENCE-03-O2",
+        "text_vi": "A vì biết rõ số lượng"
+      },
+      {
+        "id": "CR_INDEPENDENCE-03-O3",
+        "text_vi": "B vì vừa kiểm xong"
+      },
+      {
+        "id": "CR_INDEPENDENCE-03-O4",
+        "text_vi": "Bất kỳ ai đăng nhập tài khoản của C"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "4; 6.2; 6.3"
+      }
+    ]
+  },
+  {
+    "id": "CR_STICKER-01",
+    "pool": "CR_STICKER",
+    "lesson_id": "L07",
+    "type": "single_choice",
+    "critical": true,
+    "stem_vi": "Hộp chưa có tem 1 nhưng C được yêu cầu quét gán và dán tem 2. Xử lý?",
+    "options": [
+      {
+        "id": "CR_STICKER-01-O1",
+        "text_vi": "Cho qua nếu nhãn nhìn rõ"
+      },
+      {
+        "id": "CR_STICKER-01-O2",
+        "text_vi": "Dừng hộp, báo GL/Controller để hoàn tất kiểm B trước"
+      },
+      {
+        "id": "CR_STICKER-01-O3",
+        "text_vi": "Quét trước rồi dán cả hai tem"
+      },
+      {
+        "id": "CR_STICKER-01-O4",
+        "text_vi": "Dán tem 2 thay tem 1"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.1–6.2.2"
+      }
+    ]
+  },
+  {
+    "id": "CR_STICKER-02",
+    "pool": "CR_STICKER",
+    "lesson_id": "L07",
+    "type": "single_choice",
+    "critical": true,
+    "stem_vi": "B phát hiện thực tế khác số trên nhãn. Lựa chọn nào đúng?",
+    "options": [
+      {
+        "id": "CR_STICKER-02-O1",
+        "text_vi": "Dán tem 2 để chờ người khác sửa"
+      },
+      {
+        "id": "CR_STICKER-02-O2",
+        "text_vi": "Sửa nhãn bằng tay rồi bỏ kiểm lại"
+      },
+      {
+        "id": "CR_STICKER-02-O3",
+        "text_vi": "Chưa dán tem 1; báo Controller, kiểm lại sau sửa"
+      },
+      {
+        "id": "CR_STICKER-02-O4",
+        "text_vi": "Dán tem 1 để đánh dấu đã nhìn hộp"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.1–6.2.2"
+      }
+    ]
+  },
+  {
+    "id": "CR_STICKER-03",
+    "pool": "CR_STICKER",
+    "lesson_id": "L07",
+    "type": "single_choice",
+    "critical": true,
+    "stem_vi": "PDT mới quét một phần phiếu. Có được dán tem 3 lên ô để báo xong không?",
+    "options": [
+      {
+        "id": "CR_STICKER-03-O1",
+        "text_vi": "Được nếu đã có tem 1 và tem 2"
+      },
+      {
+        "id": "CR_STICKER-03-O2",
+        "text_vi": "Được nếu PC chưa xem kết quả"
+      },
+      {
+        "id": "CR_STICKER-03-O3",
+        "text_vi": "Dán lên hộp thay vì ô là được"
+      },
+      {
+        "id": "CR_STICKER-03-O4",
+        "text_vi": "Chưa; hoàn tất phiếu được giao rồi mới dán tem 3 lên ô đã quét và báo PC"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.1–6.2.2"
+      }
+    ]
+  },
+  {
+    "id": "CR_RELEASE-01",
+    "pool": "CR_RELEASE",
+    "lesson_id": "L12",
+    "type": "single_choice",
+    "critical": true,
+    "stem_vi": "Đến hết ngày 27/12 nhưng chưa có thông báo Audit Team hoàn tất điều chỉnh. Làm gì?",
+    "options": [
+      {
+        "id": "CR_RELEASE-01-O1",
+        "text_vi": "Tiếp tục giữ khóa và chờ xác nhận đúng thẩm quyền"
+      },
+      {
+        "id": "CR_RELEASE-01-O2",
+        "text_vi": "Mở sản xuất vì đúng ngày kế hoạch"
+      },
+      {
+        "id": "CR_RELEASE-01-O3",
+        "text_vi": "Cho nhập SPR trước, chuyển hàng sau"
+      },
+      {
+        "id": "CR_RELEASE-01-O4",
+        "text_vi": "WCM tự xác nhận thay Audit Team"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "8; 9; quy tắc đào tạo đề xuất"
+      }
+    ]
+  },
+  {
+    "id": "CR_RELEASE-02",
+    "pool": "CR_RELEASE",
+    "lesson_id": "L12",
+    "type": "single_choice",
+    "critical": true,
+    "stem_vi": "Sau kiểm kê cần bổ sung chứng từ với ngày nằm trong kỳ kiểm kê. Xử lý đúng?",
+    "options": [
+      {
+        "id": "CR_RELEASE-02-O1",
+        "text_vi": "Đổi tên chứng từ để tránh ảnh hưởng"
+      },
+      {
+        "id": "CR_RELEASE-02-O2",
+        "text_vi": "Không hạch toán lùi kỳ; ghi nhận lỗi và xử lý theo tuyến có thẩm quyền"
+      },
+      {
+        "id": "CR_RELEASE-02-O3",
+        "text_vi": "Lùi ngày nếu lượng nhỏ"
+      },
+      {
+        "id": "CR_RELEASE-02-O4",
+        "text_vi": "Lùi ngày miễn tổng tồn không đổi"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "8; 9; quy tắc đào tạo đề xuất"
+      }
+    ]
+  },
+  {
+    "id": "CR_RELEASE-03",
+    "pool": "CR_RELEASE",
+    "lesson_id": "L12",
+    "type": "single_choice",
+    "critical": true,
+    "stem_vi": "Ai cung cấp xác nhận để khôi phục báo cáo sản xuất và luồng vật tư?",
+    "options": [
+      {
+        "id": "CR_RELEASE-03-O1",
+        "text_vi": "Feeder trực cuối kỳ"
+      },
+      {
+        "id": "CR_RELEASE-03-O2",
+        "text_vi": "Bất kỳ PC operator nào đã đóng cửa sổ"
+      },
+      {
+        "id": "CR_RELEASE-03-O3",
+        "text_vi": "Audit Team sau hoàn tất điều chỉnh kế toán"
+      },
+      {
+        "id": "CR_RELEASE-03-O4",
+        "text_vi": "Người thi PDA cao điểm nhất"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "8; 9; quy tắc đào tạo đề xuất"
+      }
+    ]
+  },
+  {
+    "id": "G_SCOPE_LABEL-01",
+    "pool": "G_SCOPE_LABEL",
+    "lesson_id": "L04",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "P-number dùng để nhận diện gì?",
+    "options": [
+      {
+        "id": "G_SCOPE_LABEL-01-O1",
+        "text_vi": "Mã vật tư trong BOM"
+      },
+      {
+        "id": "G_SCOPE_LABEL-01-O2",
+        "text_vi": "Số lượng PCS"
+      },
+      {
+        "id": "G_SCOPE_LABEL-01-O3",
+        "text_vi": "Tên nhân viên"
+      },
+      {
+        "id": "G_SCOPE_LABEL-01-O4",
+        "text_vi": "Pallet/container WMS"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "3.12–3.14; 6.2"
+      }
+    ]
+  },
+  {
+    "id": "G_SCOPE_LABEL-02",
+    "pool": "G_SCOPE_LABEL",
+    "lesson_id": "L04",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Thông tin nào phải đối chiếu trước khi nhận nhãn cho hộp?",
+    "options": [
+      {
+        "id": "G_SCOPE_LABEL-02-O1",
+        "text_vi": "Mã hàng/phiên bản/màu, số lượng, đơn vị và đúng hộp"
+      },
+      {
+        "id": "G_SCOPE_LABEL-02-O2",
+        "text_vi": "Chỉ màu giấy nhãn"
+      },
+      {
+        "id": "G_SCOPE_LABEL-02-O3",
+        "text_vi": "Chỉ số thứ tự tin nhắn"
+      },
+      {
+        "id": "G_SCOPE_LABEL-02-O4",
+        "text_vi": "Chỉ người gửi nhãn"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "3.12–3.14; 6.2"
+      }
+    ]
+  },
+  {
+    "id": "G_SCOPE_LABEL-03",
+    "pool": "G_SCOPE_LABEL",
+    "lesson_id": "L04",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Ô lưu trữ thể hiện điều gì?",
+    "options": [
+      {
+        "id": "G_SCOPE_LABEL-03-O1",
+        "text_vi": "Người đếm đầu tiên"
+      },
+      {
+        "id": "G_SCOPE_LABEL-03-O2",
+        "text_vi": "Vị trí lưu trữ vật lý được quản lý trong WMS"
+      },
+      {
+        "id": "G_SCOPE_LABEL-03-O3",
+        "text_vi": "Số lượng vật tư còn lại"
+      },
+      {
+        "id": "G_SCOPE_LABEL-03-O4",
+        "text_vi": "Mã sản phẩm hoàn chỉnh"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "3.12–3.14; 6.2"
+      }
+    ]
+  },
+  {
+    "id": "G_SCOPE_LABEL-04",
+    "pool": "G_SCOPE_LABEL",
+    "lesson_id": "L04",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Đã nghe tiếng bíp sau quét. Bước tiếp theo là gì?",
+    "options": [
+      {
+        "id": "G_SCOPE_LABEL-04-O1",
+        "text_vi": "Tắt máy để tránh trùng"
+      },
+      {
+        "id": "G_SCOPE_LABEL-04-O2",
+        "text_vi": "Quét liên tục đến khi đủ số tiếng bíp"
+      },
+      {
+        "id": "G_SCOPE_LABEL-04-O3",
+        "text_vi": "Đọc mã và phản hồi giao dịch để xác nhận đúng"
+      },
+      {
+        "id": "G_SCOPE_LABEL-04-O4",
+        "text_vi": "Dán tem ngay không cần nhìn"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "3.12–3.14; 6.2"
+      }
+    ]
+  },
+  {
+    "id": "G_SCOPE_LABEL-05",
+    "pool": "G_SCOPE_LABEL",
+    "lesson_id": "L04",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Ảnh SOP cũ khác định dạng barcode trên nhãn hiện tại. Nên làm gì?",
+    "options": [
+      {
+        "id": "G_SCOPE_LABEL-05-O1",
+        "text_vi": "Tự bỏ mọi nhãn không đúng độ dài đã nhớ"
+      },
+      {
+        "id": "G_SCOPE_LABEL-05-O2",
+        "text_vi": "Đổi mã thật thành SIM-ASV"
+      },
+      {
+        "id": "G_SCOPE_LABEL-05-O3",
+        "text_vi": "Tự tạo ô mới theo số trên nhãn"
+      },
+      {
+        "id": "G_SCOPE_LABEL-05-O4",
+        "text_vi": "Đối chiếu trường barcode và cấu hình hiện hành với Kho/IT"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "3.12–3.14; 6.2"
+      }
+    ]
+  },
+  {
+    "id": "G_SCOPE_LABEL-06",
+    "pool": "G_SCOPE_LABEL",
+    "lesson_id": "L04",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Màu vật lý của tem 1/2/3 lấy ở đâu?",
+    "options": [
+      {
+        "id": "G_SCOPE_LABEL-06-O1",
+        "text_vi": "Thông báo màu tem đã được Kho chốt cho đợt kiểm kê"
+      },
+      {
+        "id": "G_SCOPE_LABEL-06-O2",
+        "text_vi": "Màu trong ảnh minh họa AI"
+      },
+      {
+        "id": "G_SCOPE_LABEL-06-O3",
+        "text_vi": "Người thao tác tự chọn"
+      },
+      {
+        "id": "G_SCOPE_LABEL-06-O4",
+        "text_vi": "Mặc định tem 1 luôn vàng qua mọi năm"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "3.12–3.14; 6.2"
+      }
+    ]
+  },
+  {
+    "id": "G_PREP-01",
+    "pool": "G_PREP",
+    "lesson_id": "L03",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Hàng đã write-off nhưng chưa tiêu hủy phải làm gì trước kiểm kê?",
+    "options": [
+      {
+        "id": "G_PREP-01-O1",
+        "text_vi": "Gộp cùng hàng REF"
+      },
+      {
+        "id": "G_PREP-01-O2",
+        "text_vi": "Xác minh 1C, cách ly, dán đỏ DO NOT COUNT DURING INVENTORY"
+      },
+      {
+        "id": "G_PREP-01-O3",
+        "text_vi": "Đếm như tồn OK"
+      },
+      {
+        "id": "G_PREP-01-O4",
+        "text_vi": "Chuyển sang hộp không nhãn"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.1"
+      }
+    ]
+  },
+  {
+    "id": "G_PREP-02",
+    "pool": "G_PREP",
+    "lesson_id": "L03",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Hộp vật tư nên đặt thế nào?",
+    "options": [
+      {
+        "id": "G_PREP-02-O1",
+        "text_vi": "Đặt lẫn các màu cho gọn"
+      },
+      {
+        "id": "G_PREP-02-O2",
+        "text_vi": "Cất sau kệ không cần ô"
+      },
+      {
+        "id": "G_PREP-02-O3",
+        "text_vi": "Kê trên pallet gỗ, nhận diện rõ"
+      },
+      {
+        "id": "G_PREP-02-O4",
+        "text_vi": "Đặt trực tiếp sàn nếu sạch"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.1"
+      }
+    ]
+  },
+  {
+    "id": "G_PREP-03",
+    "pool": "G_PREP",
+    "lesson_id": "L03",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Trước khóa, chuyển FG về kho FG phải hoàn tất ở đâu?",
+    "options": [
+      {
+        "id": "G_PREP-03-O1",
+        "text_vi": "Chỉ trên giấy"
+      },
+      {
+        "id": "G_PREP-03-O2",
+        "text_vi": "Chỉ chuyển hàng thật"
+      },
+      {
+        "id": "G_PREP-03-O3",
+        "text_vi": "Chờ sau kiểm kê mới nhập"
+      },
+      {
+        "id": "G_PREP-03-O4",
+        "text_vi": "Cả vật lý lẫn hệ thống"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.1"
+      }
+    ]
+  },
+  {
+    "id": "G_PREP-04",
+    "pool": "G_PREP",
+    "lesson_id": "L03",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Đề nghị reset toàn bộ ô để làm sạch dữ liệu trước kiểm kê. Chọn gì?",
+    "options": [
+      {
+        "id": "G_PREP-04-O1",
+        "text_vi": "Chỉ làm trường hợp được Kho/WMS hướng dẫn và đúng quyền"
+      },
+      {
+        "id": "G_PREP-04-O2",
+        "text_vi": "Reset mọi ô cho chắc"
+      },
+      {
+        "id": "G_PREP-04-O3",
+        "text_vi": "Reset ô có nhiều vật tư trước"
+      },
+      {
+        "id": "G_PREP-04-O4",
+        "text_vi": "Nhờ feeder xóa ô bất kỳ"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.1"
+      }
+    ]
+  },
+  {
+    "id": "G_PREP-05",
+    "pool": "G_PREP",
+    "lesson_id": "L03",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Tạo ô mới cho bộ phận qua tuyến nào?",
+    "options": [
+      {
+        "id": "G_PREP-05-O1",
+        "text_vi": "Dùng chung ô của bộ phận khác"
+      },
+      {
+        "id": "G_PREP-05-O2",
+        "text_vi": "ITSM, kiểm đúng bộ phận và tránh trùng"
+      },
+      {
+        "id": "G_PREP-05-O3",
+        "text_vi": "Tự đặt tên rồi dán lên kệ"
+      },
+      {
+        "id": "G_PREP-05-O4",
+        "text_vi": "Nhắn miệng không lưu vết"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.1"
+      }
+    ]
+  },
+  {
+    "id": "G_PREP-06",
+    "pool": "G_PREP",
+    "lesson_id": "L03",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Trước kiểm kê cần rà gì về transit và tồn âm?",
+    "options": [
+      {
+        "id": "G_PREP-06-O1",
+        "text_vi": "Để tồn âm bù tồn dương"
+      },
+      {
+        "id": "G_PREP-06-O2",
+        "text_vi": "Chỉ kiểm khi Audit Team hỏi"
+      },
+      {
+        "id": "G_PREP-06-O3",
+        "text_vi": "Transit/ô trung chuyển trống và xử lý tồn âm trước mốc khóa"
+      },
+      {
+        "id": "G_PREP-06-O4",
+        "text_vi": "Chỉ xem tổng tồn dương"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.1"
+      }
+    ]
+  },
+  {
+    "id": "G_RAW-01",
+    "pool": "G_RAW",
+    "lesson_id": "L05",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Hộp còn nguyên chưa mở đúng như nhận từ nhà cung cấp. Có bắt buộc mở đếm lại không?",
+    "options": [
+      {
+        "id": "G_RAW-01-O1",
+        "text_vi": "Luôn phải mở mọi hộp"
+      },
+      {
+        "id": "G_RAW-01-O2",
+        "text_vi": "Không cần xem nhãn nào"
+      },
+      {
+        "id": "G_RAW-01-O3",
+        "text_vi": "Được suy số cho mọi hộp cùng màu"
+      },
+      {
+        "id": "G_RAW-01-O4",
+        "text_vi": "Không bắt buộc khi nguyên vẹn và chưa mở theo SOP"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.1"
+      }
+    ]
+  },
+  {
+    "id": "G_RAW-02",
+    "pool": "G_RAW",
+    "lesson_id": "L05",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "A tổ chức đếm theo cách nào?",
+    "options": [
+      {
+        "id": "G_RAW-02-O1",
+        "text_vi": "Từng hộp, tuần tự một kệ/pallet rồi mới sang kệ/pallet khác"
+      },
+      {
+        "id": "G_RAW-02-O2",
+        "text_vi": "Nhiều kệ cùng lúc rồi chia bình quân"
+      },
+      {
+        "id": "G_RAW-02-O3",
+        "text_vi": "Gộp cả khu thành một số"
+      },
+      {
+        "id": "G_RAW-02-O4",
+        "text_vi": "Chỉ đếm hộp đầu mỗi pallet"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.1"
+      }
+    ]
+  },
+  {
+    "id": "G_RAW-03",
+    "pool": "G_RAW",
+    "lesson_id": "L05",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "NVL thực tế thấp hơn nhãn. Tuyến xử lý nào phù hợp?",
+    "options": [
+      {
+        "id": "G_RAW-03-O1",
+        "text_vi": "Tăng thực tế trên giấy cho bằng nhãn"
+      },
+      {
+        "id": "G_RAW-03-O2",
+        "text_vi": "Công cụ Writing-off materials from Box theo quyền, in nhãn đúng và bỏ nhãn cũ"
+      },
+      {
+        "id": "G_RAW-03-O3",
+        "text_vi": "Tự sửa 1C trực tiếp"
+      },
+      {
+        "id": "G_RAW-03-O4",
+        "text_vi": "Giữ nhãn cũ và ghi thêm số bằng bút"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.1"
+      }
+    ]
+  },
+  {
+    "id": "G_RAW-04",
+    "pool": "G_RAW",
+    "lesson_id": "L05",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "NVL thực tế lớn hơn số trên nhãn. Phải báo ai để điều chỉnh?",
+    "options": [
+      {
+        "id": "G_RAW-04-O1",
+        "text_vi": "Chỉ báo đồng nghiệp cùng bàn"
+      },
+      {
+        "id": "G_RAW-04-O2",
+        "text_vi": "Không báo vì là thừa"
+      },
+      {
+        "id": "G_RAW-04-O3",
+        "text_vi": "Audit Team"
+      },
+      {
+        "id": "G_RAW-04-O4",
+        "text_vi": "Người vận chuyển bất kỳ"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.1"
+      }
+    ]
+  },
+  {
+    "id": "G_RAW-05",
+    "pool": "G_RAW",
+    "lesson_id": "L05",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "A đánh dấu gì khi nhãn NVL đã đúng?",
+    "options": [
+      {
+        "id": "G_RAW-05-O1",
+        "text_vi": "Tem 3 lên ô"
+      },
+      {
+        "id": "G_RAW-05-O2",
+        "text_vi": "X đen lên mọi tem"
+      },
+      {
+        "id": "G_RAW-05-O3",
+        "text_vi": "Dấu tùy ý che số lượng"
+      },
+      {
+        "id": "G_RAW-05-O4",
+        "text_vi": "Dấu ✓ xanh, không che dữ liệu in"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.1"
+      }
+    ]
+  },
+  {
+    "id": "G_RAW-06",
+    "pool": "G_RAW",
+    "lesson_id": "L05",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Có 3 gói, mỗi gói 5 pcs, yêu cầu nhập pcs. Nhập bao nhiêu?",
+    "options": [
+      {
+        "id": "G_RAW-06-O1",
+        "text_vi": "15"
+      },
+      {
+        "id": "G_RAW-06-O2",
+        "text_vi": "3"
+      },
+      {
+        "id": "G_RAW-06-O3",
+        "text_vi": "5"
+      },
+      {
+        "id": "G_RAW-06-O4",
+        "text_vi": "8"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.1"
+      }
+    ]
+  },
+  {
+    "id": "G_SFP-01",
+    "pool": "G_SFP",
+    "lesson_id": "L06",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "A có 8 hộp SFP vừa đếm. Nên gửi thế nào?",
+    "options": [
+      {
+        "id": "G_SFP-01-O1",
+        "text_vi": "Chỉ gửi tổng số lượng"
+      },
+      {
+        "id": "G_SFP-01-O2",
+        "text_vi": "Ít nhất 2 lượt, mỗi lượt không quá5 hộp, mỗi hộp một dòng"
+      },
+      {
+        "id": "G_SFP-01-O3",
+        "text_vi": "Gộp 8 hộp vào một dòng"
+      },
+      {
+        "id": "G_SFP-01-O4",
+        "text_vi": "Gửi một tin8 hộp rồi bỏ kiểm"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.2"
+      }
+    ]
+  },
+  {
+    "id": "G_SFP-02",
+    "pool": "G_SFP",
+    "lesson_id": "L06",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Hai hộp SFP cùng mã có lượng12 và15. Ghi thế nào?",
+    "options": [
+      {
+        "id": "G_SFP-02-O1",
+        "text_vi": "Chỉ ghi hộp lớn hơn"
+      },
+      {
+        "id": "G_SFP-02-O2",
+        "text_vi": "Ghi bình quân13,5 cho mỗi hộp"
+      },
+      {
+        "id": "G_SFP-02-O3",
+        "text_vi": "Hai dòng riêng: mã–12 và mã–15"
+      },
+      {
+        "id": "G_SFP-02-O4",
+        "text_vi": "Một dòng mã–27"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.2"
+      }
+    ]
+  },
+  {
+    "id": "G_SFP-03",
+    "pool": "G_SFP",
+    "lesson_id": "L06",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Mỗi bộ phận/nhóm trong luồng in nhãn SFP có bao nhiêu A2?",
+    "options": [
+      {
+        "id": "G_SFP-03-O1",
+        "text_vi": "Mọi A tự in tùy ý"
+      },
+      {
+        "id": "G_SFP-03-O2",
+        "text_vi": "Mỗi hộp một A2 bất kỳ"
+      },
+      {
+        "id": "G_SFP-03-O3",
+        "text_vi": "Không cần A2"
+      },
+      {
+        "id": "G_SFP-03-O4",
+        "text_vi": "Một A2 được giao"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.2"
+      }
+    ]
+  },
+  {
+    "id": "G_SFP-04",
+    "pool": "G_SFP",
+    "lesson_id": "L06",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "A2 nhập và in nhãn SFP bằng công cụ nào?",
+    "options": [
+      {
+        "id": "G_SFP-04-O1",
+        "text_vi": "Production Release Registration"
+      },
+      {
+        "id": "G_SFP-04-O2",
+        "text_vi": "Stock Balance chỉ để xem tồn"
+      },
+      {
+        "id": "G_SFP-04-O3",
+        "text_vi": "Analysis of cell presence in inventory"
+      },
+      {
+        "id": "G_SFP-04-O4",
+        "text_vi": "Inventory Correction trên Jira"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.2"
+      }
+    ]
+  },
+  {
+    "id": "G_SFP-05",
+    "pool": "G_SFP",
+    "lesson_id": "L06",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "A nhận nhãn từ A2 sau tín hiệu sẵn sàng. Phải làm gì trước dán?",
+    "options": [
+      {
+        "id": "G_SFP-05-O1",
+        "text_vi": "Dán hết rồi hỏi lại tổng"
+      },
+      {
+        "id": "G_SFP-05-O2",
+        "text_vi": "Kiểm mã và lượng, ghép đúng hộp/pallet"
+      },
+      {
+        "id": "G_SFP-05-O3",
+        "text_vi": "Dán theo vị trí máy in xếp sẵn"
+      },
+      {
+        "id": "G_SFP-05-O4",
+        "text_vi": "Đưa C dán không cần kiểm"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.2"
+      }
+    ]
+  },
+  {
+    "id": "G_SFP-06",
+    "pool": "G_SFP",
+    "lesson_id": "L06",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "SFP có thêm bracket không nằm trong specification. Xử lý?",
+    "options": [
+      {
+        "id": "G_SFP-06-O1",
+        "text_vi": "Bỏ qua vì đã gắn lên sản phẩm"
+      },
+      {
+        "id": "G_SFP-06-O2",
+        "text_vi": "Tự sửa BOM trong lúc đếm"
+      },
+      {
+        "id": "G_SFP-06-O3",
+        "text_vi": "Ghi nhận bracket riêng như linh kiện và báo cấp phụ trách"
+      },
+      {
+        "id": "G_SFP-06-O4",
+        "text_vi": "Ẩn trong số lượng SFP"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.2"
+      }
+    ]
+  },
+  {
+    "id": "G_MAPPING-01",
+    "pool": "G_MAPPING",
+    "lesson_id": "L08",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Thứ tự gán nào đúng?",
+    "options": [
+      {
+        "id": "G_MAPPING-01-O1",
+        "text_vi": "Ô → mã hàng → người đếm"
+      },
+      {
+        "id": "G_MAPPING-01-O2",
+        "text_vi": "Box → ô, bỏ P-number"
+      },
+      {
+        "id": "G_MAPPING-01-O3",
+        "text_vi": "Mã hàng → tem 3 → Box"
+      },
+      {
+        "id": "G_MAPPING-01-O4",
+        "text_vi": "Box → P-number → ô WMS"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.1–6.2.2"
+      }
+    ]
+  },
+  {
+    "id": "G_MAPPING-02",
+    "pool": "G_MAPPING",
+    "lesson_id": "L08",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Tem 2 được dán như thế nào?",
+    "options": [
+      {
+        "id": "G_MAPPING-02-O1",
+        "text_vi": "Chồng lệch tem 1, nhìn được cả hai và không che dữ liệu"
+      },
+      {
+        "id": "G_MAPPING-02-O2",
+        "text_vi": "Che hết tem 1 để khỏi nhầm"
+      },
+      {
+        "id": "G_MAPPING-02-O3",
+        "text_vi": "Đè kín barcode"
+      },
+      {
+        "id": "G_MAPPING-02-O4",
+        "text_vi": "Dán lên bất kỳ ô trống nào"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.1–6.2.2"
+      }
+    ]
+  },
+  {
+    "id": "G_MAPPING-03",
+    "pool": "G_MAPPING",
+    "lesson_id": "L08",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Receiving còn vật tư chưa gán. C nên làm gì?",
+    "options": [
+      {
+        "id": "G_MAPPING-03-O1",
+        "text_vi": "Bỏ qua vì không trên kệ chính"
+      },
+      {
+        "id": "G_MAPPING-03-O2",
+        "text_vi": "Tìm vật tư và gán theo đúng quyền, xác nhận receiving trống"
+      },
+      {
+        "id": "G_MAPPING-03-O3",
+        "text_vi": "Xóa tồn cho hết số"
+      },
+      {
+        "id": "G_MAPPING-03-O4",
+        "text_vi": "Chuyển vật lý sang khu khác trong khóa"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.1–6.2.2"
+      }
+    ]
+  },
+  {
+    "id": "G_MAPPING-04",
+    "pool": "G_MAPPING",
+    "lesson_id": "L08",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Quét nhầm ô nhưng chưa lưu giao dịch. Nên làm gì?",
+    "options": [
+      {
+        "id": "G_MAPPING-04-O1",
+        "text_vi": "Dán tem 2 để đánh dấu"
+      },
+      {
+        "id": "G_MAPPING-04-O2",
+        "text_vi": "Tắt máy để khỏi lưu vết"
+      },
+      {
+        "id": "G_MAPPING-04-O3",
+        "text_vi": "Dừng, kiểm lại ô và chỉ xác nhận khi đúng"
+      },
+      {
+        "id": "G_MAPPING-04-O4",
+        "text_vi": "Lưu trước rồi sửa sau"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.1–6.2.2"
+      }
+    ]
+  },
+  {
+    "id": "G_MAPPING-05",
+    "pool": "G_MAPPING",
+    "lesson_id": "L08",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Mất mạng sau thao tác lưu mapping. Hành động đầu tiên phù hợp?",
+    "options": [
+      {
+        "id": "G_MAPPING-05-O1",
+        "text_vi": "Bấm lưu nhiều lần ngay"
+      },
+      {
+        "id": "G_MAPPING-05-O2",
+        "text_vi": "Tạo Box mới thay hộp cũ"
+      },
+      {
+        "id": "G_MAPPING-05-O3",
+        "text_vi": "Gán sang ô khác để thử"
+      },
+      {
+        "id": "G_MAPPING-05-O4",
+        "text_vi": "Kiểm trạng thái giao dịch đã ghi trước khi gửi lại"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.1–6.2.2"
+      }
+    ]
+  },
+  {
+    "id": "G_MAPPING-06",
+    "pool": "G_MAPPING",
+    "lesson_id": "L08",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "C hoàn tất một kệ. Cần rà thêm điều gì?",
+    "options": [
+      {
+        "id": "G_MAPPING-06-O1",
+        "text_vi": "Mọi hộp có tem 2 và mapping đúng trước khi sang kệ tiếp"
+      },
+      {
+        "id": "G_MAPPING-06-O2",
+        "text_vi": "Chỉ số hộp ở hàng trên"
+      },
+      {
+        "id": "G_MAPPING-06-O3",
+        "text_vi": "Chỉ nhìn tổng số tem dùng"
+      },
+      {
+        "id": "G_MAPPING-06-O4",
+        "text_vi": "Chỉ kiểm pin PDA"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.1–6.2.2"
+      }
+    ]
+  },
+  {
+    "id": "G_EXECUTION-01",
+    "pool": "G_EXECUTION",
+    "lesson_id": "L09",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Khu A đã xong chuẩn bị, khu B chưa xong. PC khu A có tự mở kiểm kê WMS không?",
+    "options": [
+      {
+        "id": "G_EXECUTION-01-O1",
+        "text_vi": "Có nếu đủ PDA"
+      },
+      {
+        "id": "G_EXECUTION-01-O2",
+        "text_vi": "Chưa; chờ tất cả khu vực hoàn tất và thông báo Audit Team"
+      },
+      {
+        "id": "G_EXECUTION-01-O3",
+        "text_vi": "Có nếu khu A nhiều hàng"
+      },
+      {
+        "id": "G_EXECUTION-01-O4",
+        "text_vi": "Có nếu GL đồng ý miệng"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.3"
+      }
+    ]
+  },
+  {
+    "id": "G_EXECUTION-02",
+    "pool": "G_EXECUTION",
+    "lesson_id": "L09",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Sau tạo phiếu WMS, PC cần làm gì để tránh reset tồn?",
+    "options": [
+      {
+        "id": "G_EXECUTION-02-O1",
+        "text_vi": "Xóa phiếu vừa tạo"
+      },
+      {
+        "id": "G_EXECUTION-02-O2",
+        "text_vi": "Quét tem 3 lên hộp"
+      },
+      {
+        "id": "G_EXECUTION-02-O3",
+        "text_vi": "Đóng cửa sổ tài liệu vừa tạo"
+      },
+      {
+        "id": "G_EXECUTION-02-O4",
+        "text_vi": "Chuyển Completed ngay không kiểm"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.3"
+      }
+    ]
+  },
+  {
+    "id": "G_EXECUTION-03",
+    "pool": "G_EXECUTION",
+    "lesson_id": "L09",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "PDT thực hiện các phiếu theo cách nào?",
+    "options": [
+      {
+        "id": "G_EXECUTION-03-O1",
+        "text_vi": "Mở nhiều phiếu và trộn kết quả"
+      },
+      {
+        "id": "G_EXECUTION-03-O2",
+        "text_vi": "Chỉ làm phiếu có ít ô"
+      },
+      {
+        "id": "G_EXECUTION-03-O3",
+        "text_vi": "Tự đổi phạm vi không báo PC"
+      },
+      {
+        "id": "G_EXECUTION-03-O4",
+        "text_vi": "Tuần tự từng phiếu riêng được giao"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.3"
+      }
+    ]
+  },
+  {
+    "id": "G_EXECUTION-04",
+    "pool": "G_EXECUTION",
+    "lesson_id": "L09",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Tem 3 được dán ở đâu sau hoàn tất phiếu?",
+    "options": [
+      {
+        "id": "G_EXECUTION-04-O1",
+        "text_vi": "Lên các ô đã quét thuộc phiếu hoàn tất"
+      },
+      {
+        "id": "G_EXECUTION-04-O2",
+        "text_vi": "Lên barcode của từng vật tư"
+      },
+      {
+        "id": "G_EXECUTION-04-O3",
+        "text_vi": "Lên tay cầm PDA"
+      },
+      {
+        "id": "G_EXECUTION-04-O4",
+        "text_vi": "Lên tem 1 cho khỏi lẫn"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.3"
+      }
+    ]
+  },
+  {
+    "id": "G_EXECUTION-05",
+    "pool": "G_EXECUTION",
+    "lesson_id": "L09",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Khi nào PC chuyển phiếu sang Completed?",
+    "options": [
+      {
+        "id": "G_EXECUTION-05-O1",
+        "text_vi": "Khi máy in hết nhãn"
+      },
+      {
+        "id": "G_EXECUTION-05-O2",
+        "text_vi": "Sau PDT báo hoàn tất và PC kiểm kết quả"
+      },
+      {
+        "id": "G_EXECUTION-05-O3",
+        "text_vi": "Ngay trước giao PDT"
+      },
+      {
+        "id": "G_EXECUTION-05-O4",
+        "text_vi": "Khi hết giờ ca dù chưa đủ"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.3"
+      }
+    ]
+  },
+  {
+    "id": "G_EXECUTION-06",
+    "pool": "G_EXECUTION",
+    "lesson_id": "L09",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Kết thúc WMS cần kiểm gì về ô system/service?",
+    "options": [
+      {
+        "id": "G_EXECUTION-06-O1",
+        "text_vi": "Không cần rà vì không là kho thật"
+      },
+      {
+        "id": "G_EXECUTION-06-O2",
+        "text_vi": "Xóa số mà không tìm hàng"
+      },
+      {
+        "id": "G_EXECUTION-06-O3",
+        "text_vi": "Các ô service phải trống theo quy trình"
+      },
+      {
+        "id": "G_EXECUTION-06-O4",
+        "text_vi": "Chuyển mọi tồn vào service cho gọn"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.3"
+      }
+    ]
+  },
+  {
+    "id": "G_COVERAGE-01",
+    "pool": "G_COVERAGE",
+    "lesson_id": "L10",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Báo cáo nào dùng kiểm ô có được đưa vào kiểm kê?",
+    "options": [
+      {
+        "id": "G_COVERAGE-01-O1",
+        "text_vi": "Production Release Registration"
+      },
+      {
+        "id": "G_COVERAGE-01-O2",
+        "text_vi": "Chỉ báo cáo doanh thu"
+      },
+      {
+        "id": "G_COVERAGE-01-O3",
+        "text_vi": "Danh sách chấm công"
+      },
+      {
+        "id": "G_COVERAGE-01-O4",
+        "text_vi": "Analysis of cell presence in inventory"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.3.5–6.3.6; 6.4"
+      }
+    ]
+  },
+  {
+    "id": "G_COVERAGE-02",
+    "pool": "G_COVERAGE",
+    "lesson_id": "L10",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "SOP khuyến nghị lọc gì để rà độ phủ chính xác hơn?",
+    "options": [
+      {
+        "id": "G_COVERAGE-02-O1",
+        "text_vi": "Lọc theo danh sách ô, chọn đúng kỳ"
+      },
+      {
+        "id": "G_COVERAGE-02-O2",
+        "text_vi": "Chỉ lọc tên người đếm"
+      },
+      {
+        "id": "G_COVERAGE-02-O3",
+        "text_vi": "Chọn bất kỳ kỳ có kết quả"
+      },
+      {
+        "id": "G_COVERAGE-02-O4",
+        "text_vi": "Bỏ bộ lọc và chỉ đếm màu"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.3.5–6.3.6; 6.4"
+      }
+    ]
+  },
+  {
+    "id": "G_COVERAGE-03",
+    "pool": "G_COVERAGE",
+    "lesson_id": "L10",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Ô đỏ còn hoạt động nhưng vô tình bỏ sót. Xử lý?",
+    "options": [
+      {
+        "id": "G_COVERAGE-03-O1",
+        "text_vi": "Gộp kết quả ô bên cạnh"
+      },
+      {
+        "id": "G_COVERAGE-03-O2",
+        "text_vi": "Kiểm kê bổ sung ô đó"
+      },
+      {
+        "id": "G_COVERAGE-03-O3",
+        "text_vi": "Xóa ô để hết đỏ"
+      },
+      {
+        "id": "G_COVERAGE-03-O4",
+        "text_vi": "Đổi màu báo cáo"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.3.5–6.3.6; 6.4"
+      }
+    ]
+  },
+  {
+    "id": "G_COVERAGE-04",
+    "pool": "G_COVERAGE",
+    "lesson_id": "L10",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Ô đỏ thực tế trống và không còn dùng. Nên làm gì?",
+    "options": [
+      {
+        "id": "G_COVERAGE-04-O1",
+        "text_vi": "Đếm giả một lượng0 cho đủ"
+      },
+      {
+        "id": "G_COVERAGE-04-O2",
+        "text_vi": "Chuyển hàng khác vào cho có tồn"
+      },
+      {
+        "id": "G_COVERAGE-04-O3",
+        "text_vi": "Xác minh rồi loại bỏ theo quy trình và đúng quyền"
+      },
+      {
+        "id": "G_COVERAGE-04-O4",
+        "text_vi": "Xóa ngay mọi ô đỏ"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.3.5–6.3.6; 6.4"
+      }
+    ]
+  },
+  {
+    "id": "G_COVERAGE-05",
+    "pool": "G_COVERAGE",
+    "lesson_id": "L10",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Nhóm kiểm soát độc lập đã xác nhận bước có tem 2 đúng. Đánh dấu gì?",
+    "options": [
+      {
+        "id": "G_COVERAGE-05-O1",
+        "text_vi": "Dán tem 3 dù phiếu chưa xong"
+      },
+      {
+        "id": "G_COVERAGE-05-O2",
+        "text_vi": "Xóa tem 2 rồi ký nhãn"
+      },
+      {
+        "id": "G_COVERAGE-05-O3",
+        "text_vi": "Đánh X lên tên hàng che chữ"
+      },
+      {
+        "id": "G_COVERAGE-05-O4",
+        "text_vi": "X đen trên tem tương ứng bước được kiểm"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.3.5–6.3.6; 6.4"
+      }
+    ]
+  },
+  {
+    "id": "G_COVERAGE-06",
+    "pool": "G_COVERAGE",
+    "lesson_id": "L10",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Checklist Jira đã ký nhưng một số bước chưa làm. Đánh giá nào đúng?",
+    "options": [
+      {
+        "id": "G_COVERAGE-06-O1",
+        "text_vi": "Chưa hoàn tất; phải thực hiện và xác nhận có bằng chứng"
+      },
+      {
+        "id": "G_COVERAGE-06-O2",
+        "text_vi": "Đã hoàn tất vì có chữ ký"
+      },
+      {
+        "id": "G_COVERAGE-06-O3",
+        "text_vi": "Chỉ cần điểm thi cao"
+      },
+      {
+        "id": "G_COVERAGE-06-O4",
+        "text_vi": "Đổi tên checklist để khỏi thiếu"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.3.5–6.3.6; 6.4"
+      }
+    ]
+  },
+  {
+    "id": "G_RECONCILE-01",
+    "pool": "G_RECONCILE",
+    "lesson_id": "L11",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Mã X hệ thống ôA32,ôB10; thực tếA30,B10. Tổng thực tế và lệch là gì?",
+    "options": [
+      {
+        "id": "G_RECONCILE-01-O1",
+        "text_vi": "30 và−12"
+      },
+      {
+        "id": "G_RECONCILE-01-O2",
+        "text_vi": "40 và−2"
+      },
+      {
+        "id": "G_RECONCILE-01-O3",
+        "text_vi": "42 và0"
+      },
+      {
+        "id": "G_RECONCILE-01-O4",
+        "text_vi": "40 và+2"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.5; 7.1–7.6"
+      }
+    ]
+  },
+  {
+    "id": "G_RECONCILE-02",
+    "pool": "G_RECONCILE",
+    "lesson_id": "L11",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Khi kiểm lệch một mã, cần rà ở đâu trước khi sang mã khác?",
+    "options": [
+      {
+        "id": "G_RECONCILE-02-O1",
+        "text_vi": "Chỉ nơi người đếm nhớ"
+      },
+      {
+        "id": "G_RECONCILE-02-O2",
+        "text_vi": "Chỉ ô gần nhất"
+      },
+      {
+        "id": "G_RECONCILE-02-O3",
+        "text_vi": "Tất cả ô của mã đó trên báo cáo"
+      },
+      {
+        "id": "G_RECONCILE-02-O4",
+        "text_vi": "Chỉ ô có số lượng lớn nhất"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.5; 7.1–7.6"
+      }
+    ]
+  },
+  {
+    "id": "G_RECONCILE-03",
+    "pool": "G_RECONCILE",
+    "lesson_id": "L11",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Sản xuất Việt Nam kiểm file lệch trong thời hạn nào theo nguồn?",
+    "options": [
+      {
+        "id": "G_RECONCILE-03-O1",
+        "text_vi": "Luôn trong1 giờ"
+      },
+      {
+        "id": "G_RECONCILE-03-O2",
+        "text_vi": "Sau1 tháng"
+      },
+      {
+        "id": "G_RECONCILE-03-O3",
+        "text_vi": "Khi nào rảnh"
+      },
+      {
+        "id": "G_RECONCILE-03-O4",
+        "text_vi": "1 ngày làm việc từ khi nhận danh sách lệch"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.5; 7.1–7.6"
+      }
+    ]
+  },
+  {
+    "id": "G_RECONCILE-04",
+    "pool": "G_RECONCILE",
+    "lesson_id": "L11",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Ai điều chỉnh số liệu 1C khi đã xác minh lệch?",
+    "options": [
+      {
+        "id": "G_RECONCILE-04-O1",
+        "text_vi": "Chuyên viên có thẩm quyền theo điều phối Audit Team"
+      },
+      {
+        "id": "G_RECONCILE-04-O2",
+        "text_vi": "Bất kỳ người đếm nào"
+      },
+      {
+        "id": "G_RECONCILE-04-O3",
+        "text_vi": "Feeder tự bù trên phiếu"
+      },
+      {
+        "id": "G_RECONCILE-04-O4",
+        "text_vi": "App đào tạo tự ghi tồn1C"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.5; 7.1–7.6"
+      }
+    ]
+  },
+  {
+    "id": "G_RECONCILE-05",
+    "pool": "G_RECONCILE",
+    "lesson_id": "L11",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "Trình tự RCA nào đúng?",
+    "options": [
+      {
+        "id": "G_RECONCILE-05-O1",
+        "text_vi": "Chỉ xem camera rồi kết luận"
+      },
+      {
+        "id": "G_RECONCILE-05-O2",
+        "text_vi": "Chứng từ → tiêu hao/định mức → lỗi/rework → di chuyển → kiểm thực tế → nguyên nhân gốc"
+      },
+      {
+        "id": "G_RECONCILE-05-O3",
+        "text_vi": "Quy trách nhiệm ngay → sửa số → đóng"
+      },
+      {
+        "id": "G_RECONCILE-05-O4",
+        "text_vi": "Đếm lại rồi bỏ mọi chứng từ"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.5; 7.1–7.6"
+      }
+    ]
+  },
+  {
+    "id": "G_RECONCILE-06",
+    "pool": "G_RECONCILE",
+    "lesson_id": "L11",
+    "type": "single_choice",
+    "critical": false,
+    "stem_vi": "CAPA nào có thể kiểm hiệu lực?",
+    "options": [
+      {
+        "id": "G_RECONCILE-06-O1",
+        "text_vi": "Chỉ yêu cầu cẩn thận hơn"
+      },
+      {
+        "id": "G_RECONCILE-06-O2",
+        "text_vi": "Đóng incident ngay sau sửa số"
+      },
+      {
+        "id": "G_RECONCILE-06-O3",
+        "text_vi": "Thay đổi quy trình cụ thể, owner, hạn, bằng chứng và ngày kiểm lại"
+      },
+      {
+        "id": "G_RECONCILE-06-O4",
+        "text_vi": "Nhắc nhở chung không người phụ trách"
+      }
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.5; 7.1–7.6"
+      }
+    ]
+  }
+]

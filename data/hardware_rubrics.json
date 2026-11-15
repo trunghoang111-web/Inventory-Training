@@ -1,0 +1,265 @@
+{
+  "version": "ASV-INV-2026.11-v1",
+  "scoring": "Mỗi mục5đạt/0không đạt/nullchưaquan sát. null không được nộp hoàn tất. Mọi critical phảiđạt. Không dùng N/A để giảm mẫu số.",
+  "common": [
+    {
+      "id": "HP01",
+      "station": "S1",
+      "description_vi": "Đúng tài khoản, môi trường test được duyệt; không ghi vào tồn thật",
+      "critical": true,
+      "points": 5
+    },
+    {
+      "id": "HP02",
+      "station": "S1",
+      "description_vi": "Phân biệt Box, P-number, ô; đọc mã hàng/phiên bản/màu đúng",
+      "critical": true,
+      "points": 5
+    },
+    {
+      "id": "HP03",
+      "station": "S1",
+      "description_vi": "Xác nhận đơn vị tính, quy cách gói trước khi nhập số",
+      "critical": false,
+      "points": 5
+    },
+    {
+      "id": "HP04",
+      "station": "S1",
+      "description_vi": "Đếm từng hộp, ghi đúng số thực tế và phát hiện lệch nhãn",
+      "critical": true,
+      "points": 5
+    },
+    {
+      "id": "HP05",
+      "station": "S2",
+      "description_vi": "Giữ đúng thẩm quyền sửa nhãn; báo đúng hướng khi thực tế lớn hơn nhãn",
+      "critical": true,
+      "points": 5
+    },
+    {
+      "id": "HP06",
+      "station": "S2",
+      "description_vi": "Đóng vai B trên bộ dữ liệu do người khác đếm, không tự kiểm số mình tạo",
+      "critical": true,
+      "points": 5
+    },
+    {
+      "id": "HP07",
+      "station": "S2",
+      "description_vi": "Dừng hộp sai mã/số, yêu cầu xử lý rồi kiểm lại",
+      "critical": true,
+      "points": 5
+    },
+    {
+      "id": "HP08",
+      "station": "S2",
+      "description_vi": "Chỉ dán tem 1 sau kiểm đúng; không che mã/số/barcode",
+      "critical": true,
+      "points": 5
+    },
+    {
+      "id": "HP09",
+      "station": "S3",
+      "description_vi": "Quét Box vào đúng P-number và kiểm lại phản hồi hệ thống",
+      "critical": true,
+      "points": 5
+    },
+    {
+      "id": "HP10",
+      "station": "S3",
+      "description_vi": "Quét P-number vào đúng ô, không nhầm mã vị trí",
+      "critical": true,
+      "points": 5
+    },
+    {
+      "id": "HP11",
+      "station": "S3",
+      "description_vi": "Tem 2 dán lệch, thấy tem 1 và dữ liệu nhãn; không làm khi thiếu tem 1",
+      "critical": true,
+      "points": 5
+    },
+    {
+      "id": "HP12",
+      "station": "S3",
+      "description_vi": "Kiểm receiving bằng hệ thống, xử lý tồn chưa gán đúng quyền",
+      "critical": false,
+      "points": 5
+    },
+    {
+      "id": "HP13",
+      "station": "S4",
+      "description_vi": "Nhận đúng phiếu kiểm kê và đúng phạm vi ô được giao",
+      "critical": false,
+      "points": 5
+    },
+    {
+      "id": "HP14",
+      "station": "S4",
+      "description_vi": "Quét đủ, kiểm trạng thái trước khi quét lại khi giả lập mất mạng",
+      "critical": true,
+      "points": 5
+    },
+    {
+      "id": "HP15",
+      "station": "S4",
+      "description_vi": "Chỉ dán tem 3 lên ô sau khi hoàn tất phiếu được giao",
+      "critical": true,
+      "points": 5
+    },
+    {
+      "id": "HP16",
+      "station": "S4",
+      "description_vi": "Báo PC; giải thích PC kiểm và chuyển Completed, rà ô bỏ sót/service",
+      "critical": false,
+      "points": 5
+    },
+    {
+      "id": "HP17",
+      "station": "S5",
+      "description_vi": "Mở Stock Balance, đối chiếu đúng mã trên mọi ô trong báo cáo",
+      "critical": true,
+      "points": 5
+    },
+    {
+      "id": "HP18",
+      "station": "S5",
+      "description_vi": "Ghi A=30, B=10, tổng 40, lệch -2; không sửa số để khớp",
+      "critical": true,
+      "points": 5
+    },
+    {
+      "id": "HP19",
+      "station": "S5",
+      "description_vi": "Không chuyển hàng/tự điều chỉnh 1C; báo đúng người và giữ chứng cứ",
+      "critical": true,
+      "points": 5
+    },
+    {
+      "id": "HP20",
+      "station": "S5",
+      "description_vi": "Bàn giao mã–ô–qty–lỗi–người xử lý; ký phiếu và nói đúng điều kiện mở lại",
+      "critical": false,
+      "points": 5
+    }
+  ],
+  "special": {
+    "A2_PC": [
+      {
+        "id": "PC01",
+        "description_vi": "Nhận đúng luồng Chat và đúng khu vực",
+        "critical": false,
+        "points": 5
+      },
+      {
+        "id": "PC02",
+        "description_vi": "Một dòng một hộp; giữ đúng thứ tự yêu cầu",
+        "critical": false,
+        "points": 5
+      },
+      {
+        "id": "PC03",
+        "description_vi": "Nhập đúng mã, số lượng và đơn vị vào WMS",
+        "critical": true,
+        "points": 5
+      },
+      {
+        "id": "PC04",
+        "description_vi": "In nhãn, kiểm lại mã và số lượng",
+        "critical": false,
+        "points": 5
+      },
+      {
+        "id": "PC05",
+        "description_vi": "Không đưa nhãn nhầm hộp; xử lý nhãn sai qua đúng quyền",
+        "critical": true,
+        "points": 5
+      },
+      {
+        "id": "PC06",
+        "description_vi": "Trả phản hồi sẵn sàng và lưu truy vết",
+        "critical": false,
+        "points": 5
+      },
+      {
+        "id": "PC07",
+        "description_vi": "Tạo đúng phạm vi phiếu, đóng cửa sổ sau tạo",
+        "critical": true,
+        "points": 5
+      },
+      {
+        "id": "PC08",
+        "description_vi": "Giao đúng phiếu cho đúng người PDT",
+        "critical": false,
+        "points": 5
+      },
+      {
+        "id": "PC09",
+        "description_vi": "Chỉ chuyển Completed sau kiểm kết quả và nhận báo hoàn tất",
+        "critical": true,
+        "points": 5
+      },
+      {
+        "id": "PC10",
+        "description_vi": "Rà phiếu thiếu, ô service và đối chiếu báo cáo độ phủ",
+        "critical": false,
+        "points": 5
+      }
+    ],
+    "CONTROLLER": [
+      {
+        "id": "CT01",
+        "description_vi": "Khoanh vùng lỗi, giữ nguyên hiện trạng, không tự chuyển hàng",
+        "critical": true,
+        "points": 5
+      },
+      {
+        "id": "CT02",
+        "description_vi": "Phân biệt lệch nhãn, mã/unit sai và lỗi mapping",
+        "critical": false,
+        "points": 5
+      },
+      {
+        "id": "CT03",
+        "description_vi": "Chọn đúng tuyến sửa WMS/Audit Team; không tự điều chỉnh1C",
+        "critical": true,
+        "points": 5
+      },
+      {
+        "id": "CT04",
+        "description_vi": "Thực tế lớn hơn nhãn phải báo Audit Team; nhãn sai qua tuyến xử lý đúng",
+        "critical": true,
+        "points": 5
+      },
+      {
+        "id": "CT05",
+        "description_vi": "Kiểm lại sau sửa cùng người B/C và lưu dấu vết",
+        "critical": false,
+        "points": 5
+      },
+      {
+        "id": "CT06",
+        "description_vi": "Báo GL/WCM/Audit Team, ghi incident, chủ xử lý và hạn",
+        "critical": false,
+        "points": 5
+      }
+    ]
+  },
+  "evidence_fields": [
+    "learner_id",
+    "assessor_id",
+    "session_id",
+    "device_id",
+    "approved_lab_id",
+    "rubric_version",
+    "observations",
+    "critical_fail_ids",
+    "notes",
+    "attestation_or_evidence_refs",
+    "started_at",
+    "submitted_at",
+    "assessor_signature"
+  ],
+  "signature_rule": "Server xác nhận người chấm được giao và khác học viên; không có chữ ký tự khai từ tài khoản học viên. Ghi căn cứ quan sát trực tiếp từng mục. Thiết bị lỗi được void có lý do, không giảđạt.",
+  "a2_pc_assignment_note": "Rubric gộp A2/PC kiểm cả hai năng lực; đạt mới đủ điều kiện xét giao một hoặc cả hai vai, từng vai/phạm vi vẫn phải được duyệt."
+}

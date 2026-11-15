@@ -1,0 +1,667 @@
+[
+  {
+    "id": "L01",
+    "order": 1,
+    "title_vi": "Kiểm kê để làm gì? Ai làm bước nào?",
+    "minutes": 5,
+    "required_for": [
+      "ALL_PARTICIPANTS"
+    ],
+    "objectives_vi": [
+      "Phân biệt chức danh với vai kiểm kê",
+      "Giữ độc lập A, B và C"
+    ],
+    "cards": [
+      {
+        "id": "L01-C1",
+        "headline_vi": "Mục đích",
+        "text_vi": "Ghi nhận đúng tồn thực tế theo mã, số lượng, đơn vị, trạng thái và vị trí."
+      },
+      {
+        "id": "L01-C2",
+        "headline_vi": "A → B → C",
+        "text_vi": "A đếm; B kiểm độc lập; C gán Box → P-number → ô. Ba người khác nhau trên cùng dữ liệu."
+      },
+      {
+        "id": "L01-C3",
+        "headline_vi": "Vai hỗ trợ",
+        "text_vi": "A2 nhập/in nhãn SFP; PC quản lý phiếu; PDT thực hiện phiếu; Controller xử lý lỗi theo quyền."
+      },
+      {
+        "id": "L01-C4",
+        "headline_vi": "Chịu trách nhiệm",
+        "text_vi": "GL/WCM kiểm soát phạm vi và báo tiến độ; Kho hỗ trợ WMS; Audit Team điều phối và xác nhận điều chỉnh."
+      }
+    ],
+    "narration_vi": "Không suy vai kiểm kê từ chức danh. Một GL có thể được giao Controller nhưng phải sát hạch và có phạm vi, quyền phù hợp. Người A không trở thành B trên hộp mình vừa đếm. Phân vai lại phải lưu người, phạm vi và thời điểm. Hoàn thành bài học không đồng nghĩa được cấp quyền WMS.",
+    "common_errors_vi": [
+      "Tự kiểm số liệu mình tạo",
+      "Dùng tài khoản chung hoặc ký thay"
+    ],
+    "asset_ids": [
+      "ILL02",
+      "ILL03"
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "4; 6.2; 6.3"
+      }
+    ],
+    "knowledge_check_ids": [
+      "CR_INDEPENDENCE-01",
+      "CR_INDEPENDENCE-02"
+    ]
+  },
+  {
+    "id": "L02",
+    "order": 2,
+    "title_vi": "Khóa luồng hàng và chứng từ",
+    "minutes": 6,
+    "required_for": [
+      "ALL_PARTICIPANTS"
+    ],
+    "objectives_vi": [
+      "Xử lý yêu cầu chuyển gấp",
+      "Nhận diện điều kiện mở lại"
+    ],
+    "cards": [
+      {
+        "id": "L02-C1",
+        "headline_vi": "Trước khóa",
+        "text_vi": "Hoàn thành SPR và các chuyển giao cả vật lý lẫn hệ thống; xác nhận mốc khóa do ban kiểm kê thông báo."
+      },
+      {
+        "id": "L02-C2",
+        "headline_vi": "Trong khóa",
+        "text_vi": "Không chuyển vật tư/SFP giữa các khu vực. Giữ nguyên hiện trạng và báo GL/WCM khi có yêu cầu khẩn."
+      },
+      {
+        "id": "L02-C3",
+        "headline_vi": "Không sửa để khớp",
+        "text_vi": "Không tự điều chỉnh 1C hoặc tạo chứng từ lùi ngày. Ghi mã, ô, lượng, lỗi và báo đúng tuyến."
+      },
+      {
+        "id": "L02-C4",
+        "headline_vi": "Chưa có xác nhận?",
+        "text_vi": "Tiếp tục giữ khóa. Ngày kết thúc dự kiến không tự cho phép mở lại."
+      }
+    ],
+    "narration_vi": "Kịch bản trao đổi: feeder được yêu cầu đưa gấp PCB sang Assembly. Học viên phải từ chối chuyển trong thời gian khóa, giữ hàng tại vị trí và báo người phụ trách. App là mô phỏng đào tạo, không có nút giải phóng kho thật. Việc mở lại do Audit Team thông báo sau điều chỉnh.",
+    "common_errors_vi": [
+      "Cho phép chuyển vì “chỉ vài hộp”",
+      "Tự mở lại theo lịch ngày 27/12"
+    ],
+    "asset_ids": [
+      "ILL01"
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.1; 6.2; 6.3; 8"
+      }
+    ],
+    "knowledge_check_ids": [
+      "CR_FREEZE-01",
+      "CR_FREEZE-02"
+    ]
+  },
+  {
+    "id": "L03",
+    "order": 3,
+    "title_vi": "Chuẩn bị khu vực trước kiểm kê",
+    "minutes": 9,
+    "required_for": [
+      "ALL_PARTICIPANTS"
+    ],
+    "objectives_vi": [
+      "Chuẩn bị vật tư và dữ liệu đồng bộ",
+      "Nhận diện hàng loại trừ và hàng cần tách"
+    ],
+    "cards": [
+      {
+        "id": "L03-C1",
+        "headline_vi": "Xử lý tồn trước khóa",
+        "text_vi": "SPR hoàn tất; FG về kho FG; NVL thừa trả kho; lỗi về MRB theo quy trình. Kiểm tồn âm, transit và Clarify."
+      },
+      {
+        "id": "L03-C2",
+        "headline_vi": "Tách rõ",
+        "text_vi": "Mã/phiên bản/màu/trạng thái tách riêng. REF, NG, repair, blocked nhận diện riêng; hộp kê pallet gỗ."
+      },
+      {
+        "id": "L03-C3",
+        "headline_vi": "Hàng đã write-off",
+        "text_vi": "Đối chiếu 1C; cách ly và dán đỏ “DO NOT COUNT DURING INVENTORY”. Không tính lại như tồn bình thường."
+      },
+      {
+        "id": "L03-C4",
+        "headline_vi": "Ô, người, thiết bị",
+        "text_vi": "Ô đúng bộ phận, loại Storage; tạo qua ITSM. Chốt người, tài khoản, đơn vị tính, PDA, PC, máy in và màu tem."
+      }
+    ],
+    "narration_vi": "Không áp dụng reset toàn bộ ô một cách mặc định. Chỉ thực hiện thao tác reset theo trường hợp và hướng dẫn được Kho/WMS cho phép. Thiết bị chưa ghi nhận tài sản cố định được kiểm kê như vật tư theo tài liệu nguồn. Danh sách kho, ô, REF và màu tem phải lấy bản đã chốt cho đợt 2026; ảnh bảng ô trong tài liệu không phải master đang hoạt động.",
+    "common_errors_vi": [
+      "Để lẫn model hoặc màu",
+      "Loại hàng đang repair khỏi kiểm kê",
+      "Reset hàng loạt vì muốn làm sạch"
+    ],
+    "asset_ids": [
+      "SRC03",
+      "SRC06",
+      "EXC01",
+      "EXC02"
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.1"
+      }
+    ],
+    "knowledge_check_ids": [
+      "G_PREP-01",
+      "G_PREP-02"
+    ]
+  },
+  {
+    "id": "L04",
+    "order": 4,
+    "title_vi": "Đọc đúng Box – P-number – ô",
+    "minutes": 6,
+    "required_for": [
+      "ALL_PARTICIPANTS"
+    ],
+    "objectives_vi": [
+      "Nhận diện ba loại mã",
+      "Đọc nhãn trước khi quét"
+    ],
+    "cards": [
+      {
+        "id": "L04-C1",
+        "headline_vi": "Box",
+        "text_vi": "Mã hộp nằm trên nhãn cùng tên hàng và số lượng. Theo SOP: 13 ký tự, thường bắt đầu bằng số 0."
+      },
+      {
+        "id": "L04-C2",
+        "headline_vi": "P-number",
+        "text_vi": "Mã pallet/container WMS: 13 ký tự, bắt đầu 9 hoặc P theo SOP. Không phải mã hàng."
+      },
+      {
+        "id": "L04-C3",
+        "headline_vi": "Ô lưu trữ",
+        "text_vi": "Mã vị trí gồm chữ và số có dấu gạch nối; đọc đúng ô tại vị trí thực tế."
+      },
+      {
+        "id": "L04-C4",
+        "headline_vi": "Đọc trước – xác nhận sau",
+        "text_vi": "Kiểm mã hàng, phiên bản/màu, đơn vị và số lượng; sau quét đọc phản hồi hệ thống."
+      }
+    ],
+    "narration_vi": "Ảnh nhãn cũ trong Word có thể hiển thị RECID hoặc định dạng lịch sử khác mô tả chung của SOP. Không tự hard-code chỉ dựa vào độ dài để chặn nhãn thật; Kho/IT xác nhận trường barcode và định dạng hiện hành trước tích hợp thiết bị. Mã SIM-ASV trong app là mã huấn luyện, cố ý không dùng làm mã WMS thật.",
+    "common_errors_vi": [
+      "Quét mã hàng thay Box",
+      "Nhầm P-number với ô",
+      "Chỉ nghe tiếng bíp, không đọc phản hồi"
+    ],
+    "asset_ids": [
+      "SRC04",
+      "SRC07",
+      "SRC13",
+      "SRC14"
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "3.12–3.14; 6.2"
+      }
+    ],
+    "knowledge_check_ids": [
+      "G_SCOPE_LABEL-01",
+      "G_SCOPE_LABEL-02"
+    ]
+  },
+  {
+    "id": "L05",
+    "order": 5,
+    "title_vi": "A: đếm NVL từng hộp",
+    "minutes": 8,
+    "required_for": [
+      "ALL_PARTICIPANTS"
+    ],
+    "objectives_vi": [
+      "Đếm tuần tự và đúng quy cách",
+      "Phân tuyến khi thừa hoặc thiếu"
+    ],
+    "cards": [
+      {
+        "id": "L05-C1",
+        "headline_vi": "Đếm theo thứ tự",
+        "text_vi": "Một kệ/pallet tại một thời điểm, từng hộp riêng. Xác nhận đơn vị và quy cách trước khi ghi."
+      },
+      {
+        "id": "L05-C2",
+        "headline_vi": "Hộp nguyên nhà cung cấp",
+        "text_vi": "Nếu chưa mở và còn nguyên vẹn như nhận từ nhà cung cấp: không bắt buộc mở đếm lại."
+      },
+      {
+        "id": "L05-C3",
+        "headline_vi": "Thực tế thấp hơn nhãn",
+        "text_vi": "Dùng Writing-off materials from Box theo đúng tài khoản/quyền; in nhãn đúng, bỏ nhãn cũ. Nếu chưa có quyền, báo người có quyền."
+      },
+      {
+        "id": "L05-C4",
+        "headline_vi": "Thực tế cao hơn nhãn",
+        "text_vi": "Báo Audit Team để điều chỉnh và in lại. Khi đúng, A đánh dấu ✓ xanh, không che dữ liệu."
+      }
+    ],
+    "narration_vi": "Ví dụ: nhãn 20, thực tế 18. Ghi 18, giữ truy vết và xử lý bằng công cụ đúng quyền; không gõ 20 để hết lệch. Một gói 5 pcs và một pcs khác đơn vị. Hộp đã mở không được suy số từ số hộp. Trước sang kệ khác kiểm mọi hộp đã có dấu A và báo hoàn tất bước.",
+    "common_errors_vi": [
+      "Cộng gộp cả kệ rồi chia bình quân",
+      "Dán nhãn mới nhưng giữ hai nhãn gây nhầm",
+      "Tự tăng số trên hệ thống"
+    ],
+    "asset_ids": [
+      "ILL02",
+      "SRC14"
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.1"
+      }
+    ],
+    "knowledge_check_ids": [
+      "G_RAW-01",
+      "G_RAW-02"
+    ]
+  },
+  {
+    "id": "L06",
+    "order": 6,
+    "title_vi": "SFP: đếm – gửi – in nhãn",
+    "minutes": 10,
+    "required_for": [
+      "ALL_PARTICIPANTS"
+    ],
+    "objectives_vi": [
+      "Gửi dữ liệu không lẫn hộp",
+      "Phối hợp đúng với A2"
+    ],
+    "cards": [
+      {
+        "id": "L06-C1",
+        "headline_vi": "A ghi từng đơn vị",
+        "text_vi": "Mỗi hộp/pallet ghi riêng mã và lượng. Không gửi quá 5 hộp/pallet mỗi lần."
+      },
+      {
+        "id": "L06-C2",
+        "headline_vi": "Gửi đúng thread",
+        "text_vi": "Một dòng = một hộp/pallet; định dạng mã hàng – số lượng. Đúng thread bộ phận/nhóm dùng máy in."
+      },
+      {
+        "id": "L06-C3",
+        "headline_vi": "Một A2 mỗi nhóm",
+        "text_vi": "A2 xử lý tuần tự, dùng Production Release Registration, in và kiểm nhãn, nhóm nhãn đúng yêu cầu rồi phản hồi đã sẵn sàng."
+      },
+      {
+        "id": "L06-C4",
+        "headline_vi": "A nhận và kiểm lại",
+        "text_vi": "Kiểm mã/lượng trên từng nhãn trước dán đúng hộp. Sai nhãn phải theo tuyến Audit Team, in lại nhãn đúng."
+      }
+    ],
+    "narration_vi": "Có thể nhiều A nhưng chỉ một A2 trên một bộ phận/nhóm trong cách tổ chức SOP. App mô phỏng thread nội bộ, không gửi Chat thật. Bài tập phải giữ hai hộp cùng mã thành hai dòng, không gộp. Sau khi A dán nhãn, B mới kiểm độc lập và C mới gán. A2 và PC là các năng lực khác nhau dù cùng một người có thể được giao nếu được duyệt.",
+    "common_errors_vi": [
+      "Gửi 12 hộp trong một tin",
+      "Gộp hai hộp cùng mã thành một dòng",
+      "Dán nhãn theo thứ tự phỏng đoán"
+    ],
+    "asset_ids": [
+      "SRC05",
+      "SRC13",
+      "ILL04"
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.2"
+      }
+    ],
+    "knowledge_check_ids": [
+      "G_SFP-01",
+      "G_SFP-02"
+    ]
+  },
+  {
+    "id": "L07",
+    "order": 7,
+    "title_vi": "B: kiểm độc lập và dán tem 1",
+    "minutes": 10,
+    "required_for": [
+      "ALL_PARTICIPANTS"
+    ],
+    "objectives_vi": [
+      "Kiểm mã và lượng từng hộp",
+      "Dừng hộp sai trước khi dán tem"
+    ],
+    "cards": [
+      {
+        "id": "L07-C1",
+        "headline_vi": "Kiểm của người khác",
+        "text_vi": "Đối chiếu hàng thực tế, chứng từ đi kèm và nhãn; so số thực tế với nhãn từng hộp."
+      },
+      {
+        "id": "L07-C2",
+        "headline_vi": "Đúng mới dán",
+        "text_vi": "Dán tem 1 lên nhãn; với NVL chồng dấu ✓ xanh, không che chữ/số/barcode."
+      },
+      {
+        "id": "L07-C3",
+        "headline_vi": "Sai thì giữ",
+        "text_vi": "Báo Controller; hộp sai chưa được tem 1. Sau sửa phải kiểm lại, không dán tem trước."
+      },
+      {
+        "id": "L07-C4",
+        "headline_vi": "Kiểm đủ cả kệ",
+        "text_vi": "Rà hộp thiếu tem và báo hoàn tất. Màu thực tế lấy từ thông báo Kho cho đợt kiểm kê."
+      }
+    ],
+    "narration_vi": "Người kiểm độc lập phải có danh tính khác A trên dữ liệu đang xét. Không xem nhãn rồi tin số mà bỏ kiểm hàng. Chỉ tem dán không chứng minh đã làm đúng nếu thiếu kiểm thực tế. Không mặc định tem 1 vàng hay tem 2 xanh: trong app dùng nhãn số và cấu hình màu đã được Kho xác nhận.",
+    "common_errors_vi": [
+      "Dán tem trước để tiết kiệm thời gian",
+      "Che barcode",
+      "Tự B cho hộp mình đếm"
+    ],
+    "asset_ids": [
+      "ILL03",
+      "SRC10",
+      "SRC11"
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.1–6.2.2"
+      }
+    ],
+    "knowledge_check_ids": [
+      "CR_STICKER-01",
+      "CR_STICKER-02"
+    ]
+  },
+  {
+    "id": "L08",
+    "order": 8,
+    "title_vi": "C: gán vị trí và dán tem 2",
+    "minutes": 8,
+    "required_for": [
+      "ALL_PARTICIPANTS"
+    ],
+    "objectives_vi": [
+      "Gán đúng hai tầng",
+      "Xử lý thiếu tem và tồn receiving"
+    ],
+    "cards": [
+      {
+        "id": "L08-C1",
+        "headline_vi": "Chỉ nhận dữ liệu đã B",
+        "text_vi": "Mọi hộp trên kệ/pallet phải có tem 1. Thiếu: dừng hộp và báo GL/Controller."
+      },
+      {
+        "id": "L08-C2",
+        "headline_vi": "Gán hai tầng",
+        "text_vi": "Box → đúng P-number; P-number → đúng ô thực tế. Kiểm kết quả sau từng thao tác."
+      },
+      {
+        "id": "L08-C3",
+        "headline_vi": "Tem 2 đúng chỗ",
+        "text_vi": "Dán chồng lệch tem 1 để vẫn nhìn được cả hai, không che dữ liệu nhãn."
+      },
+      {
+        "id": "L08-C4",
+        "headline_vi": "Rà receiving",
+        "text_vi": "Tìm tồn chưa gán và xử lý theo quyền; kết quả là receiving trống, không tự chuyển hàng đi cho hết tồn."
+      }
+    ],
+    "narration_vi": "Scanner bíp chỉ báo nhận mã, không tự chứng minh giao dịch đúng. Nếu quét nhầm nhưng hệ thống chưa xác nhận, dừng và kiểm lại; không lưu gán sai. Khi mất mạng kiểm trạng thái đã ghi trước khi thử lại để tránh trùng. Người C phải khác A và B trên cùng dữ liệu.",
+    "common_errors_vi": [
+      "Bỏ qua tầng P-number",
+      "Gán theo ô gần nhất",
+      "Dán tem 2 dù thiếu tem 1"
+    ],
+    "asset_ids": [
+      "ILL08",
+      "SRC04",
+      "SRC07"
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.1–6.2.2"
+      }
+    ],
+    "knowledge_check_ids": [
+      "G_MAPPING-01",
+      "G_MAPPING-02"
+    ]
+  },
+  {
+    "id": "L09",
+    "order": 9,
+    "title_vi": "Kiểm kê WMS: PC và PDA/PDT",
+    "minutes": 8,
+    "required_for": [
+      "ALL_PARTICIPANTS"
+    ],
+    "objectives_vi": [
+      "Phân biệt đóng cửa sổ và Completed",
+      "Đặt tem 3 sau đúng thời điểm"
+    ],
+    "cards": [
+      {
+        "id": "L09-C1",
+        "headline_vi": "Cổng bắt đầu",
+        "text_vi": "Tất cả khu vực đã xong chuẩn bị, có tem 1+2 và thông báo Audit Team qua checklist Jira bước 2."
+      },
+      {
+        "id": "L09-C2",
+        "headline_vi": "PC tạo phiếu",
+        "text_vi": "Tạo phiếu theo từng kệ/ô pallet; đóng cửa sổ tài liệu sau tạo để tránh reset tồn. Giao đúng phiếu cho PDT."
+      },
+      {
+        "id": "L09-C3",
+        "headline_vi": "PDT thực hiện",
+        "text_vi": "Làm tuần tự từng phiếu. Hoàn tất phiếu được giao mới dán tem 3 lên các ô đã quét, rồi báo PC."
+      },
+      {
+        "id": "L09-C4",
+        "headline_vi": "PC hoàn tất",
+        "text_vi": "Kiểm kết quả và chuyển Completed. Rà phiếu, các ô service phải trống, báo GL/Supervisor."
+      }
+    ],
+    "narration_vi": "Đóng cửa sổ sau tạo là hành động khác chuyển trạng thái Completed cuối quy trình. Không dán tem 3 lên hộp để thay tem 1/2; tem 3 thuộc ô đã quét sau hoàn tất phiếu. Một khu vực xong riêng lẻ chưa đủ mở kiểm kê WMS khi khu khác chưa chuẩn bị xong.",
+    "common_errors_vi": [
+      "Completed ngay lúc tạo phiếu",
+      "Dán tem 3 khi mới quét một phần",
+      "Tự bắt đầu vì khu mình đã sẵn sàng"
+    ],
+    "asset_ids": [
+      "ILL04",
+      "SRC12"
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.3"
+      }
+    ],
+    "knowledge_check_ids": [
+      "G_EXECUTION-01",
+      "G_EXECUTION-02"
+    ]
+  },
+  {
+    "id": "L10",
+    "order": 10,
+    "title_vi": "Rà đủ ô và kiểm soát chéo",
+    "minutes": 7,
+    "required_for": [
+      "ALL_PARTICIPANTS"
+    ],
+    "objectives_vi": [
+      "Phân loại ô đỏ đúng nguyên nhân",
+      "Lưu xác nhận thực hiện có bằng chứng"
+    ],
+    "cards": [
+      {
+        "id": "L10-C1",
+        "headline_vi": "Báo cáo độ phủ",
+        "text_vi": "Analysis of cell presence in inventory; chọn đúng kỳ và kho/ô. SOP khuyến nghị lọc theo ô để chính xác hơn."
+      },
+      {
+        "id": "L10-C2",
+        "headline_vi": "Ô đỏ còn dùng",
+        "text_vi": "Xác minh bỏ sót; thực hiện kiểm kê bổ sung. Không xóa ô để làm báo cáo đẹp."
+      },
+      {
+        "id": "L10-C3",
+        "headline_vi": "Ô trống không còn dùng",
+        "text_vi": "Xác minh thực tế, xử lý loại bỏ theo quy trình và đúng quyền. Không tự suy từ màu đỏ."
+      },
+      {
+        "id": "L10-C4",
+        "headline_vi": "Kiểm soát độc lập",
+        "text_vi": "Nhóm kiểm soát kiểm mẫu độ chính xác/gán/độ phủ; đánh X đen trên tem bước được kiểm. Checklist Jira 3 phản ánh việc đã làm."
+      }
+    ],
+    "narration_vi": "Ảnh báo cáo lấy từ Word để nhận diện menu và vùng lọc, không phải ảnh hiện trường 2026. Chọn kỳ sai có thể làm kết quả đủ/thiếu sai. Rà tất cả ô thuộc phạm vi, kể cả khu phụ, sửa chữa và service. Chữ ký không thay cho hành động và bằng chứng.",
+    "common_errors_vi": [
+      "Xóa mọi ô đỏ",
+      "Chỉ xem kệ chính",
+      "Tích checklist chưa làm"
+    ],
+    "asset_ids": [
+      "SRC15",
+      "SRC16",
+      "SRC17",
+      "SRC18"
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.3.5–6.3.6; 6.4"
+      }
+    ],
+    "knowledge_check_ids": [
+      "G_COVERAGE-01",
+      "G_COVERAGE-02"
+    ]
+  },
+  {
+    "id": "L11",
+    "order": 11,
+    "title_vi": "Đếm lại và giải thích chênh lệch",
+    "minutes": 7,
+    "required_for": [
+      "ALL_PARTICIPANTS"
+    ],
+    "objectives_vi": [
+      "Kiểm tất cả ô của cùng một mã",
+      "Ghi đúng chênh lệch và RCA"
+    ],
+    "cards": [
+      {
+        "id": "L11-C1",
+        "headline_vi": "Nhận file lệch",
+        "text_vi": "Audit Team tổng hợp WMS–1C trong 1 ngày làm việc sau xác nhận hoàn tất; Sản xuất Việt Nam kiểm lệch trong 1 ngày làm việc từ khi nhận."
+      },
+      {
+        "id": "L11-C2",
+        "headline_vi": "Một mã – mọi ô",
+        "text_vi": "In Balance of Goods in Warehouse theo mã, có tất cả ô và lượng. Dùng Stock Balance trên PDT, ghi thực tế và đánh dấu đã kiểm."
+      },
+      {
+        "id": "L11-C3",
+        "headline_vi": "Ví dụ",
+        "text_vi": "Hệ thống A32+B10=42. Thực tế A30+B10=40. Chênh lệch thực tế − hệ thống = −2; không bù trừ mã/kho/trạng thái."
+      },
+      {
+        "id": "L11-C4",
+        "headline_vi": "RCA và CAPA",
+        "text_vi": "Mọi lệch có incident. PM+Warehouse Lead RCA trong 1 tuần làm việc từ file cuối; CAPA có thay đổi cụ thể, chủ trì, hạn và bằng chứng hiệu lực."
+      }
+    ],
+    "narration_vi": "Trình tự RCA bắt buộc: chứng từ đã hạch toán → tiêu hao/định mức → lỗi/rework → lịch sử di chuyển → kiểm thực tế → nguyên nhân gốc. Kho ký danh sách kho trong Closing of Intermediate Inventory, Audit Team điều phối điều chỉnh qua người đúng quyền. Mục tiêu điều chỉnh VN 1 ngày cho tỷ lệ lệch khoảng 5%, có thể kéo dài khi nhiều hơn; không tự hứa đóng mọi lệch trong 24 giờ.",
+    "common_errors_vi": [
+      "Chỉ đếm lại ô đầu tiên",
+      "Sửa số để về0",
+      "Kết luận do người đếm mà chưa kiểm chứng từ"
+    ],
+    "asset_ids": [
+      "ILL05"
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.5; 7.1–7.6"
+      }
+    ],
+    "knowledge_check_ids": [
+      "G_RECONCILE-01",
+      "G_RECONCILE-02"
+    ]
+  },
+  {
+    "id": "L12",
+    "order": 12,
+    "title_vi": "Mở lại, lỗi sau kiểm kê và điều kiện đạt",
+    "minutes": 6,
+    "required_for": [
+      "ALL_PARTICIPANTS"
+    ],
+    "objectives_vi": [
+      "Nhận biết điều kiện khôi phục",
+      "Phân biệt học xong với đủ điều kiện nhận vai"
+    ],
+    "cards": [
+      {
+        "id": "L12-C1",
+        "headline_vi": "Chờ Audit Team",
+        "text_vi": "Chỉ khôi phục báo cáo và luồng vật tư sau thông báo hoàn tất điều chỉnh. Không tạo chứng từ lùi vào kỳ kiểm kê."
+      },
+      {
+        "id": "L12-C2",
+        "headline_vi": "Lỗi phát hiện sau đó",
+        "text_vi": "Jira Inventory Correction: mã 1C, tên, lượng, mô tả lỗi, chứng từ liên quan nếu có, nguyên nhân; báo Supervisor/Warehouse Lead."
+      },
+      {
+        "id": "L12-C3",
+        "headline_vi": "Theo dõi hiệu lực",
+        "text_vi": "Người đúng quyền xử lý; theo dõi PDCA/CAPA hằng tuần trong 2 tháng sau kiểm kê theo nguồn."
+      },
+      {
+        "id": "L12-C4",
+        "headline_vi": "Đào tạo đạt",
+        "text_vi": "Đủ bài học + lý thuyết + mô phỏng + sát hạch PDA thật; vai A2/PC/Controller có bài bổ sung. Giao vai cần WCM/Kho xác nhận riêng."
+      }
+    ],
+    "narration_vi": "Ngưỡng90, thời lượng và cấu trúc bài thi trong kit là đề xuất triển khai đào tạo, không phải con số quy định trong SOP. Một người xem 100% bài không được tự xác nhận biết dùng máy thật. WCM xem danh sách thiếu điều kiện theo tên và kíp, không dùng số lượt thi thay số người.",
+    "common_errors_vi": [
+      "Coi mô phỏng là chứng chỉ PDA thật",
+      "Ký đạt khi thiếu quan sát",
+      "Tự điều chỉnh sau khi đã đóng kiểm kê"
+    ],
+    "asset_ids": [
+      "ILL06",
+      "ILL07"
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "8; 9; quy tắc đào tạo đề xuất"
+      }
+    ],
+    "knowledge_check_ids": [
+      "CR_RELEASE-01",
+      "CR_RELEASE-02"
+    ]
+  }
+]

@@ -1,0 +1,152 @@
+{
+  "timezone": "Asia/Ho_Chi_Minh",
+  "day_shift": "08:00–20:00",
+  "night_shift": "20:00–08:00 ngày sau",
+  "source": "Ảnh lịch kíp người dùng cung cấp; ngày lịch được hiểu là ngày bắt đầu ca",
+  "days": [
+    {
+      "date": "2026-11-16",
+      "crews": {
+        "A": "OFF",
+        "B": "OFF",
+        "C": "DAY",
+        "D": "NIGHT"
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "crews": {
+        "A": "NIGHT",
+        "B": "DAY",
+        "C": "OFF",
+        "D": "OFF"
+      }
+    },
+    {
+      "date": "2026-11-18",
+      "crews": {
+        "A": "NIGHT",
+        "B": "DAY",
+        "C": "OFF",
+        "D": "OFF"
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "crews": {
+        "A": "NIGHT",
+        "B": "DAY",
+        "C": "OFF",
+        "D": "OFF"
+      }
+    },
+    {
+      "date": "2026-11-20",
+      "crews": {
+        "A": "OFF",
+        "B": "OFF",
+        "C": "NIGHT",
+        "D": "DAY"
+      }
+    },
+    {
+      "date": "2026-11-21",
+      "crews": {
+        "A": "OFF",
+        "B": "OFF",
+        "C": "NIGHT",
+        "D": "DAY"
+      }
+    },
+    {
+      "date": "2026-11-22",
+      "crews": {
+        "A": "OFF",
+        "B": "OFF",
+        "C": "NIGHT",
+        "D": "DAY"
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "crews": {
+        "A": "DAY",
+        "B": "NIGHT",
+        "C": "OFF",
+        "D": "OFF"
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "crews": {
+        "A": "DAY",
+        "B": "NIGHT",
+        "C": "OFF",
+        "D": "OFF"
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "crews": {
+        "A": "DAY",
+        "B": "NIGHT",
+        "C": "OFF",
+        "D": "OFF"
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "crews": {
+        "A": "OFF",
+        "B": "OFF",
+        "C": "DAY",
+        "D": "NIGHT"
+      }
+    },
+    {
+      "date": "2026-11-27",
+      "crews": {
+        "A": "OFF",
+        "B": "OFF",
+        "C": "DAY",
+        "D": "NIGHT"
+      }
+    },
+    {
+      "date": "2026-11-28",
+      "crews": {
+        "A": "OFF",
+        "B": "OFF",
+        "C": "DAY",
+        "D": "NIGHT"
+      }
+    },
+    {
+      "date": "2026-11-29",
+      "crews": {
+        "A": "NIGHT",
+        "B": "DAY",
+        "C": "OFF",
+        "D": "OFF"
+      }
+    },
+    {
+      "date": "2026-11-30",
+      "crews": {
+        "A": "NIGHT",
+        "B": "DAY",
+        "C": "OFF",
+        "D": "OFF"
+      }
+    },
+    {
+      "date": "2026-12-01",
+      "crews": {
+        "A": "NIGHT",
+        "B": "DAY",
+        "C": "OFF",
+        "D": "OFF"
+      }
+    }
+  ]
+}

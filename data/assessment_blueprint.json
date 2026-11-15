@@ -1,0 +1,110 @@
+{
+  "version": "ASV-INV-2026.11-v1",
+  "policy_origin": "Đề xuất của bộ kế hoạch đào tạo, cần chốt trước mở thi thật",
+  "theory": {
+    "question_count": 20,
+    "minutes": 20,
+    "points_each": 5,
+    "pass_score": 90,
+    "critical_all_correct": true,
+    "pools": [
+      {
+        "pool": "CR_FREEZE",
+        "draw": 1,
+        "critical": true
+      },
+      {
+        "pool": "CR_INDEPENDENCE",
+        "draw": 1,
+        "critical": true
+      },
+      {
+        "pool": "CR_STICKER",
+        "draw": 1,
+        "critical": true
+      },
+      {
+        "pool": "CR_RELEASE",
+        "draw": 1,
+        "critical": true
+      },
+      {
+        "pool": "G_SCOPE_LABEL",
+        "draw": 2,
+        "critical": false
+      },
+      {
+        "pool": "G_PREP",
+        "draw": 2,
+        "critical": false
+      },
+      {
+        "pool": "G_RAW",
+        "draw": 2,
+        "critical": false
+      },
+      {
+        "pool": "G_SFP",
+        "draw": 2,
+        "critical": false
+      },
+      {
+        "pool": "G_MAPPING",
+        "draw": 2,
+        "critical": false
+      },
+      {
+        "pool": "G_EXECUTION",
+        "draw": 2,
+        "critical": false
+      },
+      {
+        "pool": "G_COVERAGE",
+        "draw": 2,
+        "critical": false
+      },
+      {
+        "pool": "G_RECONCILE",
+        "draw": 2,
+        "critical": false
+      }
+    ],
+    "selection": "Server chọn không lặp ID trong lượt; ưu tiên ít gặp ở lần trước, vẫn bảo đảm blueprint; lưu đề/chính sách/version cố định lúc bắt đầu.",
+    "shuffle_options": true,
+    "review_policy": "Đề chính thức không gợi ý khi đang thi; nộp xong hiển thị lỗi và lời giải theo cấu hình. Không mở endpoint lấy toàn bộ key."
+  },
+  "simulation": {
+    "case_count": 10,
+    "minutes": 15,
+    "points_each": 10,
+    "pass_score": 90,
+    "all_critical_pass": true
+  },
+  "hardware": {
+    "minutes": 25,
+    "criteria_count": 20,
+    "points_each": 5,
+    "pass_score": 90,
+    "all_critical_pass": true
+  },
+  "special_roles": {
+    "A2_PC": {
+      "minutes": 20,
+      "points": 50,
+      "pass_score": 45
+    },
+    "CONTROLLER": {
+      "minutes": 15,
+      "points": 30,
+      "pass_score": 25
+    }
+  },
+  "retake": {
+    "fresh_attempt": true,
+    "overwrite": false,
+    "require_remediation": true,
+    "practice_does_not_change_official_pass": true,
+    "latest_completed_official_attempt_controls_result": true
+  },
+  "deadline_exclusive": "2026-12-01T00:00:00+07:00"
+}

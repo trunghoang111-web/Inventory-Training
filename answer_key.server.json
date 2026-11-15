@@ -1,0 +1,55 @@
+{
+  "note_vi": "Chỉ dùng phía máy chủ để chấm; không đưa toàn bộ file này vào bundle của học viên.",
+  "answers": [
+    {
+      "id": "Q01",
+      "correct_option_id": "Q01_1",
+      "explanation_vi": "A, B, C phải là những người riêng biệt trên cùng dữ liệu."
+    },
+    {
+      "id": "Q02",
+      "correct_option_id": "Q02_3",
+      "explanation_vi": "Trong thời gian khóa không chuyển vật tư/SFP giữa khu vực. Giữ hiện trạng và báo người phụ trách."
+    },
+    {
+      "id": "Q03",
+      "correct_option_id": "Q03_2",
+      "explanation_vi": "Ghi đúng thực tế18 pcs; xử lý nhãn và dữ liệu qua đúng tuyến. Không sửa số đếm cho khớp."
+    },
+    {
+      "id": "Q04",
+      "correct_option_id": "Q04_1",
+      "explanation_vi": "Tối đa5 hộp/pallet mỗi lượt, một dòng tương ứng một hộp/pallet để tránh lẫn nhãn."
+    },
+    {
+      "id": "Q05",
+      "correct_option_id": "Q05_3",
+      "explanation_vi": "Tem 1 xác nhận đã kiểm đúng. Sai thì báo Controller và kiểm lại sau sửa; không dán trước."
+    },
+    {
+      "id": "Q06",
+      "correct_option_id": "Q06_2",
+      "explanation_vi": "C chỉ gán Box→P-number→ô sau bước B và có tem 1. Không bỏ qua bước kiểm độc lập."
+    },
+    {
+      "id": "Q07",
+      "correct_option_id": "Q07_1",
+      "explanation_vi": "Mất mạng không có nghĩa chưa ghi. Kiểm trạng thái để tránh ghi trùng hoặc gán sai."
+    },
+    {
+      "id": "Q08",
+      "correct_option_id": "Q08_3",
+      "explanation_vi": "PDT hoàn tất từng phiếu mới dán tem 3 lên ô đã quét rồi báo PC; PC kiểm kết quả và chuyển Completed."
+    },
+    {
+      "id": "Q09",
+      "correct_option_id": "Q09_2",
+      "explanation_vi": "40−42=−2. Ghi đúng thực tế, giữ bằng chứng, báo đúng người; không tự điều chỉnh 1C."
+    },
+    {
+      "id": "Q10",
+      "correct_option_id": "Q10_1",
+      "explanation_vi": "Chỉ mở lại sau thông báo Audit Team hoàn tất điều chỉnh; ngày kế hoạch không thay xác nhận. Không hạch toán lùi kỳ."
+    }
+  ]
+}

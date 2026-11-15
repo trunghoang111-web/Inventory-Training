@@ -1,0 +1,272 @@
+[
+  {
+    "id": "SRC01",
+    "path": "assets/source/SRC01.jpg",
+    "kind": "source_document_image",
+    "caption_vi": "Logo Ajax từ tài liệu nguồn",
+    "source": "AG03-WH-092_A supplied Word export",
+    "exact_ui_reference": false,
+    "usage_note": "Ảnh tài liệu nguồn; đối chiếu UI và quyền hiện hành với Kho/IT. Không suy ra màu tem cố định."
+  },
+  {
+    "id": "SRC02",
+    "path": "assets/source/SRC02.jpg",
+    "kind": "source_document_image",
+    "caption_vi": "Pallet nhựa đen cho PCB",
+    "source": "AG03-WH-092_A supplied Word export",
+    "exact_ui_reference": false,
+    "usage_note": "Ảnh tài liệu nguồn; đối chiếu UI và quyền hiện hành với Kho/IT. Không suy ra màu tem cố định."
+  },
+  {
+    "id": "SRC03",
+    "path": "assets/source/SRC03.jpg",
+    "kind": "source_document_image",
+    "caption_vi": "Pallet gỗ để kê hộp",
+    "source": "AG03-WH-092_A supplied Word export",
+    "exact_ui_reference": false,
+    "usage_note": "Ảnh tài liệu nguồn; đối chiếu UI và quyền hiện hành với Kho/IT. Không suy ra màu tem cố định."
+  },
+  {
+    "id": "SRC04",
+    "path": "assets/source/SRC04.jpg",
+    "kind": "source_document_image",
+    "caption_vi": "Nhãn P-number",
+    "source": "AG03-WH-092_A supplied Word export",
+    "exact_ui_reference": false,
+    "usage_note": "Ảnh tài liệu nguồn; đối chiếu UI và quyền hiện hành với Kho/IT. Không suy ra màu tem cố định."
+  },
+  {
+    "id": "SRC05",
+    "path": "assets/source/SRC05.jpg",
+    "kind": "source_document_image",
+    "caption_vi": "Pallet PCB và phiếu đi kèm",
+    "source": "AG03-WH-092_A supplied Word export",
+    "exact_ui_reference": false,
+    "usage_note": "Ảnh tài liệu nguồn; đối chiếu UI và quyền hiện hành với Kho/IT. Không suy ra màu tem cố định."
+  },
+  {
+    "id": "SRC06",
+    "path": "assets/source/SRC06.jpg",
+    "kind": "source_document_image",
+    "caption_vi": "Các hộp trên pallet gỗ",
+    "source": "AG03-WH-092_A supplied Word export",
+    "exact_ui_reference": false,
+    "usage_note": "Ảnh tài liệu nguồn; đối chiếu UI và quyền hiện hành với Kho/IT. Không suy ra màu tem cố định."
+  },
+  {
+    "id": "SRC07",
+    "path": "assets/source/SRC07.jpg",
+    "kind": "source_document_image",
+    "caption_vi": "P-number và mã ô tại vị trí",
+    "source": "AG03-WH-092_A supplied Word export",
+    "exact_ui_reference": false,
+    "usage_note": "Ảnh tài liệu nguồn; đối chiếu UI và quyền hiện hành với Kho/IT. Không suy ra màu tem cố định."
+  },
+  {
+    "id": "SRC08",
+    "path": "assets/source/SRC08.jpg",
+    "kind": "source_document_image",
+    "caption_vi": "Nhãn WMS trên hộp và kệ",
+    "source": "AG03-WH-092_A supplied Word export",
+    "exact_ui_reference": false,
+    "usage_note": "Ảnh tài liệu nguồn; đối chiếu UI và quyền hiện hành với Kho/IT. Không suy ra màu tem cố định."
+  },
+  {
+    "id": "SRC09",
+    "path": "assets/source/SRC09.jpg",
+    "kind": "source_document_image",
+    "caption_vi": "Bảng tiền tố ô theo tài liệu nguồn; cần Kho xác nhận phạm vi 2026",
+    "source": "AG03-WH-092_A supplied Word export",
+    "exact_ui_reference": false,
+    "usage_note": "Ảnh tài liệu nguồn; đối chiếu UI và quyền hiện hành với Kho/IT. Không suy ra màu tem cố định."
+  },
+  {
+    "id": "SRC10",
+    "path": "assets/source/SRC10.jpg",
+    "kind": "source_document_image",
+    "caption_vi": "Vật tư tem tròn nhiều màu",
+    "source": "AG03-WH-092_A supplied Word export",
+    "exact_ui_reference": false,
+    "usage_note": "Ảnh tài liệu nguồn; đối chiếu UI và quyền hiện hành với Kho/IT. Không suy ra màu tem cố định."
+  },
+  {
+    "id": "SRC11",
+    "path": "assets/source/SRC11.jpg",
+    "kind": "source_document_image",
+    "caption_vi": "Cuộn tem màu",
+    "source": "AG03-WH-092_A supplied Word export",
+    "exact_ui_reference": false,
+    "usage_note": "Ảnh tài liệu nguồn; đối chiếu UI và quyền hiện hành với Kho/IT. Không suy ra màu tem cố định."
+  },
+  {
+    "id": "SRC12",
+    "path": "assets/source/SRC12.jpg",
+    "kind": "source_document_image",
+    "caption_vi": "Cuộn tem chữ nhật",
+    "source": "AG03-WH-092_A supplied Word export",
+    "exact_ui_reference": false,
+    "usage_note": "Ảnh tài liệu nguồn; đối chiếu UI và quyền hiện hành với Kho/IT. Không suy ra màu tem cố định."
+  },
+  {
+    "id": "SRC13",
+    "path": "assets/source/SRC13.jpg",
+    "kind": "source_document_image",
+    "caption_vi": "Khay PCB và nhãn WMS",
+    "source": "AG03-WH-092_A supplied Word export",
+    "exact_ui_reference": false,
+    "usage_note": "Ảnh tài liệu nguồn; đối chiếu UI và quyền hiện hành với Kho/IT. Không suy ra màu tem cố định."
+  },
+  {
+    "id": "SRC14",
+    "path": "assets/source/SRC14.jpg",
+    "kind": "source_document_image",
+    "caption_vi": "Nhãn Box: mã hàng, số lượng và RECID",
+    "source": "AG03-WH-092_A supplied Word export",
+    "exact_ui_reference": false,
+    "usage_note": "Ảnh tài liệu nguồn; đối chiếu UI và quyền hiện hành với Kho/IT. Không suy ra màu tem cố định."
+  },
+  {
+    "id": "SRC15",
+    "path": "assets/source/SRC15.jpg",
+    "kind": "source_document_image",
+    "caption_vi": "Menu báo cáo độ phủ ô",
+    "source": "AG03-WH-092_A supplied Word export",
+    "exact_ui_reference": true,
+    "usage_note": "Ảnh tài liệu nguồn; đối chiếu UI và quyền hiện hành với Kho/IT. Không suy ra màu tem cố định."
+  },
+  {
+    "id": "SRC16",
+    "path": "assets/source/SRC16.jpg",
+    "kind": "source_document_image",
+    "caption_vi": "Bộ lọc kỳ, kho và ô",
+    "source": "AG03-WH-092_A supplied Word export",
+    "exact_ui_reference": true,
+    "usage_note": "Ảnh tài liệu nguồn; đối chiếu UI và quyền hiện hành với Kho/IT. Không suy ra màu tem cố định."
+  },
+  {
+    "id": "SRC17",
+    "path": "assets/source/SRC17.jpg",
+    "kind": "source_document_image",
+    "caption_vi": "Kết quả báo cáo độ phủ",
+    "source": "AG03-WH-092_A supplied Word export",
+    "exact_ui_reference": true,
+    "usage_note": "Ảnh tài liệu nguồn; đối chiếu UI và quyền hiện hành với Kho/IT. Không suy ra màu tem cố định."
+  },
+  {
+    "id": "SRC18",
+    "path": "assets/source/SRC18.jpg",
+    "kind": "source_document_image",
+    "caption_vi": "Các ô chưa vào kiểm kê được tô đỏ",
+    "source": "AG03-WH-092_A supplied Word export",
+    "exact_ui_reference": true,
+    "usage_note": "Ảnh tài liệu nguồn; đối chiếu UI và quyền hiện hành với Kho/IT. Không suy ra màu tem cố định."
+  },
+  {
+    "id": "ILL01",
+    "path": "assets/illustrations/ILL01.png",
+    "kind": "ai_illustration",
+    "caption_vi": "Khóa di chuyển trong kiểm kê",
+    "source": "Minh họa đã tạo cho bộ đào tạo",
+    "exact_ui_reference": false,
+    "usage_note": "Minh họa, không phải ảnh thao tác chuẩn WMS hay bằng chứng kiểm kê. Không chấm số lượng dựa trên ảnh."
+  },
+  {
+    "id": "ILL02",
+    "path": "assets/illustrations/ILL02.png",
+    "kind": "ai_illustration",
+    "caption_vi": "Đếm vật tư thực tế",
+    "source": "Minh họa đã tạo cho bộ đào tạo",
+    "exact_ui_reference": false,
+    "usage_note": "Minh họa, không phải ảnh thao tác chuẩn WMS hay bằng chứng kiểm kê. Không chấm số lượng dựa trên ảnh."
+  },
+  {
+    "id": "ILL03",
+    "path": "assets/illustrations/ILL03.png",
+    "kind": "ai_illustration",
+    "caption_vi": "Kiểm độc lập và tem 1",
+    "source": "Minh họa đã tạo cho bộ đào tạo",
+    "exact_ui_reference": false,
+    "usage_note": "Minh họa, không phải ảnh thao tác chuẩn WMS hay bằng chứng kiểm kê. Không chấm số lượng dựa trên ảnh."
+  },
+  {
+    "id": "ILL04",
+    "path": "assets/illustrations/ILL04.png",
+    "kind": "ai_illustration",
+    "caption_vi": "PC và PDA thực hiện kiểm kê",
+    "source": "Minh họa đã tạo cho bộ đào tạo",
+    "exact_ui_reference": false,
+    "usage_note": "Minh họa, không phải ảnh thao tác chuẩn WMS hay bằng chứng kiểm kê. Không chấm số lượng dựa trên ảnh."
+  },
+  {
+    "id": "ILL05",
+    "path": "assets/illustrations/ILL05.png",
+    "kind": "ai_illustration",
+    "caption_vi": "Đếm lại khi có chênh lệch",
+    "source": "Minh họa đã tạo cho bộ đào tạo",
+    "exact_ui_reference": false,
+    "usage_note": "Minh họa, không phải ảnh thao tác chuẩn WMS hay bằng chứng kiểm kê. Không chấm số lượng dựa trên ảnh."
+  },
+  {
+    "id": "ILL06",
+    "path": "assets/illustrations/ILL06.png",
+    "kind": "ai_illustration",
+    "caption_vi": "Chờ xác nhận mở lại từ Audit Team",
+    "source": "Minh họa đã tạo cho bộ đào tạo",
+    "exact_ui_reference": false,
+    "usage_note": "Minh họa, không phải ảnh thao tác chuẩn WMS hay bằng chứng kiểm kê. Không chấm số lượng dựa trên ảnh."
+  },
+  {
+    "id": "ILL07",
+    "path": "assets/illustrations/ILL07.png",
+    "kind": "ai_illustration",
+    "caption_vi": "Sát hạch cá nhân với PDA thật",
+    "source": "Minh họa đã tạo cho bộ đào tạo",
+    "exact_ui_reference": false,
+    "usage_note": "Minh họa, không phải ảnh thao tác chuẩn WMS hay bằng chứng kiểm kê. Không chấm số lượng dựa trên ảnh."
+  },
+  {
+    "id": "ILL08",
+    "path": "assets/illustrations/ILL08.png",
+    "kind": "ai_illustration",
+    "caption_vi": "Đọc phản hồi sau quét",
+    "source": "Minh họa đã tạo cho bộ đào tạo",
+    "exact_ui_reference": false,
+    "usage_note": "Minh họa, không phải ảnh thao tác chuẩn WMS hay bằng chứng kiểm kê. Không chấm số lượng dựa trên ảnh."
+  },
+  {
+    "id": "EXC01",
+    "path": "assets/illustrations/EXC01.png",
+    "kind": "ai_illustration",
+    "caption_vi": "Lẫn model/phiên bản",
+    "source": "Minh họa tình huống",
+    "exact_ui_reference": false,
+    "usage_note": "Chỉ minh họa nhận diện; dữ liệu bài tập là dữ liệu chữ/token trong app."
+  },
+  {
+    "id": "EXC02",
+    "path": "assets/illustrations/EXC02.png",
+    "kind": "ai_illustration",
+    "caption_vi": "Bán thành phẩm đang sửa chữa/chưa đủ công đoạn",
+    "source": "Minh họa tình huống",
+    "exact_ui_reference": false,
+    "usage_note": "Chỉ minh họa nhận diện; dữ liệu bài tập là dữ liệu chữ/token trong app."
+  },
+  {
+    "id": "EXC03",
+    "path": "assets/illustrations/EXC03.png",
+    "kind": "ai_illustration",
+    "caption_vi": "Linh kiện thêm ngoài định mức SFP",
+    "source": "Minh họa tình huống",
+    "exact_ui_reference": false,
+    "usage_note": "Chỉ minh họa nhận diện; dữ liệu bài tập là dữ liệu chữ/token trong app."
+  },
+  {
+    "id": "EXC04",
+    "path": "assets/illustrations/EXC04.png",
+    "kind": "ai_illustration",
+    "caption_vi": "Nhãn rách hoặc không đọc được",
+    "source": "Minh họa tình huống",
+    "exact_ui_reference": false,
+    "usage_note": "Chỉ minh họa nhận diện; dữ liệu bài tập là dữ liệu chữ/token trong app."
+  }
+]

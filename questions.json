@@ -1,0 +1,219 @@
+{
+  "pass_correct": 9,
+  "total_questions": 10,
+  "time_limit_minutes": null,
+  "questions": [
+    {
+      "id": "Q01",
+      "question_vi": "Ai nên kiểm bước B cho hộp do A vừa đếm?",
+      "options": [
+        {
+          "id": "Q01_1",
+          "text_vi": "Một người khác A được giao kiểm độc lập"
+        },
+        {
+          "id": "Q01_2",
+          "text_vi": "Chính A kiểm thêm một lần"
+        },
+        {
+          "id": "Q01_3",
+          "text_vi": "Ai dùng tài khoản của B cũng được"
+        }
+      ],
+      "review_slide_ids": [
+        "S03"
+      ]
+    },
+    {
+      "id": "Q02",
+      "question_vi": "Đang khóa kiểm kê, có yêu cầu chuyển gấp hàng sang công đoạn tiếp theo. Bạn làm gì?",
+      "options": [
+        {
+          "id": "Q02_1",
+          "text_vi": "Chuyển trước, cập nhật hệ thống sau"
+        },
+        {
+          "id": "Q02_2",
+          "text_vi": "Chỉ chuyển hàng thật, không tạo phiếu"
+        },
+        {
+          "id": "Q02_3",
+          "text_vi": "Giữ hàng tại chỗ, không chuyển và báo GL"
+        }
+      ],
+      "review_slide_ids": [
+        "S04"
+      ]
+    },
+    {
+      "id": "Q03",
+      "question_vi": "Hộp đã mở có nhãn20 pcs nhưng bạn đếm được18 pcs. Nên ghi thế nào?",
+      "options": [
+        {
+          "id": "Q03_1",
+          "text_vi": "Ghi số bình quân19 pcs"
+        },
+        {
+          "id": "Q03_2",
+          "text_vi": "Ghi 18 pcs và báo xử lý chênh lệch theo đúng quyền"
+        },
+        {
+          "id": "Q03_3",
+          "text_vi": "Ghi 20 pcs vì trên nhãn ghi như vậy"
+        }
+      ],
+      "review_slide_ids": [
+        "S08"
+      ]
+    },
+    {
+      "id": "Q04",
+      "question_vi": "A gửi số đếm SFP cho A2 như thế nào?",
+      "options": [
+        {
+          "id": "Q04_1",
+          "text_vi": "Mỗi lượt tối đa 5 hộp/pallet, mỗi hộp một dòng"
+        },
+        {
+          "id": "Q04_2",
+          "text_vi": "Gộp tất cả hộp cùng mã thành một dòng"
+        },
+        {
+          "id": "Q04_3",
+          "text_vi": "Chỉ gửi tổng số của cả khu vực"
+        }
+      ],
+      "review_slide_ids": [
+        "S09"
+      ]
+    },
+    {
+      "id": "Q05",
+      "question_vi": "Khi nào B được dán tem 1?",
+      "options": [
+        {
+          "id": "Q05_1",
+          "text_vi": "Ngay khi nhìn thấy hộp"
+        },
+        {
+          "id": "Q05_2",
+          "text_vi": "Trước khi đếm để đánh dấu đã đi qua"
+        },
+        {
+          "id": "Q05_3",
+          "text_vi": "Sau khi kiểm mã hàng và số thực tế khớp nhãn"
+        }
+      ],
+      "review_slide_ids": [
+        "S10"
+      ]
+    },
+    {
+      "id": "Q06",
+      "question_vi": "Hộp chưa có tem 1, người C nên làm gì?",
+      "options": [
+        {
+          "id": "Q06_1",
+          "text_vi": "Dán tem 2 thay cho tem 1"
+        },
+        {
+          "id": "Q06_2",
+          "text_vi": "Dừng hộp và báo GL/Controller để hoàn tất bước kiểm B"
+        },
+        {
+          "id": "Q06_3",
+          "text_vi": "Gán vị trí trước rồi bổ sung tem 1 sau"
+        }
+      ],
+      "review_slide_ids": [
+        "S11",
+        "S12"
+      ]
+    },
+    {
+      "id": "Q07",
+      "question_vi": "PDA báo mất mạng ngay sau khi lưu. Bạn nên làm gì trước?",
+      "options": [
+        {
+          "id": "Q07_1",
+          "text_vi": "Kiểm trạng thái giao dịch đã ghi trước khi thử lại"
+        },
+        {
+          "id": "Q07_2",
+          "text_vi": "Bấm lưu nhiều lần cho chắc"
+        },
+        {
+          "id": "Q07_3",
+          "text_vi": "Tạo mã hộp mới để quét tiếp"
+        }
+      ],
+      "review_slide_ids": [
+        "S13"
+      ]
+    },
+    {
+      "id": "Q08",
+      "question_vi": "Tem 3 được dán khi nào và ở đâu?",
+      "options": [
+        {
+          "id": "Q08_1",
+          "text_vi": "Ngay khi tạo phiếu, lên nhãn hộp"
+        },
+        {
+          "id": "Q08_2",
+          "text_vi": "Sau bước B, đè kín tem 1"
+        },
+        {
+          "id": "Q08_3",
+          "text_vi": "Sau hoàn tất phiếu PDT được giao, lên các ô đã quét"
+        }
+      ],
+      "review_slide_ids": [
+        "S12",
+        "S14"
+      ]
+    },
+    {
+      "id": "Q09",
+      "question_vi": "Một mã có hệ thống42 pcs, kiểm thực tế mọi ô được40 pcs. Chênh lệch thực tế−hệ thống là bao nhiêu?",
+      "options": [
+        {
+          "id": "Q09_1",
+          "text_vi": "Không lệch vì chỉ khác 2pcs"
+        },
+        {
+          "id": "Q09_2",
+          "text_vi": "Thiếu 2pcs, chênh lệch −2"
+        },
+        {
+          "id": "Q09_3",
+          "text_vi": "Thừa 2pcs, chênh lệch+2"
+        }
+      ],
+      "review_slide_ids": [
+        "S18"
+      ]
+    },
+    {
+      "id": "Q10",
+      "question_vi": "Đã hết ngày 27/12 nhưng chưa có xác nhận Audit Team hoàn tất điều chỉnh. Bạn làm gì?",
+      "options": [
+        {
+          "id": "Q10_1",
+          "text_vi": "Tiếp tục giữ khóa và chờ xác nhận"
+        },
+        {
+          "id": "Q10_2",
+          "text_vi": "Mở lại vì đã hết thời gian kế hoạch"
+        },
+        {
+          "id": "Q10_3",
+          "text_vi": "Tự nhập báo cáo với ngày nằm trong kỳ kiểm kê"
+        }
+      ],
+      "review_slide_ids": [
+        "S19"
+      ]
+    }
+  ]
+}

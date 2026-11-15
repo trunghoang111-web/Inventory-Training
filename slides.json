@@ -1,0 +1,195 @@
+{
+  "course_id": "ASV_INVENTORY_SIMPLE",
+  "version": "2026.11-simple-v2",
+  "title_vi": "Học kiểm kê Sản xuất",
+  "slides": [
+    {
+      "id": "S01",
+      "order": 1,
+      "type": "image",
+      "image": "slides/slide-01.jpg",
+      "title_vi": "Kiểm kê Sản xuất",
+      "remember_vi": "Học theo từng trang, sau đó làm bài kiểm tra để xác nhận hiểu quy trình.",
+      "source_slide": 1
+    },
+    {
+      "id": "S02",
+      "order": 2,
+      "type": "image",
+      "image": "slides/slide-02.jpg",
+      "title_vi": "Ba giai đoạn kiểm kê",
+      "remember_vi": "Nhớ ba giai đoạn: chuẩn bị → kiểm kê WMS → rà soát kết quả.",
+      "source_slide": 2
+    },
+    {
+      "id": "S03",
+      "order": 3,
+      "type": "image",
+      "image": "slides/slide-03.jpg",
+      "title_vi": "A B C là ba người riêng biệt",
+      "remember_vi": "A đếm, B kiểm độc lập, C gán vị trí. Ba người khác nhau trên cùng dữ liệu.",
+      "source_slide": 3
+    },
+    {
+      "id": "S04",
+      "order": 4,
+      "type": "image",
+      "image": "slides/slide-04.jpg",
+      "title_vi": "Khóa di chuyển trong thời gian kiểm kê",
+      "remember_vi": "Trong thời gian khóa: giữ hiện trạng, không chuyển hàng giữa khu vực, bất thường báo GL.",
+      "source_slide": 4
+    },
+    {
+      "id": "S05",
+      "order": 5,
+      "type": "image",
+      "image": "slides/slide-05.jpg",
+      "title_vi": "Một hộp hoặc pallet chỉ một mã",
+      "remember_vi": "Tách riêng mã hàng, phiên bản, màu và trạng thái; không để lẫn trong một hộp/pallet.",
+      "source_slide": 5
+    },
+    {
+      "id": "S06",
+      "order": 6,
+      "type": "image",
+      "image": "slides/slide-06.jpg",
+      "title_vi": "Hộp lưu dưới sàn phải đặt trên pallet",
+      "remember_vi": "Hộp lưu dưới sàn phải kê trên pallet gỗ, không đặt trực tiếp xuống sàn.",
+      "source_slide": 6
+    },
+    {
+      "id": "S07",
+      "order": 7,
+      "type": "image",
+      "image": "slides/slide-07.jpg",
+      "title_vi": "Phân biệt Box P-number và ô WMS",
+      "remember_vi": "Box là hộp; P-number là pallet WMS; ô WMS là địa chỉ lưu trữ.",
+      "source_slide": 7
+    },
+    {
+      "id": "S08",
+      "order": 8,
+      "type": "image",
+      "image": "slides/slide-08.jpg",
+      "title_vi": "A đếm từng hộp theo thực tế",
+      "remember_vi": "Đếm từng hộp, xác nhận đơn vị tính. Không sửa số đếm cho khớp nhãn.",
+      "source_slide": 8
+    },
+    {
+      "id": "S09",
+      "order": 9,
+      "type": "image",
+      "image": "slides/slide-09.jpg",
+      "title_vi": "A gửi số đếm A2 nhập và in nhãn",
+      "remember_vi": "Gửi tối đa 5 hộp/pallet mỗi lượt, mỗi hộp một dòng mã–số lượng; nhận nhãn phải kiểm lại trước dán.",
+      "source_slide": 9
+    },
+    {
+      "id": "S10",
+      "order": 10,
+      "type": "image",
+      "image": "slides/slide-10.jpg",
+      "title_vi": "B kiểm độc lập trước khi dán tem 1",
+      "remember_vi": "B kiểm hàng, mã và số thực tế. Đúng mới dán tem 1; sai báo Controller để xử lý rồi kiểm lại.",
+      "source_slide": 10
+    },
+    {
+      "id": "S11",
+      "order": 11,
+      "type": "image",
+      "image": "slides/slide-11.jpg",
+      "title_vi": "C gán đúng hộp pallet và ô",
+      "remember_vi": "Chỉ làm khi đã có tem 1: gán Box vào P-number, rồi P-number vào ô; kiểm kết quả trước dán tem 2.",
+      "source_slide": 11
+    },
+    {
+      "id": "S12",
+      "order": 12,
+      "type": "image",
+      "image": "slides/slide-12.jpg",
+      "title_vi": "Tem xác nhận từng bước đã hoàn tất",
+      "remember_vi": "Tem 1 và tem 2 trên nhãn hộp; tem 2 chồng lệch để nhìn được cả hai. Tem 3 trên ô sau hoàn tất phiếu. Màu do Kho công bố.",
+      "source_slide": 12
+    },
+    {
+      "id": "S13",
+      "order": 13,
+      "type": "image",
+      "image": "slides/slide-13.jpg",
+      "title_vi": "Quét xong phải đọc kết quả",
+      "remember_vi": "Sau quét phải đọc phản hồi. Nếu mất mạng, kiểm trạng thái đã ghi trước khi thử lại.",
+      "source_slide": 13
+    },
+    {
+      "id": "S14",
+      "order": 14,
+      "type": "image",
+      "image": "slides/slide-14.jpg",
+      "title_vi": "Kiểm kê WMS cần người PC và PDT",
+      "remember_vi": "Chỉ bắt đầu khi mọi khu vực đã chuẩn bị xong và đã báo Audit Team. PC tạo phiếu rồi đóng cửa sổ; PDT hoàn tất mới dán tem 3 lên ô và báo PC; PC kiểm rồi Completed.",
+      "source_slide": 14
+    },
+    {
+      "id": "S15",
+      "order": 15,
+      "type": "image",
+      "image": "slides/slide-15.jpg",
+      "title_vi": "Báo cáo kiểm tra đủ ô kiểm kê",
+      "remember_vi": "Rà đúng kỳ và phạm vi ô trong Analysis of cell presence in inventory; không chỉ nhìn các kệ chính.",
+      "source_slide": 15
+    },
+    {
+      "id": "S16",
+      "order": 16,
+      "type": "image",
+      "image": "slides/slide-16.jpg",
+      "title_vi": "Ô hoạt động màu đỏ phải kiểm bổ sung",
+      "remember_vi": "Ô đỏ còn hoạt động cần kiểm bổ sung. Ô trống không còn dùng phải xác minh và xử lý đúng thủ tục, không xóa mọi ô đỏ.",
+      "source_slide": 16
+    },
+    {
+      "id": "S17",
+      "order": 17,
+      "type": "image",
+      "image": "slides/slide-17.jpg",
+      "title_vi": "Tình huống cần giữ hiện trạng và báo",
+      "remember_vi": "Giữ đúng trạng thái/vị trí trong lúc kiểm kê và báo GL/Controller. REF kiểm riêng theo mã REF; linh kiện ngoài specification của SFP kiểm riêng như linh kiện, không gộp vào SFP.",
+      "source_slide": 17
+    },
+    {
+      "id": "S18",
+      "order": 18,
+      "type": "image",
+      "image": "slides/slide-18.jpg",
+      "title_vi": "Kiểm lại một mã tại mọi ô có tồn",
+      "remember_vi": "Kiểm mọi ô của cùng một mã. Hệ thống 32+10=42; thực tế 30+10=40; chênh lệch thực tế−hệ thống=−2. Không tự sửa 1C.",
+      "source_slide": 18
+    },
+    {
+      "id": "S19",
+      "order": 19,
+      "type": "image",
+      "image": "slides/slide-19.jpg",
+      "title_vi": "Mở lại sau xác nhận của Audit Team",
+      "remember_vi": "Chỉ mở lại sau Audit Team xác nhận hoàn tất điều chỉnh. Không hạch toán lùi ngày vào kỳ kiểm kê.",
+      "source_slide": 19
+    },
+    {
+      "id": "S20",
+      "order": 20,
+      "type": "summary",
+      "title_vi": "Bạn đã học xong. Cùng kiểm tra lại nhé!",
+      "remember_vi": "Bài kiểm tra có 10 câu. Chọn một đáp án mỗi câu. Đạt từ 9 câu đúng. Chưa đạt có thể ôn lại rồi làm lại.",
+      "bullets_vi": [
+        "A, B, C là ba người riêng biệt.",
+        "Đúng mã, số lượng, đơn vị và vị trí.",
+        "Đủ bước mới dán tem; sau quét phải đọc kết quả.",
+        "Có sai lệch: giữ hiện trạng và báo đúng người.",
+        "Chờ Audit Team xác nhận trước khi mở lại."
+      ],
+      "source_slide": null
+    }
+  ],
+  "source_note_vi": "Trang 1–19 từ slide trực quan đã cung cấp. Trang 20 cũ về sát hạch PDA 25 phút không dùng trong app đơn giản; thay bằng thẻ tổng kết chữ lớn. File PPTX gốc chỉ là tham chiếu.",
+  "estimated_minutes": "Khoảng 15–20phút học và 5–10phút kiểm tra; không đặt đồng hồ đếm ngược."
+}

@@ -1,0 +1,665 @@
+[
+  {
+    "id": "SIM01",
+    "title_vi": "Hộp NVL thiếu so với nhãn",
+    "lesson_id": "L05",
+    "assessed": true,
+    "points": 10,
+    "task_vi": "Đếm token thật trên màn hình, nhập pcs và chọn tuyến xử lý nhãn 20.",
+    "context": {
+      "box": "SIM-ASV-BOX-01",
+      "label_qty": 20,
+      "unit": "pcs",
+      "material": "SIM-ASV-M01",
+      "count_tokens": [
+        "PCB-01",
+        "PCB-02",
+        "PCB-03",
+        "PCB-04",
+        "PCB-05",
+        "PCB-06",
+        "PCB-07",
+        "PCB-08",
+        "PCB-09",
+        "PCB-10",
+        "PCB-11",
+        "PCB-12",
+        "PCB-13",
+        "PCB-14",
+        "PCB-15",
+        "PCB-16",
+        "PCB-17",
+        "PCB-18"
+      ],
+      "actor_has_writeoff_permission": false
+    },
+    "controls": [
+      {
+        "event_type": "COUNT_SUBMITTED",
+        "label_vi": "Nhập lượng đếm",
+        "fields": [
+          "qty",
+          "unit"
+        ]
+      },
+      {
+        "event_type": "ROUTE_CHOSEN",
+        "label_vi": "Chọn cách xử lý",
+        "fields": [
+          "route"
+        ]
+      },
+      {
+        "event_type": "LABEL_VERIFIED",
+        "label_vi": "Kiểm nhãn mới",
+        "fields": [
+          "qty",
+          "old_label_removed"
+        ]
+      },
+      {
+        "event_type": "MARK_A",
+        "label_vi": "Đánh dấu A",
+        "fields": []
+      },
+      {
+        "event_type": "COMMIT_FAKE_QTY",
+        "label_vi": "Ghi20 để khớp",
+        "fields": []
+      }
+    ],
+    "asset_ids": [
+      "ILL02"
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.1"
+      }
+    ],
+    "mode_note": "MÔ PHỎNG · không kết nối WMS/1C · mọi mã SIM-ASV chỉ dùng trong app"
+  },
+  {
+    "id": "SIM02",
+    "title_vi": "Đúng đơn vị tính",
+    "lesson_id": "L05",
+    "assessed": true,
+    "points": 10,
+    "task_vi": "Có3 gói nguyên, quy cách5 pcs/gói. Trường nhập yêu cầu pcs.",
+    "context": {
+      "pack_count": 3,
+      "pcs_per_pack": 5,
+      "requested_unit": "pcs"
+    },
+    "controls": [
+      {
+        "event_type": "UNIT_CONFIRMED",
+        "label_vi": "Chọn đơn vị",
+        "fields": [
+          "unit"
+        ]
+      },
+      {
+        "event_type": "COUNT_SUBMITTED",
+        "label_vi": "Nhập lượng",
+        "fields": [
+          "qty",
+          "unit"
+        ]
+      }
+    ],
+    "asset_ids": [],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.1"
+      }
+    ],
+    "mode_note": "MÔ PHỎNG · không kết nối WMS/1C · mọi mã SIM-ASV chỉ dùng trong app"
+  },
+  {
+    "id": "SIM03",
+    "title_vi": "Gửi dữ liệu SFP không lẫn hộp",
+    "lesson_id": "L06",
+    "assessed": true,
+    "points": 10,
+    "task_vi": "Tạo các lượt gửi cho 6 hộp. Mỗi dòng một hộp; mỗi lượt tối đa5. Giữ thứ tự đếm.",
+    "context": {
+      "thread": "SIM-ASV-CHAT-FIRE",
+      "boxes": [
+        {
+          "box": "SIM-ASV-SFP-1",
+          "material": "SIM-ASV-SF01",
+          "qty": 12
+        },
+        {
+          "box": "SIM-ASV-SFP-2",
+          "material": "SIM-ASV-SF01",
+          "qty": 15
+        },
+        {
+          "box": "SIM-ASV-SFP-3",
+          "material": "SIM-ASV-SF02",
+          "qty": 8
+        },
+        {
+          "box": "SIM-ASV-SFP-4",
+          "material": "SIM-ASV-SF02",
+          "qty": 9
+        },
+        {
+          "box": "SIM-ASV-SFP-5",
+          "material": "SIM-ASV-SF02",
+          "qty": 11
+        },
+        {
+          "box": "SIM-ASV-SFP-6",
+          "material": "SIM-ASV-SF02",
+          "qty": 6
+        }
+      ]
+    },
+    "controls": [
+      {
+        "event_type": "CHAT_BATCH",
+        "label_vi": "Gửi lượt mô phỏng",
+        "fields": [
+          "thread",
+          "lines"
+        ]
+      }
+    ],
+    "asset_ids": [
+      "SRC05"
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.2"
+      }
+    ],
+    "mode_note": "MÔ PHỎNG · không kết nối WMS/1C · mọi mã SIM-ASV chỉ dùng trong app"
+  },
+  {
+    "id": "SIM04",
+    "title_vi": "B kiểm độc lập",
+    "lesson_id": "L07",
+    "assessed": true,
+    "points": 10,
+    "task_vi": "Bạn làSIM-B, kiểm hộp củaSIM-A. Nhãn7 pcs, thực tế7 pcs, mã/phiên bản đúng. Chọn người và xác nhận tem.",
+    "context": {
+      "counted_by": "SIM-A",
+      "current_actor": "SIM-B",
+      "label_qty": 7,
+      "actual_qty": 7,
+      "item_match": true,
+      "sticker1": false
+    },
+    "controls": [
+      {
+        "event_type": "VERIFIER_CONFIRMED",
+        "label_vi": "Chọn người kiểm",
+        "fields": [
+          "actor"
+        ]
+      },
+      {
+        "event_type": "VERIFY_BOX",
+        "label_vi": "Đối chiếu",
+        "fields": [
+          "item_match",
+          "qty_match"
+        ]
+      },
+      {
+        "event_type": "APPLY_STICKER1",
+        "label_vi": "Dán tem 1",
+        "fields": [
+          "placement",
+          "covers_data"
+        ]
+      },
+      {
+        "event_type": "COMMIT_SELF_VERIFY",
+        "label_vi": "Để A tự kiểm",
+        "fields": []
+      }
+    ],
+    "asset_ids": [
+      "ILL03"
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.1–6.2.2"
+      }
+    ],
+    "mode_note": "MÔ PHỎNG · không kết nối WMS/1C · mọi mã SIM-ASV chỉ dùng trong app"
+  },
+  {
+    "id": "SIM05",
+    "title_vi": "Quét hai tầng và tem 2",
+    "lesson_id": "L08",
+    "assessed": true,
+    "points": 10,
+    "task_vi": "Box đã có tem 1. Gán về đúng pallet/ô theo thẻ giao việc rồi dán tem 2.",
+    "context": {
+      "box": "SIM-ASV-BOX-05",
+      "assigned_pallet": "SIM-ASV-PALLET-05",
+      "assigned_cell": "SIM-ASV-CELL-05",
+      "sticker1": true,
+      "visible_scan_choices": [
+        "SIM-ASV-BOX-05",
+        "SIM-ASV-PALLET-05",
+        "SIM-ASV-CELL-05",
+        "SIM-ASV-CELL-06"
+      ]
+    },
+    "controls": [
+      {
+        "event_type": "SCAN_PREVIEW",
+        "label_vi": "Quét mã tạm",
+        "fields": [
+          "code"
+        ]
+      },
+      {
+        "event_type": "COMMIT_BOX_PALLET",
+        "label_vi": "Xác nhận Box→Pallet",
+        "fields": [
+          "box",
+          "pallet"
+        ]
+      },
+      {
+        "event_type": "CONFIRM_MAPPING_RESULT",
+        "label_vi": "Đọc kết quả",
+        "fields": [
+          "stage",
+          "success"
+        ]
+      },
+      {
+        "event_type": "COMMIT_PALLET_CELL",
+        "label_vi": "Xác nhận Pallet→Ô",
+        "fields": [
+          "pallet",
+          "cell"
+        ]
+      },
+      {
+        "event_type": "APPLY_STICKER2",
+        "label_vi": "Dán tem 2",
+        "fields": [
+          "offset",
+          "both_visible",
+          "covers_data"
+        ]
+      }
+    ],
+    "asset_ids": [
+      "ILL08"
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.1–6.2.2"
+      }
+    ],
+    "mode_note": "MÔ PHỎNG · không kết nối WMS/1C · mọi mã SIM-ASV chỉ dùng trong app"
+  },
+  {
+    "id": "SIM06",
+    "title_vi": "Thiếu tem 1",
+    "lesson_id": "L08",
+    "assessed": true,
+    "points": 10,
+    "task_vi": "Bạn C gặp hộp chưa có tem 1. Chọn cách xử lý và ghi người nhận báo.",
+    "context": {
+      "box": "SIM-ASV-BOX-06",
+      "sticker1": false
+    },
+    "controls": [
+      {
+        "event_type": "HOLD_BOX",
+        "label_vi": "Dừng hộp",
+        "fields": []
+      },
+      {
+        "event_type": "ESCALATE",
+        "label_vi": "Báo lỗi",
+        "fields": [
+          "to",
+          "reason"
+        ]
+      },
+      {
+        "event_type": "COMMIT_SKIP_STICKER1",
+        "label_vi": "Vẫn gán và dán tem 2",
+        "fields": []
+      }
+    ],
+    "asset_ids": [],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.1–6.2.2"
+      }
+    ],
+    "mode_note": "MÔ PHỎNG · không kết nối WMS/1C · mọi mã SIM-ASV chỉ dùng trong app"
+  },
+  {
+    "id": "SIM07",
+    "title_vi": "Phiếu chính thức và tem 3",
+    "lesson_id": "L09",
+    "assessed": true,
+    "points": 10,
+    "task_vi": "Mọi khu đã chuẩn bị xong và đã báo Audit Team. Hoàn tất luồng PC/PDT bằng các thẻ thao tác.",
+    "context": {
+      "all_areas_prepared": true,
+      "audit_informed": true,
+      "record": "SIM-ASV-INV-07",
+      "assigned_cells": [
+        "SIM-ASV-CELL-07"
+      ],
+      "roles_in_scenario": [
+        "PC",
+        "PDT"
+      ]
+    },
+    "controls": [
+      {
+        "event_type": "CREATE_RECORD",
+        "label_vi": "PC tạo phiếu",
+        "fields": []
+      },
+      {
+        "event_type": "CLOSE_DOCUMENT_WINDOW",
+        "label_vi": "PC đóng cửa sổ sau tạo",
+        "fields": []
+      },
+      {
+        "event_type": "PDT_COMPLETE",
+        "label_vi": "PDT hoàn tất phiếu",
+        "fields": [
+          "record"
+        ]
+      },
+      {
+        "event_type": "APPLY_STICKER3",
+        "label_vi": "PDT dán tem 3",
+        "fields": [
+          "placement",
+          "cells"
+        ]
+      },
+      {
+        "event_type": "REPORT_PC",
+        "label_vi": "Báo PC",
+        "fields": []
+      },
+      {
+        "event_type": "PC_VERIFY_COMPLETE",
+        "label_vi": "PC kiểm và chuyển Completed",
+        "fields": []
+      },
+      {
+        "event_type": "COMMIT_PREMATURE_STICKER3",
+        "label_vi": "Dán tem 3 trước hoàn tất",
+        "fields": []
+      }
+    ],
+    "asset_ids": [
+      "ILL04"
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.3"
+      }
+    ],
+    "mode_note": "MÔ PHỎNG · không kết nối WMS/1C · mọi mã SIM-ASV chỉ dùng trong app"
+  },
+  {
+    "id": "SIM08",
+    "title_vi": "Mất kết nối sau lưu",
+    "lesson_id": "L08",
+    "assessed": true,
+    "points": 10,
+    "task_vi": "Bạn vừa lưu giao dịch, máy báo timeout. Kiểm tra và chọn cách xử lý an toàn.",
+    "context": {
+      "request_id": "SIM-ASV-REQ08",
+      "client_message": "TIMEOUT",
+      "server_status_after_query": "COMMITTED",
+      "prior_submission_id": "SIM-ASV-REQ08"
+    },
+    "controls": [
+      {
+        "event_type": "CHECK_TRANSACTION",
+        "label_vi": "Tra trạng thái",
+        "fields": [
+          "request_id"
+        ]
+      },
+      {
+        "event_type": "ACK_ALREADY_COMMITTED",
+        "label_vi": "Xác nhận đã ghi, không tạo mới",
+        "fields": []
+      },
+      {
+        "event_type": "COMMIT_DUPLICATE_NEW_ID",
+        "label_vi": "Gửi lại thành giao dịch mới",
+        "fields": []
+      }
+    ],
+    "asset_ids": [
+      "EXC04"
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.2.1–6.2.2"
+      }
+    ],
+    "mode_note": "MÔ PHỎNG · không kết nối WMS/1C · mọi mã SIM-ASV chỉ dùng trong app"
+  },
+  {
+    "id": "SIM09",
+    "title_vi": "Rà ô đỏ",
+    "lesson_id": "L10",
+    "assessed": true,
+    "points": 10,
+    "task_vi": "Đọc hai thẻ ô và chọn xử lý riêng từng ô.",
+    "context": {
+      "cells": [
+        {
+          "cell": "SIM-ASV-RED-A",
+          "active": true,
+          "physically_empty": false,
+          "in_inventory": false
+        },
+        {
+          "cell": "SIM-ASV-RED-B",
+          "active": false,
+          "physically_empty": true,
+          "in_inventory": false
+        }
+      ]
+    },
+    "controls": [
+      {
+        "event_type": "COVERAGE_FILTER",
+        "label_vi": "Xác nhận kỳ và ô",
+        "fields": [
+          "period_confirmed",
+          "cell_scope_confirmed"
+        ]
+      },
+      {
+        "event_type": "CELL_DISPOSITION",
+        "label_vi": "Phân loại ô",
+        "fields": [
+          "cell",
+          "action"
+        ]
+      },
+      {
+        "event_type": "COMMIT_BLIND_DELETE",
+        "label_vi": "Xóa mọi ô đỏ",
+        "fields": []
+      }
+    ],
+    "asset_ids": [
+      "SRC18"
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.3.5–6.3.6; 6.4"
+      }
+    ],
+    "mode_note": "MÔ PHỎNG · không kết nối WMS/1C · mọi mã SIM-ASV chỉ dùng trong app"
+  },
+  {
+    "id": "SIM10",
+    "title_vi": "Đếm lại mọi ô của một mã",
+    "lesson_id": "L11",
+    "assessed": true,
+    "points": 10,
+    "task_vi": "Đối chiếu report và actual, đánh dấu mọi ô, tính tổng và ghi chênh lệch.",
+    "context": {
+      "material": "SIM-ASV-M10",
+      "report": "Balance of Goods in Warehouse",
+      "pdt_tool": "Stock Balance",
+      "cells": [
+        {
+          "cell": "SIM-ASV-A",
+          "system_qty": 32,
+          "actual_qty": 30
+        },
+        {
+          "cell": "SIM-ASV-B",
+          "system_qty": 10,
+          "actual_qty": 10
+        }
+      ],
+      "unit": "pcs"
+    },
+    "controls": [
+      {
+        "event_type": "CHECK_CELL",
+        "label_vi": "Kiểm một ô",
+        "fields": [
+          "cell",
+          "qty"
+        ]
+      },
+      {
+        "event_type": "RECONCILE",
+        "label_vi": "Chốt lượng",
+        "fields": [
+          "actual_total",
+          "system_total",
+          "difference"
+        ]
+      },
+      {
+        "event_type": "ESCALATE",
+        "label_vi": "Báo lệch",
+        "fields": [
+          "to",
+          "reason"
+        ]
+      },
+      {
+        "event_type": "COMMIT_FORCE_MATCH",
+        "label_vi": "Sửa số cho hết lệch",
+        "fields": []
+      }
+    ],
+    "asset_ids": [
+      "ILL05"
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.5; 7.1–7.6"
+      }
+    ],
+    "mode_note": "MÔ PHỎNG · không kết nối WMS/1C · mọi mã SIM-ASV chỉ dùng trong app"
+  },
+  {
+    "id": "P01",
+    "title_vi": "REF, sai trạng thái và linh kiện ngoài BOM",
+    "lesson_id": "L03",
+    "assessed": false,
+    "points": 0,
+    "task_vi": "Ghép từng tình huống vào tuyến xử lý đúng.",
+    "context": {
+      "situations": [
+        "REF",
+        "WRONG_STAGE_DURING_FREEZE",
+        "EXTRA_BRACKET_OUTSIDE_SPEC"
+      ]
+    },
+    "controls": [
+      {
+        "event_type": "CLASSIFY",
+        "label_vi": "Phân loại",
+        "fields": [
+          "situation",
+          "action"
+        ]
+      }
+    ],
+    "asset_ids": [
+      "EXC03"
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "6.1"
+      }
+    ],
+    "mode_note": "MÔ PHỎNG · không kết nối WMS/1C · mọi mã SIM-ASV chỉ dùng trong app"
+  },
+  {
+    "id": "P02",
+    "title_vi": "Mở lại sau kiểm kê",
+    "lesson_id": "L12",
+    "assessed": false,
+    "points": 0,
+    "task_vi": "Chọn điều kiện mở và xử lý yêu cầu tạo chứng từ lùi vào kỳ kiểm kê.",
+    "context": {
+      "planned_end": "2026-12-27",
+      "audit_confirmation_received": false,
+      "requested_document_date": "2026-12-20"
+    },
+    "controls": [
+      {
+        "event_type": "RELEASE_DECISION",
+        "label_vi": "Quyết định",
+        "fields": [
+          "action"
+        ]
+      },
+      {
+        "event_type": "BACKDATE_DECISION",
+        "label_vi": "Xử lý chứng từ",
+        "fields": [
+          "action"
+        ]
+      }
+    ],
+    "asset_ids": [
+      "ILL06"
+    ],
+    "source_refs": [
+      {
+        "document": "AG03-WH-092_A",
+        "section": "8; 9; quy tắc đào tạo đề xuất"
+      }
+    ],
+    "mode_note": "MÔ PHỎNG · không kết nối WMS/1C · mọi mã SIM-ASV chỉ dùng trong app"
+  }
+]

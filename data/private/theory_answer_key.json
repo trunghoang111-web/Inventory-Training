@@ -1,0 +1,482 @@
+[
+  {
+    "question_id": "CR_FREEZE-01",
+    "correct_option_id": "CR_FREEZE-01-O4",
+    "explanation_vi": "Trong kiểm kê cấm chuyển vật tư/SFP giữa khu vực; yêu cầu khẩn phải được báo, không tự thực hiện.",
+    "remedial_lesson_ids": [
+      "L02"
+    ]
+  },
+  {
+    "question_id": "CR_FREEZE-02",
+    "correct_option_id": "CR_FREEZE-02-O1",
+    "explanation_vi": "SOP yêu cầu phản ánh hiện trạng tại thời điểm kiểm kê, không di chuyển để sửa hiện trạng.",
+    "remedial_lesson_ids": [
+      "L02"
+    ]
+  },
+  {
+    "question_id": "CR_FREEZE-03",
+    "correct_option_id": "CR_FREEZE-03-O2",
+    "explanation_vi": "Không tự sửa tồn bằng chuyển giao hoặc chứng từ. Điều chỉnh theo tuyến Audit Team.",
+    "remedial_lesson_ids": [
+      "L02"
+    ]
+  },
+  {
+    "question_id": "CR_INDEPENDENCE-01",
+    "correct_option_id": "CR_INDEPENDENCE-01-O3",
+    "explanation_vi": "A, B, C là các người riêng biệt trên cùng dữ liệu; kiểm lần hai của A không thay B.",
+    "remedial_lesson_ids": [
+      "L01"
+    ]
+  },
+  {
+    "question_id": "CR_INDEPENDENCE-02",
+    "correct_option_id": "CR_INDEPENDENCE-02-O4",
+    "explanation_vi": "Thâm niên và số lượng không thay được kiểm độc lập.",
+    "remedial_lesson_ids": [
+      "L01"
+    ]
+  },
+  {
+    "question_id": "CR_INDEPENDENCE-03",
+    "correct_option_id": "CR_INDEPENDENCE-03-O1",
+    "explanation_vi": "Tách A/B/C bằng danh tính người thực hiện, không chỉ tên tài khoản hay tên vai.",
+    "remedial_lesson_ids": [
+      "L01"
+    ]
+  },
+  {
+    "question_id": "CR_STICKER-01",
+    "correct_option_id": "CR_STICKER-01-O2",
+    "explanation_vi": "Thiếu tem 1 là chưa đủ điều kiện bước C. Không hợp thức hóa bằng dán tem sau.",
+    "remedial_lesson_ids": [
+      "L07"
+    ]
+  },
+  {
+    "question_id": "CR_STICKER-02",
+    "correct_option_id": "CR_STICKER-02-O3",
+    "explanation_vi": "Tem 1 xác nhận kiểm đúng, không phải dấu đã đi qua.",
+    "remedial_lesson_ids": [
+      "L07"
+    ]
+  },
+  {
+    "question_id": "CR_STICKER-03",
+    "correct_option_id": "CR_STICKER-03-O4",
+    "explanation_vi": "Tem 3 chỉ sau hoàn tất phiếu, gắn với ô đã quét; không dùng để bỏ qua tiến độ thực tế.",
+    "remedial_lesson_ids": [
+      "L07"
+    ]
+  },
+  {
+    "question_id": "CR_RELEASE-01",
+    "correct_option_id": "CR_RELEASE-01-O1",
+    "explanation_vi": "Ngày kết thúc kế hoạch không thay điều kiện Audit Team xác nhận.",
+    "remedial_lesson_ids": [
+      "L12"
+    ]
+  },
+  {
+    "question_id": "CR_RELEASE-02",
+    "correct_option_id": "CR_RELEASE-02-O2",
+    "explanation_vi": "SOP cấm chứng từ sau kiểm kê ghi ngày thuộc kỳ kiểm kê vì làm sai kết quả.",
+    "remedial_lesson_ids": [
+      "L12"
+    ]
+  },
+  {
+    "question_id": "CR_RELEASE-03",
+    "correct_option_id": "CR_RELEASE-03-O3",
+    "explanation_vi": "Đóng cửa sổ hoặc Completed một phiếu không phải xác nhận mở lại toàn bộ hoạt động.",
+    "remedial_lesson_ids": [
+      "L12"
+    ]
+  },
+  {
+    "question_id": "G_SCOPE_LABEL-01",
+    "correct_option_id": "G_SCOPE_LABEL-01-O4",
+    "explanation_vi": "Box được gán vào P-number, P-number được gán vào ô.",
+    "remedial_lesson_ids": [
+      "L04"
+    ]
+  },
+  {
+    "question_id": "G_SCOPE_LABEL-02",
+    "correct_option_id": "G_SCOPE_LABEL-02-O1",
+    "explanation_vi": "Nhãn đúng dữ liệu nhưng sai hộp vẫn tạo sai tồn.",
+    "remedial_lesson_ids": [
+      "L04"
+    ]
+  },
+  {
+    "question_id": "G_SCOPE_LABEL-03",
+    "correct_option_id": "G_SCOPE_LABEL-03-O2",
+    "explanation_vi": "Không dùng mã ô thay mã Box hoặc mã hàng.",
+    "remedial_lesson_ids": [
+      "L04"
+    ]
+  },
+  {
+    "question_id": "G_SCOPE_LABEL-04",
+    "correct_option_id": "G_SCOPE_LABEL-04-O3",
+    "explanation_vi": "Tiếng bíp nhận mã không chứng minh giao dịch lưu đúng.",
+    "remedial_lesson_ids": [
+      "L04"
+    ]
+  },
+  {
+    "question_id": "G_SCOPE_LABEL-05",
+    "correct_option_id": "G_SCOPE_LABEL-05-O4",
+    "explanation_vi": "Định dạng phải được xác nhận trước triển khai thiết bị; không suy từ một ảnh cũ.",
+    "remedial_lesson_ids": [
+      "L04"
+    ]
+  },
+  {
+    "question_id": "G_SCOPE_LABEL-06",
+    "correct_option_id": "G_SCOPE_LABEL-06-O1",
+    "explanation_vi": "SOP dùng Color 1/2/3; không ấn định màu cụ thể trong bộ dữ liệu.",
+    "remedial_lesson_ids": [
+      "L04"
+    ]
+  },
+  {
+    "question_id": "G_PREP-01",
+    "correct_option_id": "G_PREP-01-O2",
+    "explanation_vi": "Hàng đã write-off được cách ly loại khỏi kiểm kê, không tính trùng.",
+    "remedial_lesson_ids": [
+      "L03"
+    ]
+  },
+  {
+    "question_id": "G_PREP-02",
+    "correct_option_id": "G_PREP-02-O3",
+    "explanation_vi": "SOP yêu cầu hộp không đặt trực tiếp sàn.",
+    "remedial_lesson_ids": [
+      "L03"
+    ]
+  },
+  {
+    "question_id": "G_PREP-03",
+    "correct_option_id": "G_PREP-03-O4",
+    "explanation_vi": "Đồng bộ vật lý và hệ thống trước khóa giúp tránh lệch vị trí/kho.",
+    "remedial_lesson_ids": [
+      "L03"
+    ]
+  },
+  {
+    "question_id": "G_PREP-04",
+    "correct_option_id": "G_PREP-04-O1",
+    "explanation_vi": "Reset không phải hành động mặc định cho mọi ô.",
+    "remedial_lesson_ids": [
+      "L03"
+    ]
+  },
+  {
+    "question_id": "G_PREP-05",
+    "correct_option_id": "G_PREP-05-O2",
+    "explanation_vi": "Danh sách ô là dữ liệu kiểm soát, cần luồng tạo được quy định.",
+    "remedial_lesson_ids": [
+      "L03"
+    ]
+  },
+  {
+    "question_id": "G_PREP-06",
+    "correct_option_id": "G_PREP-06-O3",
+    "explanation_vi": "Chuẩn bị dữ liệu phải hoàn tất các chuyển giao, transit và bất thường tồn.",
+    "remedial_lesson_ids": [
+      "L03"
+    ]
+  },
+  {
+    "question_id": "G_RAW-01",
+    "correct_option_id": "G_RAW-01-O4",
+    "explanation_vi": "Ngoại lệ chỉ áp dụng hộp nguyên nhà cung cấp, không áp dụng hộp đã mở.",
+    "remedial_lesson_ids": [
+      "L05"
+    ]
+  },
+  {
+    "question_id": "G_RAW-02",
+    "correct_option_id": "G_RAW-02-O1",
+    "explanation_vi": "SOP cấm đếm đồng thời nhiều kệ/pallet.",
+    "remedial_lesson_ids": [
+      "L05"
+    ]
+  },
+  {
+    "question_id": "G_RAW-03",
+    "correct_option_id": "G_RAW-03-O2",
+    "explanation_vi": "A xử lý bằng công cụ được chỉ định nếu có quyền; thiếu quyền phải báo đúng người.",
+    "remedial_lesson_ids": [
+      "L05"
+    ]
+  },
+  {
+    "question_id": "G_RAW-04",
+    "correct_option_id": "G_RAW-04-O3",
+    "explanation_vi": "Trường hợp thực tế lớn hơn nhãn phải báo Audit Team để sửa và in lại.",
+    "remedial_lesson_ids": [
+      "L05"
+    ]
+  },
+  {
+    "question_id": "G_RAW-05",
+    "correct_option_id": "G_RAW-05-O4",
+    "explanation_vi": "Dấu A khác tem xác nhận B và dấu kiểm soát độc lập.",
+    "remedial_lesson_ids": [
+      "L05"
+    ]
+  },
+  {
+    "question_id": "G_RAW-06",
+    "correct_option_id": "G_RAW-06-O1",
+    "explanation_vi": "Xác nhận đơn vị; 3×5=15 pcs, không nhập số gói vào trường pcs.",
+    "remedial_lesson_ids": [
+      "L05"
+    ]
+  },
+  {
+    "question_id": "G_SFP-01",
+    "correct_option_id": "G_SFP-01-O2",
+    "explanation_vi": "SOP giới hạn mỗi lượt không quá5pallet/hộp để tránh lẫn nhãn.",
+    "remedial_lesson_ids": [
+      "L06"
+    ]
+  },
+  {
+    "question_id": "G_SFP-02",
+    "correct_option_id": "G_SFP-02-O3",
+    "explanation_vi": "Một dòng tương ứng một hộp/pallet, không gộp theo mã.",
+    "remedial_lesson_ids": [
+      "L06"
+    ]
+  },
+  {
+    "question_id": "G_SFP-03",
+    "correct_option_id": "G_SFP-03-O4",
+    "explanation_vi": "Có thể nhiều A nhưng chỉ một A2 trong tổ chức nêu trong SOP.",
+    "remedial_lesson_ids": [
+      "L06"
+    ]
+  },
+  {
+    "question_id": "G_SFP-04",
+    "correct_option_id": "G_SFP-04-O1",
+    "explanation_vi": "Production Release Registration thuộc luồng A2; báo cáo tồn không thay chức năng tạo nhãn.",
+    "remedial_lesson_ids": [
+      "L06"
+    ]
+  },
+  {
+    "question_id": "G_SFP-05",
+    "correct_option_id": "G_SFP-05-O2",
+    "explanation_vi": "A vẫn phải kiểm nhãn nhận từ A2 trước khi dán.",
+    "remedial_lesson_ids": [
+      "L06"
+    ]
+  },
+  {
+    "question_id": "G_SFP-06",
+    "correct_option_id": "G_SFP-06-O3",
+    "explanation_vi": "Linh kiện ngoài specification phải kiểm kê riêng theo quy trình linh kiện.",
+    "remedial_lesson_ids": [
+      "L06"
+    ]
+  },
+  {
+    "question_id": "G_MAPPING-01",
+    "correct_option_id": "G_MAPPING-01-O4",
+    "explanation_vi": "SOP yêu cầu hai tầng gán rõ ràng.",
+    "remedial_lesson_ids": [
+      "L08"
+    ]
+  },
+  {
+    "question_id": "G_MAPPING-02",
+    "correct_option_id": "G_MAPPING-02-O1",
+    "explanation_vi": "Phải nhận biết được cả tem 1 vàtem 2 trên nhãn.",
+    "remedial_lesson_ids": [
+      "L08"
+    ]
+  },
+  {
+    "question_id": "G_MAPPING-03",
+    "correct_option_id": "G_MAPPING-03-O2",
+    "explanation_vi": "Rà receiving là một đầu ra bắt buộc của chuẩn bị dữ liệu.",
+    "remedial_lesson_ids": [
+      "L08"
+    ]
+  },
+  {
+    "question_id": "G_MAPPING-04",
+    "correct_option_id": "G_MAPPING-04-O3",
+    "explanation_vi": "Lỗi nhập tạm bị chặn và sửa trước lưu khác với cam kết mapping sai.",
+    "remedial_lesson_ids": [
+      "L08"
+    ]
+  },
+  {
+    "question_id": "G_MAPPING-05",
+    "correct_option_id": "G_MAPPING-05-O4",
+    "explanation_vi": "Kiểm trạng thái tránh lưu trùng; lỗi hạ tầng không phải lý do bỏ kiểm.",
+    "remedial_lesson_ids": [
+      "L08"
+    ]
+  },
+  {
+    "question_id": "G_MAPPING-06",
+    "correct_option_id": "G_MAPPING-06-O1",
+    "explanation_vi": "Rà tính đầy đủ từng hộp, không suy từ tổng tem.",
+    "remedial_lesson_ids": [
+      "L08"
+    ]
+  },
+  {
+    "question_id": "G_EXECUTION-01",
+    "correct_option_id": "G_EXECUTION-01-O2",
+    "explanation_vi": "Cổng bắt đầu áp dụng toàn phạm vi chuẩn bị trong SOP, không riêng khu đã sẵn sàng.",
+    "remedial_lesson_ids": [
+      "L09"
+    ]
+  },
+  {
+    "question_id": "G_EXECUTION-02",
+    "correct_option_id": "G_EXECUTION-02-O3",
+    "explanation_vi": "Đóng cửa sổ sau tạo khác trạng thái Completed ở cuối.",
+    "remedial_lesson_ids": [
+      "L09"
+    ]
+  },
+  {
+    "question_id": "G_EXECUTION-03",
+    "correct_option_id": "G_EXECUTION-03-O4",
+    "explanation_vi": "Tuần tự và đúng phân công giúp tránh bỏ sót/đếm trùng.",
+    "remedial_lesson_ids": [
+      "L09"
+    ]
+  },
+  {
+    "question_id": "G_EXECUTION-04",
+    "correct_option_id": "G_EXECUTION-04-O1",
+    "explanation_vi": "SOP đặt Color 3 ở các scanned cells sau hoàn tất từngphiếu.",
+    "remedial_lesson_ids": [
+      "L09"
+    ]
+  },
+  {
+    "question_id": "G_EXECUTION-05",
+    "correct_option_id": "G_EXECUTION-05-O2",
+    "explanation_vi": "Completed là xác nhận cuối sau kiểm, không phải lệnh tạo phiếu.",
+    "remedial_lesson_ids": [
+      "L09"
+    ]
+  },
+  {
+    "question_id": "G_EXECUTION-06",
+    "correct_option_id": "G_EXECUTION-06-O3",
+    "explanation_vi": "SOP yêu cầu xác nhận các ô system/service trống.",
+    "remedial_lesson_ids": [
+      "L09"
+    ]
+  },
+  {
+    "question_id": "G_COVERAGE-01",
+    "correct_option_id": "G_COVERAGE-01-O4",
+    "explanation_vi": "Báo cáo chuyên biệt cho độ phủ phiếu theo kỳ và ô/kho.",
+    "remedial_lesson_ids": [
+      "L10"
+    ]
+  },
+  {
+    "question_id": "G_COVERAGE-02",
+    "correct_option_id": "G_COVERAGE-02-O1",
+    "explanation_vi": "Cần đúng kỳ và phạm vi; cell filter được khuyến nghị.",
+    "remedial_lesson_ids": [
+      "L10"
+    ]
+  },
+  {
+    "question_id": "G_COVERAGE-03",
+    "correct_option_id": "G_COVERAGE-03-O2",
+    "explanation_vi": "Đỏ chỉ ra thiếu trong kỳ, cần xác minh và thực hiện bổ sung khi đang dùng.",
+    "remedial_lesson_ids": [
+      "L10"
+    ]
+  },
+  {
+    "question_id": "G_COVERAGE-04",
+    "correct_option_id": "G_COVERAGE-04-O3",
+    "explanation_vi": "SOP phân biệt ô hoạt động bị thiếu và ô trống không còn dùng.",
+    "remedial_lesson_ids": [
+      "L10"
+    ]
+  },
+  {
+    "question_id": "G_COVERAGE-05",
+    "correct_option_id": "G_COVERAGE-05-O4",
+    "explanation_vi": "X đen ghi dấu kiểm soát trên tem của đúng bước.",
+    "remedial_lesson_ids": [
+      "L10"
+    ]
+  },
+  {
+    "question_id": "G_COVERAGE-06",
+    "correct_option_id": "G_COVERAGE-06-O1",
+    "explanation_vi": "SOP nhấn mạnh checklist xác nhận hành động đã thực hiện, không chỉ ký.",
+    "remedial_lesson_ids": [
+      "L10"
+    ]
+  },
+  {
+    "question_id": "G_RECONCILE-01",
+    "correct_option_id": "G_RECONCILE-01-O2",
+    "explanation_vi": "Lệch quy ước thực tế−hệ thống:40−42=−2; kiểm tất cả ô của cùng mã.",
+    "remedial_lesson_ids": [
+      "L11"
+    ]
+  },
+  {
+    "question_id": "G_RECONCILE-02",
+    "correct_option_id": "G_RECONCILE-02-O3",
+    "explanation_vi": "In Balance of Goods in Warehouse theo mã và kiểm mọi ô bằng Stock Balance.",
+    "remedial_lesson_ids": [
+      "L11"
+    ]
+  },
+  {
+    "question_id": "G_RECONCILE-03",
+    "correct_option_id": "G_RECONCILE-03-O4",
+    "explanation_vi": "Mốc bắt đầu là khi nhận file, không mặc định24 giờ lịch.",
+    "remedial_lesson_ids": [
+      "L11"
+    ]
+  },
+  {
+    "question_id": "G_RECONCILE-04",
+    "correct_option_id": "G_RECONCILE-04-O1",
+    "explanation_vi": "App không có kết nối ghi WMS/1C; điều chỉnh thuộc tuyến chính thức.",
+    "remedial_lesson_ids": [
+      "L11"
+    ]
+  },
+  {
+    "question_id": "G_RECONCILE-05",
+    "correct_option_id": "G_RECONCILE-05-O2",
+    "explanation_vi": "Đây là trình tự phân tích bắt buộc trong mục7.3.",
+    "remedial_lesson_ids": [
+      "L11"
+    ]
+  },
+  {
+    "question_id": "G_RECONCILE-06",
+    "correct_option_id": "G_RECONCILE-06-O3",
+    "explanation_vi": "Cần ngăn tái diễn và đo được hiệu quả; PM/Kho phân tích trong1 tuần làmviệc từfilecuối.",
+    "remedial_lesson_ids": [
+      "L11"
+    ]
+  }
+]

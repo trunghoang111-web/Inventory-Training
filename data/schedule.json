@@ -1,0 +1,835 @@
+{
+  "version": "ASV-INV-2026.11-v1",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "allocation_is_assumption": true,
+  "assumption_vi": "132 người tạm chia33/kíp; N1=17,N2=16. Thực tế phải nhập roster, không tự phân kíp theo slotID. Sức chứa lớp có thể nâng tốiđa22 khi đủ trạm và người hướng dẫn; vượt phải lập thêm buổi.",
+  "hard_deadline_exclusive": "2026-12-01T00:00:00+07:00",
+  "sessions": [
+    {
+      "id": "PRE01",
+      "crew": "ALL",
+      "group": "TRAINER",
+      "start_at": "2026-11-16T08:30:00+07:00",
+      "end_at": "2026-11-16T11:30:00+07:00",
+      "topic_vi": "Chuẩn hóa người hướng dẫn/người chấm; rà nội dung và đáp án",
+      "participant_minutes": 180,
+      "capacity": null,
+      "kind": "preparation",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "warehouse_trainer": 1,
+        "audit_representative": 1
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "PRE02",
+      "crew": "ALL",
+      "group": "TRAINER",
+      "start_at": "2026-11-16T13:30:00+07:00",
+      "end_at": "2026-11-16T16:30:00+07:00",
+      "topic_vi": "Chạy thử môi trường test, tài khoản, mã và PDA",
+      "participant_minutes": 180,
+      "capacity": null,
+      "kind": "preparation",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "it_support": 1
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "B-LT1",
+      "crew": "B",
+      "group": "N1",
+      "start_at": "2026-11-17T08:30:00+07:00",
+      "end_at": "2026-11-17T10:30:00+07:00",
+      "topic_vi": "90 phút lý thuyết +20 phút thi +10 phút phản hồi",
+      "participant_minutes": 120,
+      "capacity": 17,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "theory_trainer": 1,
+        "exam_proctor": 1
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "B-LT2",
+      "crew": "B",
+      "group": "N2",
+      "start_at": "2026-11-17T14:00:00+07:00",
+      "end_at": "2026-11-17T16:00:00+07:00",
+      "topic_vi": "90 phút lý thuyết +20 phút thi +10 phút phản hồi",
+      "participant_minutes": 120,
+      "capacity": 16,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "theory_trainer": 1,
+        "exam_proctor": 1
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "B-RLT",
+      "crew": "B",
+      "group": "RETAKE",
+      "start_at": "2026-11-17T16:15:00+07:00",
+      "end_at": "2026-11-17T16:45:00+07:00",
+      "topic_vi": "Ôn lỗi và thi lại lý thuyết",
+      "participant_minutes": 30,
+      "capacity": null,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "theory_trainer": 1
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "B-TH1",
+      "crew": "B",
+      "group": "N1",
+      "start_at": "2026-11-18T08:30:00+07:00",
+      "end_at": "2026-11-18T11:30:00+07:00",
+      "topic_vi": "4 trạm thực hành +15 phút thi mô phỏng +5 phút phản hồi",
+      "participant_minutes": 180,
+      "capacity": 17,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "practical_trainers": 4,
+        "pda": 12,
+        "pc": 4,
+        "printer": 2
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "B-TH2",
+      "crew": "B",
+      "group": "N2",
+      "start_at": "2026-11-18T13:30:00+07:00",
+      "end_at": "2026-11-18T16:30:00+07:00",
+      "topic_vi": "4 trạm thực hành +15 phút thi mô phỏng +5 phút phản hồi",
+      "participant_minutes": 180,
+      "capacity": 16,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "practical_trainers": 4,
+        "pda": 12,
+        "pc": 4,
+        "printer": 2
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "B-EXAM",
+      "crew": "B",
+      "group": "INDIVIDUAL_SLOTS",
+      "start_at": "2026-11-19T08:30:00+07:00",
+      "end_at": "2026-11-19T12:00:00+07:00",
+      "topic_vi": "Sát hạch PDA thật cá nhân;5 làn×8 lượt",
+      "participant_minutes": 25,
+      "capacity": 40,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "assessors": 5,
+        "pda": 5,
+        "spare_pda": 1,
+        "pc": 5,
+        "printer": 2
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh",
+      "slot_starts_local": [
+        "08:30",
+        "08:55",
+        "09:20",
+        "09:45",
+        "10:20",
+        "10:45",
+        "11:10",
+        "11:35"
+      ]
+    },
+    {
+      "id": "B-RETEST",
+      "crew": "B",
+      "group": "RETAKE_AND_SPECIAL",
+      "start_at": "2026-11-19T13:30:00+07:00",
+      "end_at": "2026-11-19T18:00:00+07:00",
+      "topic_vi": "Thi lại + sát hạch A2/PC và Controller theo người",
+      "participant_minutes": null,
+      "capacity": null,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "assessors": 5,
+        "effective_assessor_minutes": 1200
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "D-LT1",
+      "crew": "D",
+      "group": "N1",
+      "start_at": "2026-11-20T08:30:00+07:00",
+      "end_at": "2026-11-20T10:30:00+07:00",
+      "topic_vi": "90 phút lý thuyết +20 phút thi +10 phút phản hồi",
+      "participant_minutes": 120,
+      "capacity": 17,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "theory_trainer": 1,
+        "exam_proctor": 1
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "D-LT2",
+      "crew": "D",
+      "group": "N2",
+      "start_at": "2026-11-20T14:00:00+07:00",
+      "end_at": "2026-11-20T16:00:00+07:00",
+      "topic_vi": "90 phút lý thuyết +20 phút thi +10 phút phản hồi",
+      "participant_minutes": 120,
+      "capacity": 16,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "theory_trainer": 1,
+        "exam_proctor": 1
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "D-RLT",
+      "crew": "D",
+      "group": "RETAKE",
+      "start_at": "2026-11-20T16:15:00+07:00",
+      "end_at": "2026-11-20T16:45:00+07:00",
+      "topic_vi": "Ôn lỗi và thi lại lý thuyết",
+      "participant_minutes": 30,
+      "capacity": null,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "theory_trainer": 1
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "D-TH1",
+      "crew": "D",
+      "group": "N1",
+      "start_at": "2026-11-21T08:30:00+07:00",
+      "end_at": "2026-11-21T11:30:00+07:00",
+      "topic_vi": "4 trạm thực hành +15 phút thi mô phỏng +5 phút phản hồi",
+      "participant_minutes": 180,
+      "capacity": 17,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "practical_trainers": 4,
+        "pda": 12,
+        "pc": 4,
+        "printer": 2
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "D-TH2",
+      "crew": "D",
+      "group": "N2",
+      "start_at": "2026-11-21T13:30:00+07:00",
+      "end_at": "2026-11-21T16:30:00+07:00",
+      "topic_vi": "4 trạm thực hành +15 phút thi mô phỏng +5 phút phản hồi",
+      "participant_minutes": 180,
+      "capacity": 16,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "practical_trainers": 4,
+        "pda": 12,
+        "pc": 4,
+        "printer": 2
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "D-EXAM",
+      "crew": "D",
+      "group": "INDIVIDUAL_SLOTS",
+      "start_at": "2026-11-22T08:30:00+07:00",
+      "end_at": "2026-11-22T12:00:00+07:00",
+      "topic_vi": "Sát hạch PDA thật cá nhân;5 làn×8 lượt",
+      "participant_minutes": 25,
+      "capacity": 40,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "assessors": 5,
+        "pda": 5,
+        "spare_pda": 1,
+        "pc": 5,
+        "printer": 2
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh",
+      "slot_starts_local": [
+        "08:30",
+        "08:55",
+        "09:20",
+        "09:45",
+        "10:20",
+        "10:45",
+        "11:10",
+        "11:35"
+      ]
+    },
+    {
+      "id": "D-RETEST",
+      "crew": "D",
+      "group": "RETAKE_AND_SPECIAL",
+      "start_at": "2026-11-22T13:30:00+07:00",
+      "end_at": "2026-11-22T18:00:00+07:00",
+      "topic_vi": "Thi lại + sát hạch A2/PC và Controller theo người",
+      "participant_minutes": null,
+      "capacity": null,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "assessors": 5,
+        "effective_assessor_minutes": 1200
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "A-LT1",
+      "crew": "A",
+      "group": "N1",
+      "start_at": "2026-11-23T08:30:00+07:00",
+      "end_at": "2026-11-23T10:30:00+07:00",
+      "topic_vi": "90 phút lý thuyết +20 phút thi +10 phút phản hồi",
+      "participant_minutes": 120,
+      "capacity": 17,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "theory_trainer": 1,
+        "exam_proctor": 1
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "A-LT2",
+      "crew": "A",
+      "group": "N2",
+      "start_at": "2026-11-23T14:00:00+07:00",
+      "end_at": "2026-11-23T16:00:00+07:00",
+      "topic_vi": "90 phút lý thuyết +20 phút thi +10 phút phản hồi",
+      "participant_minutes": 120,
+      "capacity": 16,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "theory_trainer": 1,
+        "exam_proctor": 1
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "A-RLT",
+      "crew": "A",
+      "group": "RETAKE",
+      "start_at": "2026-11-23T16:15:00+07:00",
+      "end_at": "2026-11-23T16:45:00+07:00",
+      "topic_vi": "Ôn lỗi và thi lại lý thuyết",
+      "participant_minutes": 30,
+      "capacity": null,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "theory_trainer": 1
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "A-TH1",
+      "crew": "A",
+      "group": "N1",
+      "start_at": "2026-11-24T08:30:00+07:00",
+      "end_at": "2026-11-24T11:30:00+07:00",
+      "topic_vi": "4 trạm thực hành +15 phút thi mô phỏng +5 phút phản hồi",
+      "participant_minutes": 180,
+      "capacity": 17,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "practical_trainers": 4,
+        "pda": 12,
+        "pc": 4,
+        "printer": 2
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "A-TH2",
+      "crew": "A",
+      "group": "N2",
+      "start_at": "2026-11-24T13:30:00+07:00",
+      "end_at": "2026-11-24T16:30:00+07:00",
+      "topic_vi": "4 trạm thực hành +15 phút thi mô phỏng +5 phút phản hồi",
+      "participant_minutes": 180,
+      "capacity": 16,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "practical_trainers": 4,
+        "pda": 12,
+        "pc": 4,
+        "printer": 2
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "A-EXAM",
+      "crew": "A",
+      "group": "INDIVIDUAL_SLOTS",
+      "start_at": "2026-11-25T08:30:00+07:00",
+      "end_at": "2026-11-25T12:00:00+07:00",
+      "topic_vi": "Sát hạch PDA thật cá nhân;5 làn×8 lượt",
+      "participant_minutes": 25,
+      "capacity": 40,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "assessors": 5,
+        "pda": 5,
+        "spare_pda": 1,
+        "pc": 5,
+        "printer": 2
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh",
+      "slot_starts_local": [
+        "08:30",
+        "08:55",
+        "09:20",
+        "09:45",
+        "10:20",
+        "10:45",
+        "11:10",
+        "11:35"
+      ]
+    },
+    {
+      "id": "A-RETEST",
+      "crew": "A",
+      "group": "RETAKE_AND_SPECIAL",
+      "start_at": "2026-11-25T13:30:00+07:00",
+      "end_at": "2026-11-25T18:00:00+07:00",
+      "topic_vi": "Thi lại + sát hạch A2/PC và Controller theo người",
+      "participant_minutes": null,
+      "capacity": null,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "assessors": 5,
+        "effective_assessor_minutes": 1200
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "C-LT1",
+      "crew": "C",
+      "group": "N1",
+      "start_at": "2026-11-26T08:30:00+07:00",
+      "end_at": "2026-11-26T10:30:00+07:00",
+      "topic_vi": "90 phút lý thuyết +20 phút thi +10 phút phản hồi",
+      "participant_minutes": 120,
+      "capacity": 17,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "theory_trainer": 1,
+        "exam_proctor": 1
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "C-LT2",
+      "crew": "C",
+      "group": "N2",
+      "start_at": "2026-11-26T14:00:00+07:00",
+      "end_at": "2026-11-26T16:00:00+07:00",
+      "topic_vi": "90 phút lý thuyết +20 phút thi +10 phút phản hồi",
+      "participant_minutes": 120,
+      "capacity": 16,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "theory_trainer": 1,
+        "exam_proctor": 1
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "C-RLT",
+      "crew": "C",
+      "group": "RETAKE",
+      "start_at": "2026-11-26T16:15:00+07:00",
+      "end_at": "2026-11-26T16:45:00+07:00",
+      "topic_vi": "Ôn lỗi và thi lại lý thuyết",
+      "participant_minutes": 30,
+      "capacity": null,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "theory_trainer": 1
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "C-TH1",
+      "crew": "C",
+      "group": "N1",
+      "start_at": "2026-11-27T08:30:00+07:00",
+      "end_at": "2026-11-27T11:30:00+07:00",
+      "topic_vi": "4 trạm thực hành +15 phút thi mô phỏng +5 phút phản hồi",
+      "participant_minutes": 180,
+      "capacity": 17,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "practical_trainers": 4,
+        "pda": 12,
+        "pc": 4,
+        "printer": 2
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "C-TH2",
+      "crew": "C",
+      "group": "N2",
+      "start_at": "2026-11-27T13:30:00+07:00",
+      "end_at": "2026-11-27T16:30:00+07:00",
+      "topic_vi": "4 trạm thực hành +15 phút thi mô phỏng +5 phút phản hồi",
+      "participant_minutes": 180,
+      "capacity": 16,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "practical_trainers": 4,
+        "pda": 12,
+        "pc": 4,
+        "printer": 2
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "C-EXAM",
+      "crew": "C",
+      "group": "INDIVIDUAL_SLOTS",
+      "start_at": "2026-11-28T08:30:00+07:00",
+      "end_at": "2026-11-28T12:00:00+07:00",
+      "topic_vi": "Sát hạch PDA thật cá nhân;5 làn×8 lượt",
+      "participant_minutes": 25,
+      "capacity": 40,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "assessors": 5,
+        "pda": 5,
+        "spare_pda": 1,
+        "pc": 5,
+        "printer": 2
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh",
+      "slot_starts_local": [
+        "08:30",
+        "08:55",
+        "09:20",
+        "09:45",
+        "10:20",
+        "10:45",
+        "11:10",
+        "11:35"
+      ]
+    },
+    {
+      "id": "C-RETEST",
+      "crew": "C",
+      "group": "RETAKE_AND_SPECIAL",
+      "start_at": "2026-11-28T13:30:00+07:00",
+      "end_at": "2026-11-28T18:00:00+07:00",
+      "topic_vi": "Thi lại + sát hạch A2/PC và Controller theo người",
+      "participant_minutes": null,
+      "capacity": null,
+      "kind": "main",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {
+        "assessors": 5,
+        "effective_assessor_minutes": 1200
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "CLOSE28",
+      "crew": "ALL",
+      "group": "PM_WCM_WAREHOUSE",
+      "start_at": "2026-11-28T18:15:00+07:00",
+      "end_at": "2026-11-28T18:45:00+07:00",
+      "topic_vi": "Rà người còn thiếu điều kiện, chốt học bù theo tên",
+      "participant_minutes": 30,
+      "capacity": null,
+      "kind": "review",
+      "conditional": false,
+      "trainer_ids": [],
+      "resources": {},
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "BU-LT",
+      "crew": "B",
+      "group": "MAKEUP_CONDITIONAL",
+      "start_at": "2026-11-29T08:30:00+07:00",
+      "end_at": "2026-11-29T10:30:00+07:00",
+      "topic_vi": "Học bù lý thuyết và thi",
+      "participant_minutes": 120,
+      "capacity": 20,
+      "kind": "backup",
+      "conditional": true,
+      "trainer_ids": [],
+      "resources": {
+        "required_staff_confirmed": false,
+        "note": "C/D chỉ ghép khi đã thống nhất lịch; A phải bố trí đủ người chấm ca đêm."
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "BU-TH",
+      "crew": "B",
+      "group": "MAKEUP_CONDITIONAL",
+      "start_at": "2026-11-29T13:30:00+07:00",
+      "end_at": "2026-11-29T16:30:00+07:00",
+      "topic_vi": "Học bù thực hành và mô phỏng",
+      "participant_minutes": 180,
+      "capacity": 20,
+      "kind": "backup",
+      "conditional": true,
+      "trainer_ids": [],
+      "resources": {
+        "required_staff_confirmed": false,
+        "note": "C/D chỉ ghép khi đã thống nhất lịch; A phải bố trí đủ người chấm ca đêm."
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "BU-EX",
+      "crew": "B",
+      "group": "MAKEUP_CONDITIONAL",
+      "start_at": "2026-11-30T08:30:00+07:00",
+      "end_at": "2026-11-30T10:30:00+07:00",
+      "topic_vi": "Thi PDA thật học bù",
+      "participant_minutes": 25,
+      "capacity": 20,
+      "kind": "backup",
+      "conditional": true,
+      "trainer_ids": [],
+      "resources": {
+        "required_staff_confirmed": false,
+        "note": "C/D chỉ ghép khi đã thống nhất lịch; A phải bố trí đủ người chấm ca đêm."
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "BU-RE",
+      "crew": "B",
+      "group": "MAKEUP_CONDITIONAL",
+      "start_at": "2026-11-30T13:30:00+07:00",
+      "end_at": "2026-11-30T16:30:00+07:00",
+      "topic_vi": "Thi lại/vai chuyên sâu học bù",
+      "participant_minutes": null,
+      "capacity": null,
+      "kind": "backup",
+      "conditional": true,
+      "trainer_ids": [],
+      "resources": {
+        "required_staff_confirmed": false,
+        "note": "C/D chỉ ghép khi đã thống nhất lịch; A phải bố trí đủ người chấm ca đêm."
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "AU-LT",
+      "crew": "A",
+      "group": "MAKEUP_CONDITIONAL",
+      "start_at": "2026-11-29T20:30:00+07:00",
+      "end_at": "2026-11-29T22:30:00+07:00",
+      "topic_vi": "Học bù lý thuyết trong ca đêm",
+      "participant_minutes": 120,
+      "capacity": 20,
+      "kind": "backup",
+      "conditional": true,
+      "trainer_ids": [],
+      "resources": {
+        "required_staff_confirmed": false,
+        "note": "C/D chỉ ghép khi đã thống nhất lịch; A phải bố trí đủ người chấm ca đêm."
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "AU-TH",
+      "crew": "A",
+      "group": "MAKEUP_CONDITIONAL",
+      "start_at": "2026-11-29T22:45:00+07:00",
+      "end_at": "2026-11-30T01:45:00+07:00",
+      "topic_vi": "Học bù thực hành và mô phỏng qua0 giờ",
+      "participant_minutes": 180,
+      "capacity": 20,
+      "kind": "backup",
+      "conditional": true,
+      "trainer_ids": [],
+      "resources": {
+        "required_staff_confirmed": false,
+        "note": "C/D chỉ ghép khi đã thống nhất lịch; A phải bố trí đủ người chấm ca đêm."
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "AU-EX",
+      "crew": "A",
+      "group": "MAKEUP_CONDITIONAL",
+      "start_at": "2026-11-30T20:30:00+07:00",
+      "end_at": "2026-11-30T22:30:00+07:00",
+      "topic_vi": "Thi PDA thật trong ca đêm",
+      "participant_minutes": 25,
+      "capacity": 20,
+      "kind": "backup",
+      "conditional": true,
+      "trainer_ids": [],
+      "resources": {
+        "required_staff_confirmed": false,
+        "note": "C/D chỉ ghép khi đã thống nhất lịch; A phải bố trí đủ người chấm ca đêm."
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "AU-RE",
+      "crew": "A",
+      "group": "MAKEUP_CONDITIONAL",
+      "start_at": "2026-11-30T22:30:00+07:00",
+      "end_at": "2026-11-30T23:30:00+07:00",
+      "topic_vi": "Thi lại/vai chuyên sâu; giữ50 phút-người dự phòng",
+      "participant_minutes": null,
+      "capacity": null,
+      "kind": "backup",
+      "conditional": true,
+      "trainer_ids": [],
+      "resources": {
+        "required_staff_confirmed": false,
+        "note": "C/D chỉ ghép khi đã thống nhất lịch; A phải bố trí đủ người chấm ca đêm.",
+        "effective_assessor_minutes": 250
+      },
+      "status": "planned_not_booked",
+      "timezone": "Asia/Ho_Chi_Minh"
+    }
+  ],
+  "practice_agenda": [
+    {
+      "activity": "Mở lớp và kiểm thiết bị",
+      "minutes": 10
+    },
+    {
+      "activity": "4 trạm×35 phút",
+      "minutes": 140
+    },
+    {
+      "activity": "Chuyển trạm",
+      "minutes": 10
+    },
+    {
+      "activity": "Thi mô phỏng",
+      "minutes": 15
+    },
+    {
+      "activity": "Phản hồi",
+      "minutes": 5
+    }
+  ],
+  "special_role_capacity_rule": "Tổng(25×người thi lại cơ bản +20×người A2/PC +15×người Controller) ≤phút-người hiệu dụng. Không trùng người/chấm/thiết bị; xét thêm giới hạn khung giờ từng người.",
+  "availability_note": "Ngày21,22,28/11 cần đủ đội hỗ trợ cuối tuần; danh tính trainer còn trống là việc cần chốt, không phải nguồn lực đã đặt."
+}

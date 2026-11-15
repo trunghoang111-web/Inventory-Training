@@ -1,0 +1,431 @@
+/* ASV Inventory Training - Simplified Factory App Stylesheet */
+:root {
+  --bg-page: #f2f5f3;
+  --bg-card: #ffffff;
+  --bg-dark: #121614;
+  --text-main: #18201a;
+  --text-muted: #536458;
+  --border-light: #d1dcd4;
+  --border-focus: #008744;
+  --accent-green: #008744;
+  --accent-green-light: #e6f6ec;
+  --accent-red: #d32f2f;
+  --accent-red-light: #fde8e8;
+  --accent-orange: #d97706;
+  --accent-orange-light: #fef3c7;
+  --font-content: 20px;
+  --btn-height: 56px;
+  --radius: 12px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-page);
+  color: var(--text-main);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: var(--font-content);
+  line-height: 1.5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.simple-header {
+  background-color: var(--bg-dark);
+  color: #ffffff;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid var(--accent-green);
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.brand-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* Ajax Official Logo Badge - True Typography */
+.ajax-brand-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 12px;
+  border-radius: 6px;
+  height: 38px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+/* Chữ đen trên nền trắng (Matching Slide 1) */
+.ajax-brand-badge.theme-light {
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.ajax-brand-badge.theme-light:hover {
+  background-color: #f7f7f7;
+  border-color: #bbbbbb;
+  transform: translateY(-1px);
+}
+
+/* Chữ trắng trên nền đen */
+.ajax-brand-badge.theme-dark {
+  background-color: #000000;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.ajax-brand-badge.theme-dark:hover {
+  border-color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.ajax-logo-img {
+  height: 22px;
+  width: auto;
+  max-width: 110px;
+  display: block;
+  object-fit: contain;
+}
+
+.brand-title h1 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.user-badge {
+  font-size: 17px;
+  color: #a8f5c7;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Main Container */
+.main-wrapper {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 24px 16px;
+  flex: 1;
+}
+
+/* Cards */
+.box-card {
+  background-color: var(--bg-card);
+  border: 2px solid var(--border-light);
+  border-radius: var(--radius);
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+/* Large Factory Touch Buttons (>= 56px) */
+.btn-action {
+  min-height: var(--btn-height);
+  padding: 12px 24px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+  transition: all 0.15s ease-in-out;
+  touch-action: manipulation;
+  user-select: none;
+}
+
+.btn-primary {
+  background-color: var(--accent-green);
+  color: #ffffff;
+  border-color: var(--accent-green);
+}
+
+.btn-primary:hover {
+  background-color: #006e37;
+}
+
+.btn-secondary {
+  background-color: #ffffff;
+  color: var(--text-main);
+  border-color: var(--border-light);
+}
+
+.btn-secondary:hover {
+  background-color: #e8eee9;
+  border-color: #9cb3a2;
+}
+
+.btn-danger {
+  background-color: var(--accent-red);
+  color: #ffffff;
+}
+
+.btn-outline-danger {
+  background-color: transparent;
+  color: var(--accent-red);
+  border-color: var(--accent-red);
+}
+
+.btn-full {
+  width: 100%;
+}
+
+/* Forms */
+.form-group {
+  margin-bottom: 22px;
+}
+
+.form-label {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--text-main);
+}
+
+.form-input, .form-select {
+  width: 100%;
+  min-height: var(--btn-height);
+  padding: 12px 18px;
+  font-size: 20px;
+  border: 2px solid var(--border-light);
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: var(--text-main);
+  outline: none;
+}
+
+.form-input:focus, .form-select:focus {
+  border-color: var(--accent-green);
+  box-shadow: 0 0 0 4px rgba(0, 135, 68, 0.15);
+}
+
+/* Slide Display */
+.slide-frame {
+  background-color: #0c0f0d;
+  border: 2px solid #222;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.slide-image {
+  width: 100%;
+  max-height: 480px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-zoom {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: rgba(0, 0, 0, 0.75);
+  color: #ffffff;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-zoom:hover {
+  background: #000000;
+  border-color: var(--accent-green);
+}
+
+/* Remember Box */
+.remember-card {
+  background-color: #eafaf0;
+  border-left: 8px solid var(--accent-green);
+  padding: 18px 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+  font-size: 21px;
+  font-weight: 600;
+  color: #0b4f2a;
+}
+
+/* Option Cards for Testing */
+.option-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 20px;
+  margin-bottom: 14px;
+  background-color: #ffffff;
+  border: 2px solid var(--border-light);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  min-height: var(--btn-height);
+}
+
+.option-card:hover {
+  background-color: #f7faf8;
+  border-color: var(--accent-green);
+}
+
+.option-card.selected {
+  background-color: var(--accent-green-light);
+  border-color: var(--accent-green);
+  color: #0b4f2a;
+  font-weight: 700;
+}
+
+.option-radio {
+  width: 24px;
+  height: 24px;
+  accent-color: var(--accent-green);
+}
+
+/* Results Display */
+.result-banner-pass {
+  background-color: var(--accent-green-light);
+  border: 3px solid var(--accent-green);
+  color: #0b4f2a;
+  padding: 24px;
+  border-radius: var(--radius);
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.result-banner-fail {
+  background-color: var(--accent-red-light);
+  border: 3px solid var(--accent-red);
+  color: #721c24;
+  padding: 24px;
+  border-radius: var(--radius);
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+/* Fullscreen Image Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.95);
+  display: flex;
+  flex-direction: column;
+  z-index: 9999;
+  padding: 16px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  padding-bottom: 12px;
+}
+
+.modal-body {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+.modal-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Admin Table */
+.admin-table-wrapper {
+  overflow-x: auto;
+  background: #ffffff;
+  border: 2px solid var(--border-light);
+  border-radius: var(--radius);
+}
+
+table.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 17px;
+  text-align: left;
+}
+
+table.admin-table th, table.admin-table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border-light);
+}
+
+table.admin-table th {
+  background-color: #eaedea;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+table.admin-table tr:hover {
+  background-color: #f7faf8;
+}
+
+/* Badges */
+.badge-status {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.status-completed {
+  background-color: var(--accent-green-light);
+  color: var(--accent-green);
+  border: 1px solid var(--accent-green);
+}
+
+.status-learning {
+  background-color: var(--accent-orange-light);
+  color: var(--accent-orange);
+  border: 1px solid var(--accent-orange);
+}
+
+.status-retest {
+  background-color: var(--accent-red-light);
+  color: var(--accent-red);
+  border: 1px solid var(--accent-red);
+}
+
+/* Responsive check 360px */
+@media (max-width: 600px) {
+  :root {
+    --font-content: 18px;
+    --btn-height: 52px;
+  }
+  .main-wrapper {
+    padding: 14px 10px;
+  }
+  .box-card {
+    padding: 16px;
+  }
+  .remember-card {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,454 @@
+{
+  "package": "ASV_Antigravity_Training_Kit",
+  "version": "ASV-INV-2026.11-v1",
+  "created_date": "2026-11-14",
+  "status": "prepared_for_app_build_and_local_validation",
+  "contains_live_learner_data": false,
+  "contains_completed_app": false,
+  "counts": {
+    "lessons": 12,
+    "short_cards": 48,
+    "mcq": 60,
+    "assessed_simulation_cases": 10,
+    "practice_only_cases": 2,
+    "assets": 30,
+    "hardware_common_criteria": 20,
+    "special_a2_pc": 10,
+    "special_controller": 6,
+    "sessions": 39,
+    "placeholder_slots": 132,
+    "golden_policy_cases": 20,
+    "acceptance_scenarios": 30
+  },
+  "sources": [
+    {
+      "filename": "EN_+Instruction+for+Production+Inventory++-+AG03-WH-092_А.doc",
+      "sha256": "f4301447e5102742135eb20eb472931af77591baf74ad6fc0baff2ddd4bc899d",
+      "kind": "user_supplied_SOP",
+      "note": "Original large Word export omitted; extracted text and18optimizedimages included."
+    },
+    {
+      "filename": "ASV_Dao_tao_kiem_ke_Truc_quan.pptx",
+      "sha256": "fbf1dbdb3f516ab8bededa47d49fa5717441c5eb3393d3917967c00006e2175b",
+      "kind": "reference_slides",
+      "note": "Schedule notes may be superseded; do not seed dates from slides."
+    },
+    {
+      "filename": "ASV_Lich_dao_tao_4_kip_truoc_01_12_2026.xlsx",
+      "sha256": "0d13e67dcf4af8254c7488161b5ddb7a7ffdacd9479aa93612d441abbf46949a",
+      "kind": "latest_shift_training_schedule"
+    }
+  ],
+  "files": [
+    {
+      "path": "00_BAT_DAU.md",
+      "bytes": 4060,
+      "sha256": "6766f4399e7732af8e7ac2c94597837a22ca736c14c77f542a50ea7018962b63"
+    },
+    {
+      "path": "01_PROMPT_ANTIGRAVITY.md",
+      "bytes": 6380,
+      "sha256": "23c2dd124deae76ec488fc0bd79aa567abe855d49d3dd605db91f7b2a3c82535"
+    },
+    {
+      "path": "XEM_TRUOC_NOI_DUNG.html",
+      "bytes": 26736,
+      "sha256": "617edc630fbb7d40b8201c8b61f81cb3cc0605a24e34cb0d847ba845fd035764"
+    },
+    {
+      "path": "assets/illustrations/EXC01.png",
+      "bytes": 612373,
+      "sha256": "b6b283df15790e2605c09d2f5c3b6ad7f49ee12b928c2a731ed2a8e5534b2682"
+    },
+    {
+      "path": "assets/illustrations/EXC02.png",
+      "bytes": 624109,
+      "sha256": "c0709114bfa1272c240ae967e9146ef9de71f13a9fbfcd4d54ab2020349e3ef9"
+    },
+    {
+      "path": "assets/illustrations/EXC03.png",
+      "bytes": 580415,
+      "sha256": "60e1acd3952067c19ea6fae8cd6b0f1ef247ea8ed471ff6b25254c0b065998ac"
+    },
+    {
+      "path": "assets/illustrations/EXC04.png",
+      "bytes": 563740,
+      "sha256": "ba6c5519e6d9c7991dc414825df1123de300278f37a8e2bb889fe225d6d3195c"
+    },
+    {
+      "path": "assets/illustrations/ILL01.png",
+      "bytes": 292258,
+      "sha256": "24f8023b5a5a5435b5013b05f682bc57256139f2cd17563ad1adae1dd2d97b54"
+    },
+    {
+      "path": "assets/illustrations/ILL02.png",
+      "bytes": 303871,
+      "sha256": "cb5e181c62cef71ef58740aa34a94cc6301d776627c60d752b0af9511d173d11"
+    },
+    {
+      "path": "assets/illustrations/ILL03.png",
+      "bytes": 290407,
+      "sha256": "918edf5fb35275ff3314ce44eec854db19860f6d938b51b51f7a1a2a65db9986"
+    },
+    {
+      "path": "assets/illustrations/ILL04.png",
+      "bytes": 300308,
+      "sha256": "1f7eb3b72e4ac094c735c198d14416af3c00dd4c66a63891c66f712b1d8a06f7"
+    },
+    {
+      "path": "assets/illustrations/ILL05.png",
+      "bytes": 313537,
+      "sha256": "1bef743ab6d38bf98aa0866284efbbd538ca6bc16327c5fada3b20a0f0507eaf"
+    },
+    {
+      "path": "assets/illustrations/ILL06.png",
+      "bytes": 297932,
+      "sha256": "5a5882ea7b7d3e80b9b0616c46e09b396ca3b2083045a403cdd2fbfbc57286df"
+    },
+    {
+      "path": "assets/illustrations/ILL07.png",
+      "bytes": 267157,
+      "sha256": "39c5c1f72d1139cea059c9159dddfd23b82d8b84e1e6dfe40228c76a7a66f224"
+    },
+    {
+      "path": "assets/illustrations/ILL08.png",
+      "bytes": 239253,
+      "sha256": "2d8b0d097421d5b9a44e5d27e332649d57bee243b65613e4d6c849c983b0578e"
+    },
+    {
+      "path": "assets/source/SRC01.jpg",
+      "bytes": 6996,
+      "sha256": "d2a284c8417dbc2d9e90f1f639994484cac63179c95ee1e1c5189bb3afae605d"
+    },
+    {
+      "path": "assets/source/SRC02.jpg",
+      "bytes": 534543,
+      "sha256": "6c918569dd4a94f67a0b27022f3ccfc141ddecb9dde2ef665666f5dbc639a16f"
+    },
+    {
+      "path": "assets/source/SRC03.jpg",
+      "bytes": 31303,
+      "sha256": "ebe566869673c100159dca498e95fa28156729060aafa8fd23680159b0a0f856"
+    },
+    {
+      "path": "assets/source/SRC04.jpg",
+      "bytes": 66718,
+      "sha256": "d6127a0598e692be2f9b06e86a4a8f8da484092bacadd36dc1583b71b3329621"
+    },
+    {
+      "path": "assets/source/SRC05.jpg",
+      "bytes": 637251,
+      "sha256": "1a0236a30438f052a16d0bbfa27f0d976526b396dcd15cdba781512f07cab8c6"
+    },
+    {
+      "path": "assets/source/SRC06.jpg",
+      "bytes": 20632,
+      "sha256": "bbe7998965c1e56a5602ce3799100a09b816e848b629104c9adeb2a3c8d68cd8"
+    },
+    {
+      "path": "assets/source/SRC07.jpg",
+      "bytes": 20937,
+      "sha256": "551a4e74e0a9b812dc35d319ebbd247143ad2793ce8104eed4044a134e715620"
+    },
+    {
+      "path": "assets/source/SRC08.jpg",
+      "bytes": 737018,
+      "sha256": "6017464c77fc21fac3ebe415a33ade415fa504f0eabe4b87d3aa2c7ce6779f23"
+    },
+    {
+      "path": "assets/source/SRC09.jpg",
+      "bytes": 27763,
+      "sha256": "b9ae801e04c0101445e23a79163c1a17cd22dc5271c4659df25520aa97c9606c"
+    },
+    {
+      "path": "assets/source/SRC10.jpg",
+      "bytes": 268149,
+      "sha256": "f68f65ec56ca7dd764cf88f2335ad6e33ccf91bb44b8efd65e69b27828bf7dfc"
+    },
+    {
+      "path": "assets/source/SRC11.jpg",
+      "bytes": 24744,
+      "sha256": "04440d48a3a8328fd86a0c93d209b934b46ccb58a76a69a69bea3e93641baff3"
+    },
+    {
+      "path": "assets/source/SRC12.jpg",
+      "bytes": 13348,
+      "sha256": "b0c92ed179629b0b624414d5d27e985b5c00ca6b3b83a0f8d5d3e50e641d31d7"
+    },
+    {
+      "path": "assets/source/SRC13.jpg",
+      "bytes": 30411,
+      "sha256": "73774838b81e3c03ad8fab0b5c74a657287b94073154f600cf38c99ccf142047"
+    },
+    {
+      "path": "assets/source/SRC14.jpg",
+      "bytes": 36876,
+      "sha256": "107533fcf376f0d0fa6be6fcad0329bc2af4f9cb2e33f1f66f49da70b68ce169"
+    },
+    {
+      "path": "assets/source/SRC15.jpg",
+      "bytes": 27055,
+      "sha256": "0b79eb7a2a686bcef2c116919e493f4188fb582930c14993ecb22c2454531382"
+    },
+    {
+      "path": "assets/source/SRC16.jpg",
+      "bytes": 37901,
+      "sha256": "e732fe529a447261e0444757062ee2a8be6f56fee2bdfd9f2c40175e58626302"
+    },
+    {
+      "path": "assets/source/SRC17.jpg",
+      "bytes": 43507,
+      "sha256": "eca74acccf19ab14fba2545613fb84d30a0a41912002945d3518795412efe4a8"
+    },
+    {
+      "path": "assets/source/SRC18.jpg",
+      "bytes": 30372,
+      "sha256": "ec620c5b95d2d80ecac9384cd3e8569ce84068379346385bb4af9b05e7c2cac0"
+    },
+    {
+      "path": "data/assessment_blueprint.json",
+      "bytes": 2566,
+      "sha256": "cb471e4fe83bba6a36f1ec91bd9d2ed14adfec017002a2dd191d1aae8013b2d3"
+    },
+    {
+      "path": "data/asset_manifest.json",
+      "bytes": 11599,
+      "sha256": "d79fe2d3419f02b28d0fdd0732d27fe6df0298d7a9e5cf2cc01651f501424b58"
+    },
+    {
+      "path": "data/hardware_rubrics.json",
+      "bytes": 8013,
+      "sha256": "e93ca5273b4e6d53f9ba5b50d364b763ab6d64fdd536b1a483885b60f5946bb8"
+    },
+    {
+      "path": "data/private/optional_written_exam.json",
+      "bytes": 7500,
+      "sha256": "ccff0fe0bf25017b456c466865c7e4d5159b845655b72b79364cee7929addf9a"
+    },
+    {
+      "path": "data/private/simulation_grading.json",
+      "bytes": 16449,
+      "sha256": "73362390c0987c4cfa613888baf69e2093c0389e2aaacd6125408fc22838980b"
+    },
+    {
+      "path": "data/private/theory_answer_key.json",
+      "bytes": 14648,
+      "sha256": "14a5332c0dda199b2583c3cd4acf8e60dbb6e61defdd17465e2c82476a4cd3ba"
+    },
+    {
+      "path": "data/public/course.json",
+      "bytes": 1348,
+      "sha256": "b04ea6bdb13efbf284f89676ffb156629927ebd8a13828f5cc1c2f500fc7c1dc"
+    },
+    {
+      "path": "data/public/lessons.json",
+      "bytes": 24755,
+      "sha256": "fb30ae45f47e443febe211b817b17d70dee167b9b4637efeb8e4e6dab35d802a"
+    },
+    {
+      "path": "data/public/questions.json",
+      "bytes": 48233,
+      "sha256": "6f2c6de5e2a124c84b7771711ce6c27907b24336dfb8922ded3a14236bf42227"
+    },
+    {
+      "path": "data/public/simulations.json",
+      "bytes": 15843,
+      "sha256": "5439d643b281ec55d4017c71443a94e0ae10829bafbb82b20f8919ffe35c37f4"
+    },
+    {
+      "path": "data/role_catalog.json",
+      "bytes": 1008,
+      "sha256": "9f2d8ae7a388e4a6fc716b324ed87af4bfc6942bbfebe916ec343514dc8848a2"
+    },
+    {
+      "path": "data/schedule.json",
+      "bytes": 24336,
+      "sha256": "17fbfec10a152a888155798c579c3e67f80188073e54a59e0e7f698a98a524cd"
+    },
+    {
+      "path": "data/shift_calendar.json",
+      "bytes": 2596,
+      "sha256": "30b18d93f99c4653fdc7110e90f9015a809f3368eb997b68d418313a1fef8122"
+    },
+    {
+      "path": "docs/01_YEU_CAU_SAN_PHAM.md",
+      "bytes": 3757,
+      "sha256": "957b1b0be71964575f0636f5900c607ccc98ac82795392976be4877677b4b9eb"
+    },
+    {
+      "path": "docs/02_MO_HINH_DU_LIEU.md",
+      "bytes": 4969,
+      "sha256": "c48efccea259a8008c53a6753bc7d3f766855c21c1115848e26f716eb1f8599a"
+    },
+    {
+      "path": "docs/03_QUY_TAC_DANH_GIA.md",
+      "bytes": 5959,
+      "sha256": "2e228558b92e231b188a647612de1458665f9e320e1bb8da52cffb2368896aeb"
+    },
+    {
+      "path": "docs/04_MO_PHONG_PDA.md",
+      "bytes": 6166,
+      "sha256": "c9ec9d17ed5f1d0bc75fe6851ca65adcce2905d9ecb1aea7b9f750b39b3e1ad2"
+    },
+    {
+      "path": "docs/05_PHONG_THUC_HANH_VA_SAT_HACH.md",
+      "bytes": 5325,
+      "sha256": "c65dfe0dac092d6a9717a8f1dbc600d82ba9ff25bbb6ce93519827003eccef6a"
+    },
+    {
+      "path": "docs/06_KE_HOACH_BON_KIP.md",
+      "bytes": 3314,
+      "sha256": "71bc9ae8dc5ce4f2edf5a09e16851a4180c8285bbf8e76aa87815965c17b5e67"
+    },
+    {
+      "path": "docs/07_QUAN_LY_NGUON_VA_PHIEN_BAN.md",
+      "bytes": 4360,
+      "sha256": "dc8ecc00549397e6c13081578f39b27e1d6fde653b3e9c5facfef0ff15038509"
+    },
+    {
+      "path": "docs/08_NGHIEM_THU.md",
+      "bytes": 4115,
+      "sha256": "66e31840b783402fa2a3d1faef8ddec483c806eacd9169aa1ba68aa802f90549"
+    },
+    {
+      "path": "docs/09_VAN_HANH_VA_BAO_CAO.md",
+      "bytes": 2683,
+      "sha256": "02c7428542de269602f502750ddcee7512e462e969f0aa6d2ff7751eb581ff40"
+    },
+    {
+      "path": "docs/10_KIEM_TRA_TRUOC_TRIEN_KHAI.md",
+      "bytes": 1802,
+      "sha256": "3805f53171f4402535423d5337cc61cc18c91f09736e69ef6271f45d882ccc2c"
+    },
+    {
+      "path": "docs/11_LO_TRINH_XAY_APP.md",
+      "bytes": 1651,
+      "sha256": "7a1f42feb7406b53e9de2bc128bd4914b8ae17e631614496e4e4ae3ab4a92803"
+    },
+    {
+      "path": "lessons/L01.md",
+      "bytes": 1173,
+      "sha256": "f747cd07fbccf3e08181f4da40f6d0c0fa784bb6cf6ed53bd4f3a3ef7f7e1bad"
+    },
+    {
+      "path": "lessons/L02.md",
+      "bytes": 1183,
+      "sha256": "98d73954f929928fd7a5d8989b8e1668a9bdd56bb8dbec6dc2b6a2af2642ec47"
+    },
+    {
+      "path": "lessons/L03.md",
+      "bytes": 1357,
+      "sha256": "f160c5c2a2a62e89fc05c9131c456c8d86c2984f1971b304291980a2be55e211"
+    },
+    {
+      "path": "lessons/L04.md",
+      "bytes": 1202,
+      "sha256": "326a7676e23537d72d7bc4ba7aac948e40bcb29228884cb778d5840b59698066"
+    },
+    {
+      "path": "lessons/L05.md",
+      "bytes": 1272,
+      "sha256": "b6f10b50a4f7cdc9eb8e8ad9306cf810e600da96970cdb237a65d7304241ee7e"
+    },
+    {
+      "path": "lessons/L06.md",
+      "bytes": 1327,
+      "sha256": "24dd20e9a769e674706aa9f527ad5901f5d85cb30b045c7512c3f303edde68ff"
+    },
+    {
+      "path": "lessons/L07.md",
+      "bytes": 1157,
+      "sha256": "7240b79347dc79d925f1025c74c231f050d275f85e96416447c64b55269db12d"
+    },
+    {
+      "path": "lessons/L08.md",
+      "bytes": 1117,
+      "sha256": "c90094f6d34e2cf4fde63c754aca83a1b67247658acfecbd4ed116eae407c8e7"
+    },
+    {
+      "path": "lessons/L09.md",
+      "bytes": 1173,
+      "sha256": "3fbefa7eaddbf0f9f8f1128b1cf757b39d5852f674bad6955cfae1674ee7615b"
+    },
+    {
+      "path": "lessons/L10.md",
+      "bytes": 1203,
+      "sha256": "64f69dd252b6a7c23a8c34b7e1a80709336317fa1407ba7b759085ab697795d9"
+    },
+    {
+      "path": "lessons/L11.md",
+      "bytes": 1517,
+      "sha256": "49851d019f508580d1defe6e3c0898296f767b461a633db07bb2f629c8b66597"
+    },
+    {
+      "path": "lessons/L12.md",
+      "bytes": 1388,
+      "sha256": "cff5f18e52ae85214eaf280208298f482700f719bb0c138cdf6179c077040dc1"
+    },
+    {
+      "path": "references/Huong_dan_truc_quan_2_trang.pdf",
+      "bytes": 3452430,
+      "sha256": "92f3822b958286a8a72d54ef3b212bb6ec2f31c44fa82e645beb7a3d60fc5ff4"
+    },
+    {
+      "path": "references/Lich_dao_tao_4_kip.xlsx",
+      "bytes": 18872,
+      "sha256": "0d13e67dcf4af8254c7488161b5ddb7a7ffdacd9479aa93612d441abbf46949a"
+    },
+    {
+      "path": "references/SOP_AG03_WH_092_A_EN.txt",
+      "bytes": 49967,
+      "sha256": "d08bab565570b4f99ccc514b2c846a5bbfc75921443259b5a7cd7905894438ce"
+    },
+    {
+      "path": "references/Slide_dao_tao_truc_quan_reference.pptx",
+      "bytes": 11343331,
+      "sha256": "fbf1dbdb3f516ab8bededa47d49fa5717441c5eb3393d3917967c00006e2175b"
+    },
+    {
+      "path": "schemas/training-records.schema.json",
+      "bytes": 2587,
+      "sha256": "9fbc15a953681113e2e11f949c2f52711797e4272b14aa3db4b67a3216c046c7"
+    },
+    {
+      "path": "scripts/README.md",
+      "bytes": 871,
+      "sha256": "a5f7a5719b7ac8d4aff787cf79f501f1b9f4da94d8764a0ec3d11dd40986b9d5"
+    },
+    {
+      "path": "scripts/assessment_reference.py",
+      "bytes": 1322,
+      "sha256": "0a71edf9af19efa4abcc44339e09857e452d69d77d8a3d406056cbb75ba22bd0"
+    },
+    {
+      "path": "scripts/validate_pack.py",
+      "bytes": 5071,
+      "sha256": "40347e40e745d532dc8c75a9f12624976e76b1d09d0daa73b7425e6ef74c1787"
+    },
+    {
+      "path": "templates/employee_import.csv",
+      "bytes": 133,
+      "sha256": "3e24cc109dffa435952aba49ad1df0644592ca85847fa9b76ab188e0b4c605b3"
+    },
+    {
+      "path": "templates/hardware_observations_import.csv",
+      "bytes": 152,
+      "sha256": "e4630dad2169317e9a26aaadcfe762d8399fb37813074948825722d64373da13"
+    },
+    {
+      "path": "templates/planned_slots_132.csv",
+      "bytes": 5953,
+      "sha256": "268057cbff3f44bb9592b024bdb8fd4fa9aae9f278782af44702da82c269fa58"
+    },
+    {
+      "path": "templates/workcell_scope_import.csv",
+      "bytes": 104,
+      "sha256": "c25e2e0db92350de8bb421f0f7ce8437c0ee8aed096868b3e0920408443624a9"
+    },
+    {
+      "path": "tests/golden_cases.json",
+      "bytes": 3861,
+      "sha256": "b0d54270408e2411f0cf9ceb7346077b73a6638d6b1e369e9c2c2b2d7fb9e177"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "ASV-INVENTORY-2026",
+  "version": "ASV-INV-2026.11-v1",
+  "language": "vi-VN",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "title": "Kiểm kê Sản xuất ASV 2026",
+  "status": "proposal_pending_local_validation",
+  "theory_minutes": 90,
+  "module_ids": [
+    "L01",
+    "L02",
+    "L03",
+    "L04",
+    "L05",
+    "L06",
+    "L07",
+    "L08",
+    "L09",
+    "L10",
+    "L11",
+    "L12"
+  ],
+  "main_completion_target": "2026-11-28T18:00:00+07:00",
+  "hard_deadline_exclusive": "2026-12-01T00:00:00+07:00",
+  "inventory_start": "2026-12-18",
+  "inventory_end_planned": "2026-12-27",
+  "planned_headcount": {
+    "LL": 72,
+    "GL": 30,
+    "FEEDER": 30
+  },
+  "source_of_truth": "references/SOP_AG03_WH_092_A_EN.txt",
+  "on_screen_rules": {
+    "max_cards_per_screen": 1,
+    "prefer_image_plus_caption": true,
+    "font_min_px": 18,
+    "no_auto_complete_on_timer": true
+  },
+  "completion_evidence": {
+    "lesson": "Xem đủ card và đúng câu kiểm tra cuối bài; trả sai được ôn lại, không coi là thi chính thức. Có bản văn bản thay ảnh.",
+    "theory": "Đạt bài thi được máy chủ chấm",
+    "simulation": "Đạt bài mô phỏng chính thức",
+    "hardware": "Giám khảo độc lập xác nhận trực tiếp",
+    "authorization": "WCM/Kho duyệt vai và phạm vi sau đào tạo"
+  }
+}

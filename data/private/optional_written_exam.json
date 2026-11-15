@@ -1,0 +1,130 @@
+{
+  "required_by_default": false,
+  "minutes": 20,
+  "total": 100,
+  "pass_score": 90,
+  "all_critical_correct": true,
+  "note": "Tùy chọn thi viết có giám khảo thay MCQ, không mặc định bắt học viên thi hai bài lý thuyết. Nếu dùng cần bật chính sách và rubric chi tiết trước thi; mỗi câu0/5/10, câu critical phải10.",
+  "questions": [
+    {
+      "id": "T01",
+      "question_vi": "Nêu 5 thông tin phải đúng khi ghi nhận một hộp và mục đích của kiểm kê.",
+      "expected_answer_vi": "Mã hàng, số lượng, đơn vị tính, trạng thái, vị trí. Ghi nhận tồn thực tế để đối chiếu hệ thống.",
+      "critical": false,
+      "max_points": 10,
+      "scoring": {
+        "10": "Đúng đủ các ý và không có hành động sai quy trình",
+        "5": "Thiếu ý nhưng không đưa hành động trái quy trình",
+        "0": "Sai hoặc không trả lời; vi phạm điều kiện bắt buộc"
+      }
+    },
+    {
+      "id": "T02",
+      "question_vi": "Trong thời gian kiểm kê, feeder được yêu cầu chuyển gấp hàng sang công đoạn kế tiếp. Bạn xử lý thế nào?",
+      "expected_answer_vi": "Dừng yêu cầu chuyển, giữ hàng tại vị trí, báo GL/WCM và Audit Team. Không chuyển thực tế hoặc tạo chuyển hệ thống khi đang khóa.",
+      "critical": true,
+      "max_points": 10,
+      "scoring": {
+        "10": "Đúng đủ các ý và không có hành động sai quy trình",
+        "5": "Thiếu ý nhưng không đưa hành động trái quy trình",
+        "0": "Sai hoặc không trả lời; vi phạm điều kiện bắt buộc"
+      }
+    },
+    {
+      "id": "T03",
+      "question_vi": "A vừa đếm hộp. Có thể giao A tự kiểm lại và dán tem 1 thay người B không? Vì sao?",
+      "expected_answer_vi": "Không. A, B, C là ba người riêng biệt. B kiểm độc lập mã và số lượng trước tem 1.",
+      "critical": true,
+      "max_points": 10,
+      "scoring": {
+        "10": "Đúng đủ các ý và không có hành động sai quy trình",
+        "5": "Thiếu ý nhưng không đưa hành động trái quy trình",
+        "0": "Sai hoặc không trả lời; vi phạm điều kiện bắt buộc"
+      }
+    },
+    {
+      "id": "T04",
+      "question_vi": "Nhãn ghi 20 pcs. Thực tế 18 pcs hoặc 22 pcs thì xử lý khác nhau thế nào?",
+      "expected_answer_vi": "18: người có quyền xử lý WMS theo quy trình, in nhãn đúng và bỏ nhãn cũ. 22: báo Audit Team để điều chỉnh và in nhãn đúng. Không tự sửa 1C hay chỉ sửa tay số.",
+      "critical": false,
+      "max_points": 10,
+      "scoring": {
+        "10": "Đúng đủ các ý và không có hành động sai quy trình",
+        "5": "Thiếu ý nhưng không đưa hành động trái quy trình",
+        "0": "Sai hoặc không trả lời; vi phạm điều kiện bắt buộc"
+      }
+    },
+    {
+      "id": "T05",
+      "question_vi": "Một hộp lẫn hai phiên bản PCB. Nếu phát hiện trước kiểm kê và trong lúc khóa kiểm kê thì làm gì?",
+      "expected_answer_vi": "Trước kiểm kê: phân loại riêng, đúng mã/phiên bản/màu. Trong kiểm kê: giữ tại chỗ, nhận diện và báo xử lý; đếm theo hiện trạng, không tự chuyển hàng giữa khu vực.",
+      "critical": false,
+      "max_points": 10,
+      "scoring": {
+        "10": "Đúng đủ các ý và không có hành động sai quy trình",
+        "5": "Thiếu ý nhưng không đưa hành động trái quy trình",
+        "0": "Sai hoặc không trả lời; vi phạm điều kiện bắt buộc"
+      }
+    },
+    {
+      "id": "T06",
+      "question_vi": "Tem 1, tem 2, tem 3 xác nhận việc gì và dán ở đâu?",
+      "expected_answer_vi": "Tem 1 trên nhãn hộp sau B kiểm. Tem 2 trên nhãn hộp sau C gán Box vào P-number và P-number vào ô, để vẫn thấy tem 1. Tem 3 trên ô sau hoàn tất phiếu PDT. Không che dữ liệu; màu thực tế do Kho công bố.",
+      "critical": true,
+      "max_points": 10,
+      "scoring": {
+        "10": "Đúng đủ các ý và không có hành động sai quy trình",
+        "5": "Thiếu ý nhưng không đưa hành động trái quy trình",
+        "0": "Sai hoặc không trả lời; vi phạm điều kiện bắt buộc"
+      }
+    },
+    {
+      "id": "T07",
+      "question_vi": "A gửi số đếm bán thành phẩm cho A2 thế nào? Hàng REF và linh kiện gắn thêm ngoài BOM xử lý ra sao?",
+      "expected_answer_vi": "Tối đa 5 hộp/pallet mỗi lần, một dòng mã–số lượng cho một hộp/pallet. REF kiểm riêng theo mã REF. Linh kiện thêm ngoài BOM ghi và kiểm kê riêng, báo quản lý.",
+      "critical": false,
+      "max_points": 10,
+      "scoring": {
+        "10": "Đúng đủ các ý và không có hành động sai quy trình",
+        "5": "Thiếu ý nhưng không đưa hành động trái quy trình",
+        "0": "Sai hoặc không trả lời; vi phạm điều kiện bắt buộc"
+      }
+    },
+    {
+      "id": "T08",
+      "question_vi": "Sau WMS, phát hiện ô hoạt động màu đỏ trên báo cáo độ phủ. Cần làm gì trước khi báo hoàn tất?",
+      "expected_answer_vi": "GL/Supervisor rà Analysis of cell presence in inventory, kiểm kê bổ sung ô hoạt động bị bỏ sót; xác minh ô không dùng, service/receiving đúng yêu cầu, PC đưa phiếu về Completed và hoàn tất Jira 3.",
+      "critical": false,
+      "max_points": 10,
+      "scoring": {
+        "10": "Đúng đủ các ý và không có hành động sai quy trình",
+        "5": "Thiếu ý nhưng không đưa hành động trái quy trình",
+        "0": "Sai hoặc không trả lời; vi phạm điều kiện bắt buộc"
+      }
+    },
+    {
+      "id": "T09",
+      "question_vi": "Một mã có WMS: ô A=32, ô B=10. Đếm lại A=30, B=10. Ghi kết quả thế nào và phải kiểm thêm ô nào?",
+      "expected_answer_vi": "Tổng thực tế 40, WMS 42, chênh lệch -2. Phải kiểm toàn bộ ô có mã đó trên báo cáo và rà vị trí liên quan; ghi thực tế từng ô, ký và báo Audit Team trong 1 ngày làm việc từ nhận danh sách.",
+      "critical": false,
+      "max_points": 10,
+      "scoring": {
+        "10": "Đúng đủ các ý và không có hành động sai quy trình",
+        "5": "Thiếu ý nhưng không đưa hành động trái quy trình",
+        "0": "Sai hoặc không trả lời; vi phạm điều kiện bắt buộc"
+      }
+    },
+    {
+      "id": "T10",
+      "question_vi": "Đã hết ngày 27/12 nhưng chưa có thông báo Audit Team. Có được báo cáo sản xuất, chuyển hàng hoặc hạch toán lùi ngày không?",
+      "expected_answer_vi": "Không. Chỉ khôi phục sau Audit Team xác nhận hoàn tất điều chỉnh, theo giờ hiệu lực thông báo. Không hạch toán lùi vào giai đoạn kiểm kê.",
+      "critical": true,
+      "max_points": 10,
+      "scoring": {
+        "10": "Đúng đủ các ý và không có hành động sai quy trình",
+        "5": "Thiếu ý nhưng không đưa hành động trái quy trình",
+        "0": "Sai hoặc không trả lời; vi phạm điều kiện bắt buộc"
+      }
+    }
+  ]
+}

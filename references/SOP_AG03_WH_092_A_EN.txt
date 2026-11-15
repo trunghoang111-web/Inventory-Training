@@ -1,0 +1,718 @@
+EN_ Instruction for Production Inventory  - AG03-WH-092_А
+EN_ Instruction for Production Inventory  - AG03-WH-092_А
+/wiki/spaces/DC/pages/5816844302
+|
+Instruction for Production Inventory
+|
+AG03-WH-092_А
+|
+|
+Position
+|
+Full name
+|
+Status
+|
+Date
+|
+Developed
+|
+Warehouse Business Analyst
+|
+Olha Romanenko
+|
+Created
+|
+13 Nov 2025
+|
+1. Purpose
+The purpose of this instruction is to describe and streamline the production inventory process.
+2. Scope
+The instruction is relevant and applicable at all company locations.
+3. Definitions/Terminology
+3.1 SFP — semi-finished product.
+3.2 Pallet — a black plastic pallet for transporting printed circuit boards (Fig. 1)
+3.3 Wooden pallet — a wooden pallet for storing boxes (Fig. 2)
+3.4 PDT — portable data terminal.
+3.5 BC — barcode.
+3.6 P-number — WMS pallet number, WMS container, pallet sticker/label. (Fig. 3)
+3.7 SPR - shift production report 1C.
+3.8 FG - finished goods.
+3.9 Raw material - materials and components that are directly used for manufacturing semi-finished goods and finished products, and are specified in the bill of materials.
+3.10 Audit Team — a team responsible for coordinating warehouse and production representatives involved in inventory, as well as recording actual stock balances in the accounting system (1C)
+The audit team may include:
+PM Warehouse
+Warehouse Business Analyst
+Warehouse Manager
+Specialist in Management Accounting Control
+Inventory Control Specialist
+Note: The composition of the audit team is indicative and may vary depending on location and type of inventory.
+3.11 “Clarify” warehouses — warehouses for lost components, defined in the provided document https://docs.google.com/spreadsheets/d/1H84WVDez02q6V-CfQ0__0fiHWhGd2i_9TzoHWAE-saY/edit?gid=0#gid=0.
+3.12 Cell - A cell number consists of letters and numbers separated by hyphens.
+Examples:
+SMT-SKL-01
+RW-SK1-01-02
+MRBS1-01-01
+3.13 Pallet - A pallet number consists of 13 characters and starts with either the digit 9 or the letter P.
+Examples:
+9000000605066
+P000000388954
+3.14 Box - A box number is always displayed on a WMS label together with the item description and quantity.
+A box number:
+consists of 13 characters;
+usually starts with zeros.
+Examples:
+0000008759198
+0000003782604
+4. Responsibility
+4.1 Production Warehouse is responsible for:
+organizing the inventory process (planning, resource allocation, team setup, tools);
+performing counting of components in production warehouses;
+training employees involved in inventory;
+ensuring WMS training (PC and PDT) and sufficient number of PDT devices;
+supporting employees during system usage;
+closing all accounting documents prior to inventory.
+4.2 Production is responsible for:
+timely preparation of SFP and components (sorting, labeling, marking);
+performing physical counting in WMS;
+verifying data accuracy;
+marking verified items;
+providing real-time updates to auditors;
+confirming discrepancies, performing root cause analysis, and implementing corrective actions.
+4.3 Audit Team is responsible for:
+controlling completeness and accuracy of received data;
+reflecting actual balances in 1C;
+consolidating and documenting discrepancies.
+4.4 Department Managers:
+ensure control over inventory execution;
+ensure compliance with deadlines, accuracy, and communication.
+4.5 Finance Team:
+controls correctness of labeling;
+participates in inventory control;
+verifies consistency between inventory and accounting data (if required).
+5. Related documents
+5.1 https://docs.google.com/document/d/1j9DNuxPhUNuKJGI3Mu-Me0OaVMYSqrd7UF9ZqjspnZQ/edit?tab=t.0
+5.2 https://docs.google.com/document/d/1yPYh-4As9JR_Yzj2V5MCT8BO6m9bYkQLQt2VItFw5Uo/edit?usp=sharing
+5.3 https://docs.google.com/document/d/1hgNTyVRzKeMxhS0vDUFNFR2YnTAcwEvZ_LgisfyMO08/edit?usp=sharing
+5.4 https://docs.google.com/document/d/1cJKwx4P8saDjPIuBA_xuEWlOlnli7_DW0H-OURiSpaU/edit?usp=sharing
+5.5 https://docs.google.com/document/d/1hsevwzaTFEuKjtmBb9GpMBtR6wYKaEsVEfcJsM2yYmI/edit?usp=sharing
+5.6 https://docs.google.com/document/d/1EszsEk7gNpvbLUfNjKHXbh11NzRBoxQopIFA73TVsRQ/edit?usp=sharing
+5.7 https://docs.google.com/document/d/1T_bQrqLd9wAgVFLhSTKqmhDweURYRqMNO3ZS7pkDZyM/edit?usp=sharing
+5.8 https://docs.google.com/document/d/1LAXvG_UzSZ-motMfa7-iOwcHHiBMvwwwdmTsZgEOGP0/edit?usp=sharing
+5.9  WAR-35605  - Template for Annual Inventory in Ukraine
+5.10  VTP-3805 - Annual Inventory VTP *execution dates* To Do  - Template for Annual Inventory in Vietnam
+5.11  TRP-5248  - Template for Annual Inventory in Turkey
+5.12 https://docs.google.com/spreadsheets/d/1QU9Wo3mViDWbH0M-Y9WEl0o6uheOQ1GRPauhNBX4PWQ/edit?gid=656859399#gid=656859399 - Document for creating a consolidated inventory with IRA (Inventory Rate of Accuracy)
+5.13 /wiki/spaces/DC/pages/6109364319
+5.14 /wiki/spaces/DC/pages/5810290977
+5.15  WAR-28454  - Template for Warehouse Incidents in Ukraine
+5.16  TRP-4634  - Template for Warehouse Incidents in Turkey
+5.17  VTP-1015 - Not post moving gods To Do  - Template for Warehouse Incidents in Vietnam
+5.18 https://docs.google.com/spreadsheets/d/1_Acbi9Xk2kv-F2_tUjZf01KTPpZlXAWYbQgyEPn0Y30/edit?usp=sharing- Document with list of warehouses that are included in Annual inventory.
+5.19 https://docs.google.com/document/d/1Jg0XKDDmtI4iOo9qtXVzmOHUP8fBArEYZM91AJGQAYg/edit?usp=sharing
+6. Process description
+6.1. Preparatory work
+One month before the start of the inventory count, the audit team informs the following teams about the planned inventory dates:
+Finance Team;
+IT Support;
+1C + WMS Support;
+Admin Team;
+Production Team;
+Warehouse Team.
+One month before the inventory count, production and storage warehouse employees perform warehouse defragmentation and verify the alignment between physical and system stock locations.
+Two weeks before the start of the inventory count, the Production Manager aligns with the Admin and IT teams on restrictions regarding any activities that may impact the inventory process.
+Such activities include construction work, equipment and infrastructure maintenance, power outages, network or internet interruptions, as well as any other activities that may affect warehouse operations, WMS, ERP systems, or the counting process.
+Two weeks before the start of the inventory, an internal control group is defined, which will impartially and independently accompany the verification and be responsible for compliance with inventory standards and ensuring its correctness.
+One week before the start of the inventory, a kick-off meeting is conducted with the participation of the Warehouse Manager, the production team involved in the inventory, the warehouse team, and the audit team. During the meeting:
+the inventory process and any changes compared to the previous inventory are discussed;
+timelines for preparation and execution of the inventory, specific dates and, if necessary, time for each stage are clarified;
+the number of employees required for each stage, their roles and responsibilities, as well as which positions will perform which stages are defined;
+the preliminary composition of the internal control group is determined.
+During the inventory period, the following Google Chats must be created:
+for general communication (all warehouse and production representatives involved in the inventory are included);
+for communication on deviations recorded by the internal control group (audit team, internal control group, Supervisor, Group Leader, Line Leader — if necessary);
+for communication with the audit team;
+for communication on reconciliation of deviations after forming consolidated inventory data.
+To ensure operative and accurate execution of the inventory, the following actions must be performed:
+Completion of accounting documents and physical transfers (by the end of the day preceding the start of the inventory)
+all shift production reports (SPR) must be completed;
+all required movements of SFP between sections (according to recorded facts, movements to repair, movements to scrap, etc.) must be completed;
+transit warehouses in 1C and transit cells in WMS must be checked and empty. If there are unprocessed movements, the audit team must be informed about the need to process them;
+all finished goods must be shipped from production to the FG warehouse and must be absent both physically and in accounting at production warehouses;
+all materials that are not used in production must be returned both physically and in 1C system:
+only internal orders for the production plan for the selected period after inventory should remain in production;
+for locations/stages operating only in day shifts — it is optimal to keep internal orders for 2 shifts after inventory;
+for locations/stages operating day + night — it is optimal to keep internal orders for 3–4 shifts after inventory;
+in the storage warehouse, assembled orders for the following days after inventory may be stored, provided they are fully ready (selected only required quantities for the plan), isolated from other components (stored separately, marked with Internal Order number), and taking into account that the storage warehouse will include them in its inventory;
+all required materials must be physically received to production and their movement in accounting is processed;
+all defective materials must be removed from production and transfered to MRB;
+all balances from “Clarify” warehouses must be moved to the corresponding production warehouses;
+verify that there are no negative balances in accounting;
+all corners and shelves in production must be checked for unattended materials and components and move them to proper locations;
+on production sections, blocked SFP and FG must be separated into the blocked materials area under corresponding locations; blocked SFP and FG must not be present on OK product racks;
+on other production stages (incoming inspection, SMT/THT quality control, etc.) SFP must be absent;
+If SFP are found on other production sections, they must be moved to the appropriate area:
+to blocked SFP zone — if blocked;
+to repair area — if repair is required;
+to appropriate production section — if intended for further processing.
+Equipment that has not yet been capitalized as a fixed asset (FA) must be included in the inventory count in the same manner as any other materials.
+Materials and equipment that have already been written off but not physically disposed of, must be:
+verified against 1C records;
+physically isolated;
+marked with red labels stating “DO NOT COUNT DURING INVENTORY”.
+Sorting of raw materials (to be completed by the end of the day before the inventory start day)
+Sort materials by groups (e.g., resistors, capacitors, enclosures, cables, labels, etc.).
+Each box, crate, or spool must contain only one type of material with a single item code.
+Place materials in their designated storage locations, avoiding mixing different item codes.
+Separate materials as follows:
+Defective → to MRB;
+Blocked → to the blocked materials area;
+For repair → to the repair area.
+Ensure that no unidentified components remain in work areas, on conveyors and machines, or in containers.
+3. Sorting semi-finished products (by the end of the day preceding the start of the inventory)
+Each box or pallet must contain only one nomenclature (one type of semi-finished product with one name). For exapmle, one pallet can contain 25 pcs of Ajax, Hub_V4_holder_плата з компонентами, but it can’t contain both Ajax, Hub_V4_holder_плата з компонентами and Ajax, HB2.001.PWB.001v4_плата з компонентами on it. One shelf of the rack can contain several pallets of one nomenclature, one wooden pallet can contain several boxes of one nomenclature.
+Different versions of boards or semi-finished products, as well as different colors, should be placed on separate boxes or pallets on different shelves of the rack.
+Each pallet or box must have a packing list with the name of the nomenclature specified in accordance with the nomenclature code in the 1C system.
+In the case of floor storage, boxes must be placed exclusively on wooden pallets. Storage directly on the floor is not permitted.
+Marking storage locations (to be done approximately 2–3 days before the inventory and must be completed no later than 1 day before it begins, so that there is time for verification)
+If inventory of semi-finished products in WMS is being conducted for the first time, it is necessary to:
+print labels for WMS cells and WMS pallet numbers (P-numbers);
+IMPORTANT! WMS cell numbers must be created exclusively through a task submitted via the IT portal. Creation of cells by warehouse employees is strictly prohibited.
+mark all storage locations according to the department: each shelf of the rack must have a label with a WMS cell and a WMS pallet number (P-number). If floor storage is used, each wooden pallet must have a WMS cell label and a WMS pallet number label (in example, 1 shelf = 1 WMS cell = 1 WMS pallet number (P-number); 1 wooden pallet = 1 WMS cell = 1 WMS pallet number (P-number));
+Ensure that cell names correspond to the production departments for which they were created. The use of cell labels from other department is not permitted.
+Encoding of the stage and name of the department in WMS:
+Create a separate receiving cell specifically for semi-finished products to avoid mixing data with the main production receiving cell.
+IMPORTANT!
+Labeling of rack cells must follow these rules:
+only labels with one unique cell number must be applied on a single rack;
+shelf numbering starts from bottom to top;
+senior staff of the sections, as well as the audit team and the internal control group, ensure that there are no duplicate cells in production.
+If inventory in WMS is performed not for the first time, it is necessary to:
+check the relevance of storage cells labeling in accordance with WMS cells and WMS pallet numbers in the department;
+it is mandatory to verify the WMS cell types that will participate in the inventory count — all such cells must have the “Storage” type assigned.
+reset balances on WMS cells and WMS pallet numbers (delete the remaining material quantities):
+for cases when WMS boxes and pallets are not used in further stages of production;
+when conducting a repeat inventory, it is necessary to reset the balances on cells and pallets;
+сheck the semi-finished products receiving cell – it must also be empty.
+if new storage areas appear, mark them with free WMS cells and WMS pallet numbers of the corresponding department.
+if there are not enough free WMS cells and WMS pallet numbers, create new cells and P-numbers (using an ITSM request) with the appropriate markings according to the department in which they are used.
+5. Checking the readiness of personnel and equipment (to be done approximately 2–3 days before the inventory and must be completed no later than 1 day before it begins, so that there is time to check)
+Warehouse Leader is required to:
+purchase stickers in three colors (color 1, color 2, color 3) and inform the employees who will participate in the inventory which color sticker corresponds to which number;
+Examples of stickers:
+check that employees who will be participating in the inventory have the necessary access to WMS on PCs and PDT, have the necessary equipment and consumables;
+Recommended minimum equipment allocation for the inventory process:
+PDT:
+1 device per department/area;
+2 devices for the production warehouse;
+minimum 3 devices for the storage warehouse.
+Zebra printers:
+1 printer per department/area;
+2 printers for the production warehouse;
+1 printer for the storage warehouse.
+The required quantity of PDT devices is determined based on the semi-finished goods buffer volume:
+1 PDT device per every 15,000 semi-finished goods.
+The required quantity of Zebra printers is determined based on the semi-finished goods buffer volume:
+1 printer per every 20,000 semi-finished goods.
+For the internal control group, each location must be provided with:
+a minimum of 1 PDT device;
+if the semi-finished goods buffer exceeds 100,000 units — a minimum of 2 PDT devices.
+The actual equipment requirement shall be determined based on production volumes, warehouse quantity, and the inventory scope for each specific location.
+familiarize the staff who will be conducting the inventory with the relevant instructions, conduct training, and test employees knowledge;
+inform all employees involved about the prohibition of any transfers of material between departments during the inventory;
+initiate a request to the audit team to update the document with the list of warehouses that are included in annual inventory https://docs.google.com/spreadsheets/d/1_Acbi9Xk2kv-F2_tUjZf01KTPpZlXAWYbQgyEPn0Y30/edit?usp=sharing;
+initiate a request to the audit team to create and provide an up-to-date list of semi-finished products that may be in stock. The list must include nomenclature codes and their names in accordance with the accounting system data;
+initiate a request to the Audit Team to prepare and provide a list of materials with non-standard units of measure (e.g., packs, meters, etc.).
+in the provided list of active items, all REF products that must be present in production are listed separately;
+provide employees who will be conducting the count with a guidebook containing an up-to-date list of semi-finished products;
+verify the correctness of material sorting — different types of materials and item codes must be placed in separate boxes or on separate pallets, on different shelves;
+check the compliance of the sorting of semi-finished products — different semi-finished products must be placed in separate boxes or pallets, on different shelves;
+check the compliance of storage cells labeling — all locations and areas with semi-finished products in the department must be labeled with current WMS cells and WMS pallet numbers.
+6. REF Product Counting (To be performed approximately 2–3 days before the inventory and completed no later than 1 day before it begins to allow time for verification.)
+A dedicated team is assigned to count REF products in a designated area to prevent mixing OK products with REF products.
+REF semi-finished products must be processed according to the REF product process, not under OK product item codes.
+After all checks have been completed, the Warehouse Lead fills in the checklist in the assigned Jira task “1. Preparation Checklist” indicating all preparation and verification steps that were carried out, and informs the audit team that the preparatory work has been completed.
+Preparation of data for the inventory does not begin until the audit team has been provided with information confirming that preparatory work has been completed in all production areas and warehouse zones within the Jira tasks.
+IMPORTANT!
+A completed checklist confirms that all listed actions have been performed — not just that it has been signed.
+6.2 Preparation of data for inventory
+6.2.1 For raw materials
+Before the actual inventory in the WMS system, production staff perform three preparatory steps.
+Each step is performed by a separate person:
+Person A — performs the initial counting of materials and adjusts the quantity on the WMS label if it does not match;
+Person B — checks the consistency between the actual quantity in the box and the WMS label;
+Person C — assigns WMS boxes to the corresponding WMS pallet numbers and WMS pallet to the WMS cell.
+Additionally, there is a controller responsible for correcting any errors.
+Any physical movement of materials between production areas during the inventory is strictly prohibited!
+If materials or semi-finished products in an inappropriate condition are identified on a production area (for example: a semi-finished product that has not passed a previous operation, a semi-finished product under repair, a defective semi-finished product, or raw material), they must be counted in the condition and at the location where they are physically present at the time of the inventory.
+After the inventory is completed, such materials/semi-finished products must be transferred—both physically and in the accounting system—to the production area corresponding to their actual status.
+1) Actions of Person A
+Person A physically counts the materials.
+IMPORTANT!
+If a box has not been opened and remains intact as received from the supplier, recounting the quantity of components in such a box is not required.
+Counting is done sequentially for each shelf or pallet. Simultaneous counting of multiple shelves or pallets is prohibited.
+The quantity is determined for each package or box individually.
+After counting a package or box on the first shelf:
+If the quantity on the label does not match the actual quantity, Person A:
+Corrects the quantity in the WMS system using the "Writing-off materials from Box" tool (instruction https://docs.google.com/document/d/1T_bQrqLd9wAgVFLhSTKqmhDweURYRqMNO3ZS7pkDZyM/edit?usp=sharing ), indicating the actual quantity stored in that package/box (if the quantity in the box is greater than indicated on the label, this must be reported to the audit team to correct the quantity; then a label with the correct quantity must be printed);
+Prints a new WMS box label;
+Places the label on the corresponding pallet or box, removing the old label first;
+Marks the box label with a green check (✓) using a marker, without covering printed data;
+Then moves to the next package or box.
+If the quantity matches, Person A marks the label with a green check (✓) to confirm the count.
+After completing one shelf or pallet, Person A checks that all packages or boxes have green check marks, then proceeds to the next shelf or pallet.
+Upon completion of all shelves/pallets, Person A informs the senior staff member of the completion of their step.
+2) Actions of Person B
+Person B performs verification of the data.
+After Person A finishes counting a shelf or pallet, Person B checks each package or box individually.
+For each package/box, Person B compares the actual quantity with the quantity on the WMS label:
+If the quantities match, Person B places a color 1 sticker over the green check on the label without covering the printed data;
+If the quantities do not match, Person B calls the controller to correct the data in the problematic WMS box.
+After checking a shelf or pallet, Person B:
+Ensures all boxes on that shelf/pallet have a color 1 sticker;
+If all stickers are present, proceeds to the next shelf/pallet;
+If any box is missing a sticker, performs an additional check.
+Upon completion of all shelves/pallets, Person B informs the senior staff member of the completion of their step.
+3) Actions of Person C
+Person C assigns WMS boxes to their corresponding WMS pallet numbers on WMS cells.
+After Person B finishes verifying a shelf/pallet and all boxes have color 1 stickers, Person C processes each package/box:
+Assigns the WMS box to the correct WMS pallet number on the shelf or pallet (instruction https://docs.google.com/document/d/1cJKwx4P8saDjPIuBA_xuEWlOlnli7_DW0H-OURiSpaU/edit?usp=sharing );
+Assigns the WMS pallet to the WMS cell (instruction https://docs.google.com/document/d/1hsevwzaTFEuKjtmBb9GpMBtR6wYKaEsVEfcJsM2yYmI/edit?usp=sharing );
+Places a color 2 sticker over the color 1 sticker (both should remain visible);
+If a color 1 sticker is missing, reports to the senior staff and controller for correction.
+After processing a shelf/pallet, Person C:
+Verifies that all boxes have color 2 stickers;
+Proceeds to the next shelf/pallet if complete;
+Processes any box without a color 2 sticker;
+Checks the receiving cell for any materials not assigned to a WMS pallet number and assigns them accordingly.
+Upon completion of all shelves/pallets, Person C informs the senior staff member.
+Result of Preparatory Steps
+As a result of the work of the three staff members:
+All packages and boxes on the shelves/pallets have WMS box labels indicating item code and quantity;
+Each label has a validation sticker of color 1;
+Each label has a sticker of color 2;
+Each WMS box is assigned to a WMS pallet number;
+Each WMS pallet is assigned to a WMS cell;
+The receiving location is empty.
+6.2.2 For semi-finished products
+Before directly conducting inventory in the WMS system, production staff perform preparatory actions.
+The process involves:
+Person A — performs physical counting of products and submits the data;
+Person A2 — enters data into WMS and prints labels;
+Person B — performs verification of data accuracy;
+Person C — assigns WMS boxes to pallet numbers and pallets to storage cells;
+Controller — corrects errors (posting to OUT, creating new labels, etc.).
+Due to the limited number of Zebra printers, WMS label printing is centralized through Person A2.
+For communication, Google Chat is used, where:
+a dedicated inventory chat is created;
+separate threads are created for each department or group of departments using one printer;
+only employees of the respective department communicate within each thread.
+Important:
+There may be multiple Persons A for one department/group;
+Only one Person A2 is assigned per department/group.
+Any physical transfers of materials between departments during inventory is prohibited!
+If materials or semi-finished goods are found in an incorrect state (e.g., missing a previous process step, under repair, defective, etc.), they must be counted in their current state and location at the moment of inventory.
+After inventory completion, such materials/semi-finished goods must be moved — both physically and in the system — to the appropriate area according to their actual status.
+Accounting for Additional Components on Semi-Finished Products
+If, during the inventory of semi-finished products, it is discovered that any components not included in their specification have been added (for example, a cable, sticker, bracket, etc.), you must:
+Record the list of such components and their quantities.
+Process these components according to the inventory procedure for components — separately from the main semi-finished product.
+Escalate the discovered deviation to the senior employee.
+1) Actions of person A
+Person A physically counts the products.
+Counting is performed sequentially per rack or pallet. Simultaneous counting of multiple racks or pallets is prohibited.
+Quantity is determined for each pallet or box individually.
+After counting each pallet or box, Person A records the item code and quantity.
+After counting no more than 5 pallets/boxes, Person A sends the data in Google Chat:
+in their department thread;
+in the format: one line = one pallet/box:
+item code – quantity
+After sending the data, Person A continues counting.
+Once a reaction appears in Google Chat (labels ready), Person A:
+collects labels from Person A2;
+verifies item and quantity accuracy;
+applies labels to the corresponding pallets/boxes.
+After completing one rack/pallet, Person A ensures all units are labeled and proceeds further.
+At the end, informs the senior employee.
+2) Actions of Person A2
+Person A2 works within the relevant Google Chat thread.
+Person A2:
+processes messages in order of arrival;
+enters data into WMS via the “Production Release Registration” tool ( instruction https://docs.google.com/document/d/1hgNTyVRzKeMxhS0vDUFNFR2YnTAcwEvZ_LgisfyMO08/edit?usp=sharing);
+prints WMS labels for each pallet/box;
+verifies label accuracy;
+groups labels by department/request.
+After processing, Person A2 reacts (emoji) in Google Chat to indicate labels are ready.
+3) Actions of Person B
+Person B verifies data accuracy.
+After Person A finishes a rack/pallet, Person B checks each pallet/box:
+item on accompanying document vs WMS label;
+actual quantity vs labeled quantity.
+If everything matches:
+applies color sticker 1 on the label without covering data.
+If discrepancies are found:
+calls the controller;
+continues checking the next unit while correction is in progress.
+After completing a rack/pallet:
+ensures all labels have color sticker 1;
+if not — rechecks missing ones.
+At the end, informs the senior employee.
+3) Actions of person C
+Person C performs WMS box scanning to WMS pallet numbers on the corresponding cells.
+Once person B has finished checking one rack or wooden pallet and they all have a colour 1 sticker, person C processes each pallet or box separately.
+For each pallet or box, person C:
+scans the WMS box to the corresponding WMS pallet number on the rack shelf or wooden pallet (instruction https://docs.google.com/document/d/1cJKwx4P8saDjPIuBA_xuEWlOlnli7_DW0H-OURiSpaU/edit?usp=sharing );
+scans the WMS pallet to the corresponding WMS cell (instruction https://docs.google.com/document/d/1hsevwzaTFEuKjtmBb9GpMBtR6wYKaEsVEfcJsM2yYmI/edit?usp=sharing );
+attaches a color 2 sticker to the color 1 sticker overlay (so that both stickers are visible) to the box label so as not to damage or cover the printed data;
+if there is no color 1 sticker on the label, notifies the senior employee and the controller for further correction.
+After finishing processing one rack or wooden pallet, person C:
+checks for the presence of color 2 stickers on all WMS box labels on this rack or wooden pallet;
+if all labels have color 2 stickers, moves on to the next rack or wooden pallet;
+if there are any pallet or box with no color 2 sticker on, processes this unit;
+checks the receiving cell for the presence of residues of materials not assigned to the WMS pallet number;
+if materials are present in the receiving cell, searches for them and assigns them to the corresponding WMS pallet number.
+After completing work on all racks and wooden pallets, person C informs the line leader that they have finished their process.
+IMPORTANT
+If incorrect labels of boxes/pallets/cells are identified (wrong item, quantity, etc.):
+they must be handed over to the audit team for deletion;
+new correct labels must be printed.
+Result of preparatory actions
+As a result of the work of three employees:
+All pallets and boxes on the shelves and wooden pallets of the department have a WMS box label indicating the nomenclature and quantity.
+Each label has a validation sticker of color 1.
+Each label has a sticker of color 2.
+Each WMS box is scanned to the WMS pallet number.
+Each WMS pallet is scanned to the WMS cell.
+The receiving cell is empty.
+After completing all stages of data preparation for inventory, the Supervisors and Group Leaders of the production departments:
+fill in checklists in the Jira tasks assigned to them “2. Data preparation for inventory”, indicating all preparation and verification steps that were performed;
+inform the audit team about the completion of preparatory actions.
+The audit team than performs reconciliation of item nomenclatures in stock balances at locations against the list of actual nomenclatures. After the check, the audit team provides feedback on whether any excess nomenclatures were found (which were unlikely to be present in production) for verification by production, whether such nomenclatures are actually present in stock balances.
+WMS inventory does not start until the audit team is provided with information about the completion of data preparation for inventory in all areas and zones of production and warehouse in Jira tasks.
+IMPORTANT!
+A completed checklist confirms that all listed actions have been performed — not just that it has been signed.
+6.3 Conducting inventory in WMS
+The inventory process in the WMS system is performed by two employees:
+a PC operator;
+an employee with PDT (portable data terminal).
+These employees begin their work only after the preparatory work in paragraphs 6.2 and 6.3 has been completed, i.e., when all racks and wooden pallets have labels with color 1 stickers and color 2 stickers on their boxes and pallets and auditors are informed of inventory start.
+Any physical transfers of materials between departments during inventory is prohibited!
+1) Actions of a PC operator
+The operator generates inventory records in the WMS system.
+Inventory records are generated for each rack and each cell for wooden pallets.
+After generating all the necessary inventory records, the operator transfers them to an employee with PDT for further processing.
+A detailed description of the inventory sheet creation process in WMS is available here: https://docs.google.com/document/d/1LAXvG_UzSZ-motMfa7-iOwcHHiBMvwwwdmTsZgEOGP0/edit?usp=sharing (Section 1: Functionality for creating and assigning inventory on PC).
+IMPORTANT!
+After creating the inventory in WMS, the document must be closed to prevent stock levels from being reset.
+2) Actions of an employee with PDT
+An employee with PDT conducts an inventory sequentially for each individual inventory record.
+A detailed description of the PDT inventory process is available here: https://docs.google.com/document/d/1LAXvG_UzSZ-motMfa7-iOwcHHiBMvwwwdmTsZgEOGP0/edit?usp=sharing (Section 2: Inventory Functionality on PDT).
+3) Actions after Completing Inventory
+After completing each assigned inventory sheet, the PDT operator marks all scanned cells with a Color 3 sticker.
+After marking, the operator informs the PC operator that the corresponding inventory has been completed.
+After completing all assigned inventories, the PDT operator checks that all racks and pallets in the area have Color 3 stickers applied and informs the PC operator and the senior employee that inventory execution on the PDT has been completed.
+4) Final Actions of the PC Operator
+Upon receiving confirmation from the PDT operator, the PC operator:
+verifies inventory results;
+changes the document status to “Completed”, confirming that the inventory has been finalized.
+After confirming all inventory sheets, the operator ensures that all system (service) storage cells are empty.
+As a result of the PC operator’s and PDT operator’s work, all inventory sheets across all cells and areas must be completed.
+A detailed description of the inventory closure process in WMS is available here: https://docs.google.com/document/d/1LAXvG_UzSZ-motMfa7-iOwcHHiBMvwwwdmTsZgEOGP0/edit?tab=t.0#heading=h.hly1ypnngru9 (Section 3: Closing the inventory document).
+5) Verification of Inventory Cells Coverage
+After the inventory count is completed, Department Supervisors shall verify that all WMS cells within the respective warehouse have been included in the inventory. This verification is performed using the WMS report "Analysis of cell presence in inventory"
+The report can be filtered using one of the following options:
+by warehouse;
+by сells.
+For greater accuracy, it is recommended to use the cell filter.
+After selecting the inventory period and specifying either the warehouse or the list of cells, generate the report. The report displays all inventory records for the selected period and cells.
+Cells that were not included in the inventory are automatically highlighted in red.
+After generating the list of cells that were not included in the inventory, Department Supervisors shall review each cell to determine the reason for its exclusion:
+if the cell is physically empty and is no longer in use, it shall be removed in accordance with the established procedure;
+if the cells is active but was unintentionally omitted from the inventory, an inventory count for that cell must be performed.
+6) Reporting Inventory Completion
+The department Supervisor completes the inventory checklist in the assigned Jira task “3. Inventory Execution in WMS.”
+The Supervisor then informs auditors about each stage of the inventory process and its full completion.
+IMPORTANT!
+A completed checklist confirms that all listed actions have been performed — not just that it has been signed.
+6.4 Support of the Inventory Process by the Internal Control Team
+The Internal Control Team is responsible for ensuring adherence to inventory standards and maintaining the accuracy of the process. The team’s responsibilities include:
+Sample verification of data accuracy
+Verify that the item and its quantity match the labels on boxes, pallets, and storage locations (If the correctness of data on labels with already applied Color 1/2/3 stickers is being verified, the internal control group applies an “X” mark with a black marker on the sticker corresponding to the verification stage of the data:
+if the correctness of the label is verified — the mark is placed on the Color 1 sticker;
+if the correctness of assigning boxes to pallets or pallets to storage cells is verified — the mark is placed on the Color 2 sticker;
+if the storage cell is verified after completion of the inventory — the mark is placed on the Color 3 sticker.)
+Confirm the correctness of scanning/recording items in the system.
+Control of absence of mixed items
+Ensure that each box or pallet contains only one item type.
+In case of mixed inventory — record the discrepancy and inform the responsible person.
+Identification of uncounted materials
+Inspect warehouse areas, aisles, rack cells, and "corner" zones where materials may remain uncounted.
+Ensure that all identified items are included in the inventory count.
+Quality control of sorting and packaging
+Monitor that containers are labeled, correctly marked, and comply with inventory requirements.
+Verification of compliance with the inventory instruction
+Ensure the counting team follows all steps of the instruction: scanning order, movement algorithm within the zone, location change rules, record-keeping, etc.
+Escalation of discrepancies and risks
+Immediately inform production area managers and the audit team of any violations, discrepancies, or risks affecting inventory accuracy.
+Document all identified issues in inventory Google chats.
+Monitoring of material storage compliance
+Check the organization of inventory areas: cleanliness, accessibility of aisles, absence of unrelated materials.
+Ensuring impartiality and transparency of the process
+Maintain independence and unbiased assessment during all inspections.
+Keep continuous communication with counting teams and auditors to coordinate findings and discrepancies.
+6.5 Processing of inventory results
+Once the Supervisors of the departments have provided information on the completion of the inventory, the audit team begins processing the results — generating a consolidated file (spreadsheet) of inventory results.
+Data uploading and summarizing
+Within 1 business day after receiving confirmation of the completion of the inventory, the audit team:
+uploads data from WMS;
+consolidates it with data from the 1C accounting system;
+creates a summary file of inventory results.
+Transfer of data for production verification
+After preparing the consolidated file, the audit team provides line leaders of each department with a list of discrepancies between the actual inventory data and the data in the 1C system.
+Line leaders of departments are required to:
+check each discrepancy (actual shortage or surplus);
+confirm the discrepancy or correct the data provided based on the inventory results (for example, in the case of a recount or discovery of an error).
+IMPORTANT!
+Warehouse leaders participating in the inventory process are responsible for verifying the list of warehouses in the “Closing of Intermediate Inventory” document in 1C.
+After this document is generated by the audit team, the warehouse leader must:
+print the warehouse list from the 1C document;
+check it for completeness:
+whether all warehouses involved in the inventory are included;
+whether any new warehouses have appeared since the previous inventory that are not reflected in the document;
+sign the verified list;
+provide it to the audit team.
+All discrepancies identified during and after the inventory process must mandatorily have incidents created for root cause analysis and implementation of preventive actions.
+Deviation Check Procedure
+Data Preparation
+Using the Balance of Goods in Warehouse report in WMS, export the data for each problematic material separately.
+Use the appropriate report depending on the region:
+- Ukraine (Ukrainian): /wiki/spaces/DC/pages/4671144314
+- Turkey (English): /wiki/spaces/Warehouse/pages/3994878654
+- Vietnam (English): EN_Instruction "The balance of goods in the warehouse report"
+Preparation of Printed Sheets
+For each material, print a sheet listing all storage cells that contain stock, including the respective quantities.
+Stock Verification
+Check the stock for each material separately.
+- First, verify all cells containing stock for one material.
+- Provide the stock data to the audit team.
+- Only after completing verification for one material proceed to the next.
+Check each cell sequentially:
+- Mark each verified cell on the printed sheet with a check mark.
+- Next to the WMS quantity, write the actual counted quantity.
+Reconcile each cell by verifying:
+- The material number on the accompanying WMS label (pallet/box) matches the material number on the printed report.
+- The actual counted quantity matches the WMS label and the report quantity.
+The verification of remaining stock in a box/pallet/storage cells is performed using the “Stock Balance” function on the PDT (instruction:https://docs.google.com/document/d/1EszsEk7gNpvbLUfNjKHXbh11NzRBoxQopIFA73TVsRQ/edit?usp=sharing ).
+After all checks have been completed, the Supervisor and Group Leaders of the departments must fill in the checklists in their assigned Jira task “4. Deviation Check Checklist” and inform the audit team that the verification of deviation-related data has been carried out.
+IMPORTANT!
+A completed checklist confirms that all listed actions have been performed — not merely that it has been signed.
+Terms for checking deviations in production
+Turkey and Vietnam locations – up to 1 business day;
+Sklyarenko location – up to 2 business days;
+Humenne location – up to 3 business days.
+During this period, Supervisors must return to the audit team with confirmation or corrected data on all discrepancies.
+Data adjustment in accounting systems
+After receiving feedback:
+- the audit team reviews the provided information;
+- the information is then forwarded to the operations specialist, who performs the necessary actions in the accounting systems — disassembly, additional production reports for the shift, etc., depending on the nature of the deviations;
+- The operations specialist makes the corresponding adjustments in the accounting system (1C).
+Terms for processing and adjusting records
+- Turkey and Vietnam locations – up to 1 business day;
+- Sklyarenko location – up to 2 business days;
+- Humenne location – up to 3 business days.
+These terms are calculated for cases where the number of deviations is approximately 5%. If the number of deviations increases, the processing time may be extended proportionally.
+Preparation of the final report
+After completing the data adjustments in 1C, the operations specialist provides the updated data to the audit team. The audit team:
+- generates a new inventory file (or a separate tab in the spreadsheet);
+- which displays the updated summary data and final deviations after the accounting adjustments.
+Analysis of the causes of deviations
+After receiving the final file, the Production Manager and Warehouse Lead are required to:
+conduct an analysis of the root causes of deviations between actual data and accounting records;
+provide the results of the analysis to the audit team within 1 working week;
+develop a corrective action plan to prevent recurrence of similar deviations in future operations;
+submit the corrective action plan for review and approval by the audit team.
+The analysis of deviation causes is recorded in the inventory summary table provided by the audit team for each item where a deviation from the planned quantity in 1C has been identified at the department/production area/warehouse level.
+7.1 Purpose of the Analysis
+This step is necessary to identify the primary (root) cause of the deviation and implement preventive actions that eliminate the possibility of recurrence.
+7.2 Possible Causes of Deviations
+7.2.1 Loss of components (shortages)
+1️⃣ Accounting errors
+incorrect write-off in production shift report
+double write-off
+unprocessed transfer document
+unit of measure errors
+How to identify:
+reconciliation of actual consumption vs. standard
+review of item movement history
+verification of open/unfinished documents
+2️⃣ Production process errors
+excess consumption due to defects
+technological losses above norm
+use of incorrect specification (BOM)
+How to identify:
+comparison of actual consumption vs. BOM
+defect rate analysis
+verification of current technical card version
+3️⃣ Physical losses
+damage
+improper storage
+misplacement (mix-up)
+How to identify:
+inspection of storage area
+checking adjacent locations
+analysis of personnel access logs
+7.2.2 Surplus of components
+1️⃣ Non-recorded write-offs
+material used but not written off
+partially closed production document (recorded but not posted)
+How to identify:
+reconciliation of actual consumption vs. production report
+review of open operations
+2️⃣ Movement errors
+material moved to another location
+duplicate document
+physical movement without system registration
+How to identify:
+movement history review
+WMS vs 1C reconciliation
+3️⃣ Incorrect norms
+overstated consumption norms
+technology change without BOM update
+How to identify:
+recurrence analysis of deviations
+plan vs. actual comparison over time
+7.3 Analysis Algorithm (mandatory sequence)
+Verify correctness of posted documents
+Reconcile actual consumption vs. norms
+Check for defects/rework
+Review material movement history
+Conduct physical inspection of location
+Record identified root cause
+7.4 Preventive Actions
+Examples:
+Cause
+|
+Preventive action
+|
+Write-off errors
+|
+Additional control of shift closing process
+|
+Excess consumption
+|
+Norm correction or defect control
+|
+Misplacement / mix-up
+|
+Labeling and zoning enforcement
+|
+Movement errors
+|
+Prohibition of manual movements without documents
+|
+Outdated BOM
+|
+Regulated BOM update process
+|
+7.5 “OK / NOT OK” Criteria for Preventive Actions
+❌ NOT OK:
+“Conducted a conversation” without process change
+No assigned responsible person
+No implementation deadline
+No measurable KPI
+Action does not eliminate root cause
+✅ OK:
+Specific process change defined
+Responsible person assigned
+Implementation deadline defined
+Effectiveness criteria defined
+Root cause confirmed by data/documents
+7.6 Completion Criteria for Analysis
+The analysis is considered complete if:
+the root cause is identified
+preventive actions are agreed
+responsible persons are assigned
+date of follow-up control is defined
+After completion, Supervisors and Group Leaders must inform the audit team, Production Manager, and Plant/General Manager in their assigned Jira task “5. Deviation Root Cause Analysis”.
+8. Resumption of Production and Accounting Operations
+The audit team must inform planning specialists, warehouse, and production teams about the completion of accounting adjustments based on inventory results. Until such confirmation is received, production reporting and any material movements are strictly prohibited.
+After inventory completion, no documents (transfers, production shift reports, etc.) may be posted with dates falling within the inventory period, as this may distort results and make them invalid.
+9. Handling Deviations Identified After Inventory
+General rules
+If errors are detected after inventory completion (surpluses, shortages, labeling mismatches, etc.), they must be recorded and processed accordingly.
+Types of deviations
+identified surplus of components/semi-finished goods (including previously written-off items)
+identified shortages of components/semi-finished goods (including previously posted items)
+mismatch between label and actual material
+other inventory-related errors
+Escalation procedure
+Deviations must be escalated via Jira incident tasks:
+for production — to Supervisor
+for warehouse — to Warehouse Lead
+Task title: “Inventory Correction”
+Required task content:
+1C code
+item name (nomenclature)
+quantity
+description of error
+related 1C document (if applicable)
+root cause description
+Responsible: Specialist in Management Accounting Control.
+The Specialist in Management Accounting Control, in turn, adds a reference to the task to the documents created based on the identified discrepancies (Write-off, Assembly, Receipt).
+Based on the identified deviations and the developed corrective and preventive action plan, a PDCA is created.
+During the following two months, weekly status meetings are conducted to monitor the implementation of corrective and preventive actions, as well as the resolution of identified issues.
+10. Inventory Results Review & Feedback
+After completion of inventory and final reporting, the audit team organizes review meetings.
+Objectives:
+collect feedback from warehouse and production teams
+analyze deviations
+determine causes of discrepancies
+assess IRA accuracy indicator
+develop corrective and preventive actions
+Key discussion points:
+all deviations are recorded
+root causes are analyzed
+preventive measures are defined, including:
+instruction updates
+process optimization and automation tasks
+process corrections
+Responsibility:
+Production under the Production Manager:
+implements corrective and preventive actions
+improves accounting accuracy
+works on improving IRA performance metric.
+Within one week after the consolidated inventory results are prepared, the audit team initiates a meeting with the Chief Production Officer to present and review the inventory results.
+After the inventory results are approved by the Chief Production Officer, the audit team initiates a meeting with the Finance team to present the consolidated inventory results and further review the identified deviations.
+Лист змін
+|
+Ревізія
+|
+Дата
+|
+Ким змінено:
+|
+Опис зміни:
+|
+A
+|
+13 Nov 2025
+|
+Olha Romanenko
+|
+Новий документ
+|
+B
+|
+|
+|
+|
+С
+|
+|
+|
+|
+D
+|
+|
+|
+|

@@ -1,0 +1,513 @@
+[
+  {
+    "case_id": "SIM01",
+    "expected_steps": [
+      {
+        "sequence": 1,
+        "event_type": "COUNT_SUBMITTED",
+        "payload_subset": {
+          "qty": 18,
+          "unit": "pcs"
+        }
+      },
+      {
+        "sequence": 2,
+        "event_type": "ROUTE_CHOSEN",
+        "payload_subset": {
+          "route": "AUTHORIZED_WRITE_OFF_OPERATOR"
+        }
+      },
+      {
+        "sequence": 3,
+        "event_type": "LABEL_VERIFIED",
+        "payload_subset": {
+          "qty": 18,
+          "old_label_removed": true
+        }
+      },
+      {
+        "sequence": 4,
+        "event_type": "MARK_A",
+        "payload_subset": {}
+      }
+    ],
+    "critical_terminal_events": [
+      "COMMIT_FAKE_QTY"
+    ],
+    "scoring": "10 điểm nếu đúng đầy đủ các bước bắt buộc, đúng thứ tự; không điểm từng phần. Case luyện thêm0 điểm. Hành động critical làm trượt cả lượt chính thức dù tổng≥90.",
+    "explanation_vi": "Thực tế18, không có quyền thì chuyển người được phân quyền dùng công cụ, kiểm nhãn mới và bỏ nhãn cũ. Không tự điều chỉnh1C.",
+    "remedial_lesson_ids": [
+      "L05"
+    ],
+    "matching": "ordered_payload_subset; diagnostic SCAN_PREVIEW events do not advance or fail the case"
+  },
+  {
+    "case_id": "SIM02",
+    "expected_steps": [
+      {
+        "sequence": 1,
+        "event_type": "UNIT_CONFIRMED",
+        "payload_subset": {
+          "unit": "pcs"
+        }
+      },
+      {
+        "sequence": 2,
+        "event_type": "COUNT_SUBMITTED",
+        "payload_subset": {
+          "qty": 15,
+          "unit": "pcs"
+        }
+      }
+    ],
+    "critical_terminal_events": [],
+    "scoring": "10 điểm nếu đúng đầy đủ các bước bắt buộc, đúng thứ tự; không điểm từng phần. Case luyện thêm0 điểm. Hành động critical làm trượt cả lượt chính thức dù tổng≥90.",
+    "explanation_vi": "Phải quy về15 pcs, không nhập3 gói vào trường pcs.",
+    "remedial_lesson_ids": [
+      "L05"
+    ],
+    "matching": "ordered_payload_subset; diagnostic SCAN_PREVIEW events do not advance or fail the case"
+  },
+  {
+    "case_id": "SIM03",
+    "expected_steps": [
+      {
+        "sequence": 1,
+        "event_type": "CHAT_BATCH",
+        "payload_subset": {
+          "thread": "SIM-ASV-CHAT-FIRE",
+          "lines": [
+            {
+              "box": "SIM-ASV-SFP-1",
+              "material": "SIM-ASV-SF01",
+              "qty": 12
+            },
+            {
+              "box": "SIM-ASV-SFP-2",
+              "material": "SIM-ASV-SF01",
+              "qty": 15
+            },
+            {
+              "box": "SIM-ASV-SFP-3",
+              "material": "SIM-ASV-SF02",
+              "qty": 8
+            },
+            {
+              "box": "SIM-ASV-SFP-4",
+              "material": "SIM-ASV-SF02",
+              "qty": 9
+            },
+            {
+              "box": "SIM-ASV-SFP-5",
+              "material": "SIM-ASV-SF02",
+              "qty": 11
+            }
+          ]
+        }
+      },
+      {
+        "sequence": 2,
+        "event_type": "CHAT_BATCH",
+        "payload_subset": {
+          "thread": "SIM-ASV-CHAT-FIRE",
+          "lines": [
+            {
+              "box": "SIM-ASV-SFP-6",
+              "material": "SIM-ASV-SF02",
+              "qty": 6
+            }
+          ]
+        }
+      }
+    ],
+    "critical_terminal_events": [],
+    "scoring": "10 điểm nếu đúng đầy đủ các bước bắt buộc, đúng thứ tự; không điểm từng phần. Case luyện thêm0 điểm. Hành động critical làm trượt cả lượt chính thức dù tổng≥90.",
+    "explanation_vi": "Bài thi chuẩn dùng lô5+1 để chấm cố định; các cách chia hợp lệ khác được phép ở chế độ luyện nếu giữ≤5 mỗi lượt, đúng1 hộp/dòng, đủ6 hộp và thứ tự. Không gửi Chat thật.",
+    "remedial_lesson_ids": [
+      "L06"
+    ],
+    "matching": "semantic_batches",
+    "semantic_rules": {
+      "allowed_event": "CHAT_BATCH",
+      "thread": "SIM-ASV-CHAT-FIRE",
+      "max_lines_per_event": 5,
+      "min_lines_per_event": 1,
+      "each_box_exactly_once": true,
+      "preserve_source_box_order": true,
+      "line_fields_exact": [
+        "box",
+        "material",
+        "qty"
+      ],
+      "accept_any_valid_batch_partition": true,
+      "expected_steps_is_example_only": true
+    }
+  },
+  {
+    "case_id": "SIM04",
+    "expected_steps": [
+      {
+        "sequence": 1,
+        "event_type": "VERIFIER_CONFIRMED",
+        "payload_subset": {
+          "actor": "SIM-B"
+        }
+      },
+      {
+        "sequence": 2,
+        "event_type": "VERIFY_BOX",
+        "payload_subset": {
+          "item_match": true,
+          "qty_match": true
+        }
+      },
+      {
+        "sequence": 3,
+        "event_type": "APPLY_STICKER1",
+        "payload_subset": {
+          "placement": "BOX_LABEL",
+          "covers_data": false
+        }
+      }
+    ],
+    "critical_terminal_events": [
+      "COMMIT_SELF_VERIFY",
+      "APPLY_STICKER1_BEFORE_CHECK"
+    ],
+    "scoring": "10 điểm nếu đúng đầy đủ các bước bắt buộc, đúng thứ tự; không điểm từng phần. Case luyện thêm0 điểm. Hành động critical làm trượt cả lượt chính thức dù tổng≥90.",
+    "explanation_vi": "B khác A; đúng mã/lượng mới dán tem 1 trên nhãn không che dữ liệu.",
+    "remedial_lesson_ids": [
+      "L07"
+    ],
+    "matching": "ordered_payload_subset; diagnostic SCAN_PREVIEW events do not advance or fail the case"
+  },
+  {
+    "case_id": "SIM05",
+    "expected_steps": [
+      {
+        "sequence": 1,
+        "event_type": "COMMIT_BOX_PALLET",
+        "payload_subset": {
+          "box": "SIM-ASV-BOX-05",
+          "pallet": "SIM-ASV-PALLET-05"
+        }
+      },
+      {
+        "sequence": 2,
+        "event_type": "CONFIRM_MAPPING_RESULT",
+        "payload_subset": {
+          "stage": "BOX_PALLET",
+          "success": true
+        }
+      },
+      {
+        "sequence": 3,
+        "event_type": "COMMIT_PALLET_CELL",
+        "payload_subset": {
+          "pallet": "SIM-ASV-PALLET-05",
+          "cell": "SIM-ASV-CELL-05"
+        }
+      },
+      {
+        "sequence": 4,
+        "event_type": "CONFIRM_MAPPING_RESULT",
+        "payload_subset": {
+          "stage": "PALLET_CELL",
+          "success": true
+        }
+      },
+      {
+        "sequence": 5,
+        "event_type": "APPLY_STICKER2",
+        "payload_subset": {
+          "offset": true,
+          "both_visible": true,
+          "covers_data": false
+        }
+      }
+    ],
+    "critical_terminal_events": [
+      "COMMIT_WRONG_MAPPING",
+      "APPLY_STICKER2_COVERING_DATA"
+    ],
+    "scoring": "10 điểm nếu đúng đầy đủ các bước bắt buộc, đúng thứ tự; không điểm từng phần. Case luyện thêm0 điểm. Hành động critical làm trượt cả lượt chính thức dù tổng≥90.",
+    "explanation_vi": "Quét tạm nhầm rồi sửa trước xác nhận là lỗi được chặn, chưa phải commit sai. Xác nhận gán sai mới là critical. Tem 2 chồng lệch tem 1.",
+    "remedial_lesson_ids": [
+      "L08"
+    ],
+    "matching": "ordered_payload_subset; diagnostic SCAN_PREVIEW events do not advance or fail the case"
+  },
+  {
+    "case_id": "SIM06",
+    "expected_steps": [
+      {
+        "sequence": 1,
+        "event_type": "HOLD_BOX",
+        "payload_subset": {}
+      },
+      {
+        "sequence": 2,
+        "event_type": "ESCALATE",
+        "payload_subset": {
+          "to": "GL_CONTROLLER",
+          "reason": "MISSING_STICKER1"
+        }
+      }
+    ],
+    "critical_terminal_events": [
+      "COMMIT_SKIP_STICKER1"
+    ],
+    "scoring": "10 điểm nếu đúng đầy đủ các bước bắt buộc, đúng thứ tự; không điểm từng phần. Case luyện thêm0 điểm. Hành động critical làm trượt cả lượt chính thức dù tổng≥90.",
+    "explanation_vi": "Thiếu tem 1 phải dừng, báo GL/Controller; không bỏ qua B.",
+    "remedial_lesson_ids": [
+      "L08"
+    ],
+    "matching": "ordered_payload_subset; diagnostic SCAN_PREVIEW events do not advance or fail the case"
+  },
+  {
+    "case_id": "SIM07",
+    "expected_steps": [
+      {
+        "sequence": 1,
+        "event_type": "CREATE_RECORD",
+        "payload_subset": {}
+      },
+      {
+        "sequence": 2,
+        "event_type": "CLOSE_DOCUMENT_WINDOW",
+        "payload_subset": {}
+      },
+      {
+        "sequence": 3,
+        "event_type": "PDT_COMPLETE",
+        "payload_subset": {
+          "record": "SIM-ASV-INV-07"
+        }
+      },
+      {
+        "sequence": 4,
+        "event_type": "APPLY_STICKER3",
+        "payload_subset": {
+          "placement": "CELL",
+          "cells": [
+            "SIM-ASV-CELL-07"
+          ]
+        }
+      },
+      {
+        "sequence": 5,
+        "event_type": "REPORT_PC",
+        "payload_subset": {}
+      },
+      {
+        "sequence": 6,
+        "event_type": "PC_VERIFY_COMPLETE",
+        "payload_subset": {}
+      }
+    ],
+    "critical_terminal_events": [
+      "COMMIT_PREMATURE_STICKER3",
+      "COMMIT_PREMATURE_COMPLETED"
+    ],
+    "scoring": "10 điểm nếu đúng đầy đủ các bước bắt buộc, đúng thứ tự; không điểm từng phần. Case luyện thêm0 điểm. Hành động critical làm trượt cả lượt chính thức dù tổng≥90.",
+    "explanation_vi": "App mô phỏng phối hợp vai, không có nghĩa một người tự làm tất cả ngoài hiện trường. Đóng cửa sổ sau tạo khác Completed sau kiểm.",
+    "remedial_lesson_ids": [
+      "L09"
+    ],
+    "matching": "ordered_payload_subset; diagnostic SCAN_PREVIEW events do not advance or fail the case"
+  },
+  {
+    "case_id": "SIM08",
+    "expected_steps": [
+      {
+        "sequence": 1,
+        "event_type": "CHECK_TRANSACTION",
+        "payload_subset": {
+          "request_id": "SIM-ASV-REQ08"
+        }
+      },
+      {
+        "sequence": 2,
+        "event_type": "ACK_ALREADY_COMMITTED",
+        "payload_subset": {}
+      }
+    ],
+    "critical_terminal_events": [
+      "COMMIT_DUPLICATE_NEW_ID"
+    ],
+    "scoring": "10 điểm nếu đúng đầy đủ các bước bắt buộc, đúng thứ tự; không điểm từng phần. Case luyện thêm0 điểm. Hành động critical làm trượt cả lượt chính thức dù tổng≥90.",
+    "explanation_vi": "Timeout không có nghĩa chưa ghi. Tra trạng thái; đã ghi thì không gửi một giao dịch mới. Lỗi thiết bị thật cần giám khảo void nếu không thể tiếp tục.",
+    "remedial_lesson_ids": [
+      "L08"
+    ],
+    "matching": "ordered_payload_subset; diagnostic SCAN_PREVIEW events do not advance or fail the case"
+  },
+  {
+    "case_id": "SIM09",
+    "expected_steps": [
+      {
+        "sequence": 1,
+        "event_type": "COVERAGE_FILTER",
+        "payload_subset": {
+          "period_confirmed": true,
+          "cell_scope_confirmed": true
+        }
+      },
+      {
+        "sequence": 2,
+        "event_type": "CELL_DISPOSITION",
+        "payload_subset": {
+          "cell": "SIM-ASV-RED-A",
+          "action": "ADDITIONAL_COUNT"
+        }
+      },
+      {
+        "sequence": 3,
+        "event_type": "CELL_DISPOSITION",
+        "payload_subset": {
+          "cell": "SIM-ASV-RED-B",
+          "action": "VERIFY_REMOVE_AUTHORIZED_PROCEDURE"
+        }
+      }
+    ],
+    "critical_terminal_events": [
+      "COMMIT_BLIND_DELETE"
+    ],
+    "scoring": "10 điểm nếu đúng đầy đủ các bước bắt buộc, đúng thứ tự; không điểm từng phần. Case luyện thêm0 điểm. Hành động critical làm trượt cả lượt chính thức dù tổng≥90.",
+    "explanation_vi": "Ô hoạt động bị bỏ sót cần kiểm bổ sung; ô trống không còn dùng chỉ loại bỏ sau xác minh và theo quy trình.",
+    "remedial_lesson_ids": [
+      "L10"
+    ],
+    "matching": "ordered_phases_unordered_members",
+    "unordered_groups": [
+      [
+        "CELL_DISPOSITION"
+      ]
+    ],
+    "group_rule": "Các bản ghi cùng event type trong nhóm được đổi thứ tự, nhưng đủ mỗi payload đúng1lần; các pha khác vẫn giữ thứ tự."
+  },
+  {
+    "case_id": "SIM10",
+    "expected_steps": [
+      {
+        "sequence": 1,
+        "event_type": "CHECK_CELL",
+        "payload_subset": {
+          "cell": "SIM-ASV-A",
+          "qty": 30
+        }
+      },
+      {
+        "sequence": 2,
+        "event_type": "CHECK_CELL",
+        "payload_subset": {
+          "cell": "SIM-ASV-B",
+          "qty": 10
+        }
+      },
+      {
+        "sequence": 3,
+        "event_type": "RECONCILE",
+        "payload_subset": {
+          "actual_total": 40,
+          "system_total": 42,
+          "difference": -2
+        }
+      },
+      {
+        "sequence": 4,
+        "event_type": "ESCALATE",
+        "payload_subset": {
+          "to": "GL_AUDIT_TEAM",
+          "reason": "SHORTAGE_2"
+        }
+      }
+    ],
+    "critical_terminal_events": [
+      "COMMIT_FORCE_MATCH"
+    ],
+    "scoring": "10 điểm nếu đúng đầy đủ các bước bắt buộc, đúng thứ tự; không điểm từng phần. Case luyện thêm0 điểm. Hành động critical làm trượt cả lượt chính thức dù tổng≥90.",
+    "explanation_vi": "Kiểm mọi ô của cùng mã, thực tế40, hệ thống42, lệch−2. Tạo incident, không tự sửa1C.",
+    "remedial_lesson_ids": [
+      "L11"
+    ],
+    "matching": "ordered_phases_unordered_members",
+    "unordered_groups": [
+      [
+        "CHECK_CELL"
+      ]
+    ],
+    "group_rule": "Các bản ghi cùng event type trong nhóm được đổi thứ tự, nhưng đủ mỗi payload đúng1lần; các pha khác vẫn giữ thứ tự."
+  },
+  {
+    "case_id": "P01",
+    "expected_steps": [
+      {
+        "sequence": 1,
+        "event_type": "CLASSIFY",
+        "payload_subset": {
+          "situation": "REF",
+          "action": "SEPARATE_REF_CODE_NOT_OK"
+        }
+      },
+      {
+        "sequence": 2,
+        "event_type": "CLASSIFY",
+        "payload_subset": {
+          "situation": "WRONG_STAGE_DURING_FREEZE",
+          "action": "COUNT_CURRENT_STATE_LOCATION_REPORT"
+        }
+      },
+      {
+        "sequence": 3,
+        "event_type": "CLASSIFY",
+        "payload_subset": {
+          "situation": "EXTRA_BRACKET_OUTSIDE_SPEC",
+          "action": "COUNT_COMPONENT_SEPARATELY_ESCALATE"
+        }
+      }
+    ],
+    "critical_terminal_events": [],
+    "scoring": "10 điểm nếu đúng đầy đủ các bước bắt buộc, đúng thứ tự; không điểm từng phần. Case luyện thêm0 điểm. Hành động critical làm trượt cả lượt chính thức dù tổng≥90.",
+    "explanation_vi": "REF riêng, không nhập thành OK. Hàng sai công đoạn giữ hiện trạng trong khóa; bracket ngoài specification kiểm riêng.",
+    "remedial_lesson_ids": [
+      "L03"
+    ],
+    "matching": "ordered_phases_unordered_members",
+    "unordered_groups": [
+      [
+        "CLASSIFY"
+      ]
+    ],
+    "group_rule": "Các bản ghi cùng event type trong nhóm được đổi thứ tự, nhưng đủ mỗi payload đúng1lần; các pha khác vẫn giữ thứ tự."
+  },
+  {
+    "case_id": "P02",
+    "expected_steps": [
+      {
+        "sequence": 1,
+        "event_type": "RELEASE_DECISION",
+        "payload_subset": {
+          "action": "WAIT_AUDIT_CONFIRMATION"
+        }
+      },
+      {
+        "sequence": 2,
+        "event_type": "BACKDATE_DECISION",
+        "payload_subset": {
+          "action": "REJECT_BACKDATE_REPORT_INCIDENT"
+        }
+      }
+    ],
+    "critical_terminal_events": [
+      "COMMIT_UNAUTHORIZED_RELEASE",
+      "COMMIT_BACKDATE"
+    ],
+    "scoring": "10 điểm nếu đúng đầy đủ các bước bắt buộc, đúng thứ tự; không điểm từng phần. Case luyện thêm0 điểm. Hành động critical làm trượt cả lượt chính thức dù tổng≥90.",
+    "explanation_vi": "Ngày kế hoạch không thay xác nhận Audit Team; không hạch toán lùi vào kỳ kiểm kê.",
+    "remedial_lesson_ids": [
+      "L12"
+    ],
+    "matching": "ordered_payload_subset; diagnostic SCAN_PREVIEW events do not advance or fail the case"
+  }
+]

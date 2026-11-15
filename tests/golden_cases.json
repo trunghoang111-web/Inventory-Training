@@ -1,0 +1,217 @@
+[
+  {
+    "id": "G01",
+    "kind": "threshold",
+    "type": "THEORY",
+    "score": 90,
+    "critical_failed": [],
+    "expected": true
+  },
+  {
+    "id": "G02",
+    "kind": "threshold",
+    "type": "THEORY",
+    "score": 95,
+    "critical_failed": [
+      "CR_FREEZE"
+    ],
+    "expected": false
+  },
+  {
+    "id": "G03",
+    "kind": "threshold",
+    "type": "THEORY",
+    "score": 85,
+    "critical_failed": [],
+    "expected": false
+  },
+  {
+    "id": "G04",
+    "kind": "threshold",
+    "type": "SIMULATION",
+    "score": 100,
+    "critical_failed": [
+      "COMMIT_WRONG_MAPPING"
+    ],
+    "expected": false
+  },
+  {
+    "id": "G05",
+    "kind": "threshold",
+    "type": "HARDWARE_COMMON",
+    "score": 95,
+    "critical_failed": [],
+    "missing_observations": 1,
+    "expected": false
+  },
+  {
+    "id": "G06",
+    "kind": "threshold",
+    "type": "A2_PC",
+    "score": 45,
+    "critical_failed": [],
+    "expected": true
+  },
+  {
+    "id": "G07",
+    "kind": "threshold",
+    "type": "CONTROLLER",
+    "score": 25,
+    "critical_failed": [],
+    "expected": true
+  },
+  {
+    "id": "G08",
+    "kind": "threshold",
+    "type": "CONTROLLER",
+    "score": 30,
+    "critical_failed": [
+      "CT01"
+    ],
+    "expected": false
+  },
+  {
+    "id": "G09",
+    "kind": "current_result",
+    "attempts": [
+      {
+        "official": true,
+        "state": "GRADED",
+        "passed": true
+      },
+      {
+        "official": false,
+        "state": "GRADED",
+        "passed": false
+      }
+    ],
+    "expected": "PASS"
+  },
+  {
+    "id": "G10",
+    "kind": "current_result",
+    "attempts": [
+      {
+        "official": true,
+        "state": "GRADED",
+        "passed": true
+      },
+      {
+        "official": true,
+        "state": "GRADED",
+        "passed": false
+      }
+    ],
+    "expected": "FAIL"
+  },
+  {
+    "id": "G11",
+    "kind": "current_result",
+    "attempts": [
+      {
+        "official": true,
+        "state": "GRADED",
+        "passed": true
+      },
+      {
+        "official": true,
+        "state": "IN_PROGRESS"
+      }
+    ],
+    "expected": "PENDING"
+  },
+  {
+    "id": "G12",
+    "kind": "current_result",
+    "attempts": [
+      {
+        "official": true,
+        "state": "GRADED",
+        "passed": true
+      },
+      {
+        "official": true,
+        "state": "VOIDED"
+      }
+    ],
+    "expected": "PASS"
+  },
+  {
+    "id": "G13",
+    "kind": "deadline",
+    "submitted_at": "2026-11-30T23:59:59+07:00",
+    "expected": true
+  },
+  {
+    "id": "G14",
+    "kind": "deadline",
+    "submitted_at": "2026-12-01T00:00:00+07:00",
+    "expected": false
+  },
+  {
+    "id": "G15",
+    "kind": "dashboard",
+    "real_required": 0,
+    "qualified": 0,
+    "expected": null
+  },
+  {
+    "id": "G16",
+    "kind": "dashboard",
+    "real_required": 10,
+    "qualified": 2,
+    "expected": 0.2
+  },
+  {
+    "id": "G17",
+    "kind": "readiness",
+    "lessons": true,
+    "attendance": true,
+    "theory": true,
+    "simulation": true,
+    "hardware": false,
+    "special": true,
+    "current_version": true,
+    "signature": true,
+    "expected": false
+  },
+  {
+    "id": "G18",
+    "kind": "readiness",
+    "lessons": true,
+    "attendance": true,
+    "theory": true,
+    "simulation": true,
+    "hardware": true,
+    "special": true,
+    "current_version": true,
+    "signature": true,
+    "expected": true
+  },
+  {
+    "id": "G19",
+    "kind": "readiness",
+    "lessons": true,
+    "attendance": true,
+    "theory": true,
+    "simulation": true,
+    "hardware": true,
+    "special": false,
+    "current_version": true,
+    "signature": true,
+    "expected": false
+  },
+  {
+    "id": "G20",
+    "kind": "readiness",
+    "lessons": true,
+    "attendance": true,
+    "theory": true,
+    "simulation": true,
+    "hardware": true,
+    "special": true,
+    "current_version": false,
+    "signature": true,
+    "expected": false
+  }
+]

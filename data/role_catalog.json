@@ -1,0 +1,47 @@
+{
+  "job_titles": [
+    "LINE_LEADER",
+    "GROUP_LEADER",
+    "FEEDER",
+    "WORKCELL_MANAGER",
+    "PRODUCTION_MANAGER",
+    "OTHER"
+  ],
+  "operational_roles": [
+    "A",
+    "B",
+    "C",
+    "A2",
+    "PC",
+    "PDT",
+    "CONTROLLER",
+    "INTERNAL_CONTROL"
+  ],
+  "app_roles": [
+    "LEARNER",
+    "TRAINER",
+    "ASSESSOR",
+    "WCM_VIEWER",
+    "PM_VIEWER",
+    "CONTENT_ADMIN",
+    "SYSTEM_ADMIN",
+    "WAREHOUSE_APPROVER"
+  ],
+  "required_assessments": {
+    "ALL_PARTICIPANTS": [
+      "THEORY",
+      "SIMULATION",
+      "HARDWARE_COMMON"
+    ],
+    "A2": [
+      "A2_PC"
+    ],
+    "PC": [
+      "A2_PC"
+    ],
+    "CONTROLLER": [
+      "CONTROLLER"
+    ]
+  },
+  "separation_vi": "Chức danh, vai ứng dụng và vai kiểm kê là3trường riêng. Người có thể có nhiều vai ứng dụng với scope, nhưng không được tự chấm/tự duyệt. Trên cùng dữ liệu A/B/C phải khác người. Phê duyệt trong app chỉ ghi nhận phân vai, không cấp quyềnWMS."
+}
